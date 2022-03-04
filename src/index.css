@@ -1,13 +1,133 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Noto Serif Display", serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.2),
+  rgba(0, 0, 0, .2)), url("./assests/doodad.png") !important;
+  background-position:center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  min-height:100vh;
+  height:inherit;
+  width:100%;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: "Noto Serif Display", serif !important;
+}
+.navbar{
+  
+  width:100%;
+}
+.test {
+  font-size: 30px !important;
+  color: white !important;
+  padding-left: 20px;
+  padding-top: 20px !important  ;
+}
+.test p {
+  color: white;
+  font-size: 10px;
+  position: relative;
+  left: 12%;
+  margin-top: -10px;
+  width: auto !important;
+}
+
+.navLink {
+  margin-right: 30px;
+  color: white !important;
+  opacity: 1 !important;
+}
+.navLink:hover {
+  color: rgb(236, 162, 187) !important;
+  transition: all 0.4s ease !important;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  z-index: -1 !important;
+}
+.navbar-toggler {
+  border: none !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+
+.landing{
+  background-repeat: no-repeat;
+  min-height:80vh;
+  height:inherit;
+  width:100%;
+  text-align: center;
+  color:white;
+  display: table;
+
+}
+.landingContent{
+  margin:0 auto;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.wrapper p{
+  margin-top:-15px;
+}
+.wrapper h1{
+  font-size: 60px;
+}
+
+
+.reserBtn {
+ box-shadow: none !important;
+  width: 250px !important;
+  letter-spacing: 1px;
+  border-radius: 0 !important;
+  opacity: 1 !important;
+  border: solid rgb(236, 162, 187) 2px !important;
+  text-decoration: none !important;
+  color: white !important;
+  border-left: black !important;
+  border-right: black !important;
+  padding: 15px 30px !important;
+  background-color: transparent !important;
+}
+.reserBtn:hover {
+  transition: all 0.4s ease !important;
+  background: rgb(236, 162, 187) !important;
+}
+
+
+
+.reservationsPage{
+  min-height:70vh;
+  height:inherit;
+  width:100%;
+  text-align: center;
+  color:white;
+  display: table;
+
+}
+
+.Reservationlanding{
+  
+  margin:0 auto;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.dropDown{
+  width:250px;
+  border-radius: 0 !important;
 }
