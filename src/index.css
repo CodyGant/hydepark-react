@@ -187,6 +187,57 @@ code {
   height: auto;
   width: 30vw;
 }
+
+.menuButton{
+  
+
+  background-color: #b33737 !important;
+  border:none !important;
+  padding: 15px 30px !important;
+  border-radius: 0 !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  animation: bn53bounce 4s infinite;
+  cursor: pointer;
+ 
+}
+@keyframes bn53bounce {
+  5%,
+  50% {
+    transform: scale(1);
+  }
+
+  10% {
+    transform: scale(1);
+  }
+
+  15% {
+    transform: scale(1);
+  }
+
+  20% {
+    transform: scale(1) rotate(-5deg);
+  }
+
+  25% {
+    transform: scale(1) rotate(5deg);
+  }
+
+  30% {
+    transform: scale(1) rotate(-3deg);
+  }
+
+  35% {
+    transform: scale(1) rotate(2deg);
+  }
+
+  40% {
+    transform: scale(1) rotate(0);
+  }
+}
+
+
+
+
 @media (max-width: 1400px) {
   .flex {
     flex-direction: column;
