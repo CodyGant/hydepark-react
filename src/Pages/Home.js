@@ -7,7 +7,7 @@ import { Button, Container } from "react-bootstrap";
 const Home = () => {
   return (
     <div className="landing">
-      <video src={Broll} muted pointer-events="none" autoplay="true" loop playsinline />
+      <video src={Broll} playsinline loop muted pointer-events="none" autoplay="true"   />
 
      
 

@@ -49,7 +49,7 @@ video {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
+  min-height: 100vh;
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
@@ -66,15 +66,16 @@ video {
 
 .landing{
   background-repeat: no-repeat;
-  min-height:80vh;
-  height:inherit;
+  display: table;
+  min-height: 80vh;
   width:100%;
   text-align: center;
   color:white;
-  display: table;
+  
 
 }
 .landingContent{
+  
   margin:0 auto;
   vertical-align: middle;
   display: table-cell;
