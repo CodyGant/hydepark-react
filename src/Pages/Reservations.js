@@ -13,10 +13,9 @@ const Reservations = () => {
           data-aos-duration="500"
           class="row"
         >
-          <div class="row">
             <h1 d>RESERVATIONS</h1>
-          </div>
-          <div class="row">
+          
+          
             <p>
               We are pleased that you have chosen to dine with us at Hyde Park
               We can accommodate a la carte party of up to 8 guests. For parties
@@ -33,7 +32,7 @@ const Reservations = () => {
             </p>
           </div>
 
-          <div class="row" >
+         
             <Dropdown >
               <Dropdown.Toggle className="reserBtn">
                 SELECT LOCATION
@@ -108,8 +107,8 @@ const Reservations = () => {
                 </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
-          </div>
-        </div>
+          
+        
       </Container>
     </div>
   );
