@@ -10,7 +10,7 @@ const Home = () => {
 
       <div className="wrapper">
         <div className="landing">
-          <Container fluid className="landingContent">
+          <Container fluid className="landingContent" data-aos="fade-down">
             <h1>HYDE PARK</h1>
             <p>- PRIME STEAKHOUSE -</p>
             <Button href="/Reservations" className="reserBtn">
@@ -18,8 +18,8 @@ const Home = () => {
             </Button>
           </Container>
         </div>
-        <div className="secondPart">
-          <Container fluid className="secondContent">
+        <div className="secondPart" >
+          <Container fluid className="secondContent" data-aos="fade-down">
             <div className="flex">
               <div className="textcontainer">
                 <h1>HYDE PARK</h1>
@@ -49,8 +49,8 @@ const Home = () => {
           </Container>
         </div>
 
-        <Container fluid className="butcherBox">
-          <div className="butcherFlex">
+        <Container fluid className="butcherBox" >
+          <div className="butcherFlex" data-aos="fade-down">
             <div className="butchertext">
               <h1>BUTCHER GRILLE BOX</h1>
               <p></p>
