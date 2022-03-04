@@ -1,7 +1,7 @@
 import React from "react";
 
 import Building from "../assests/building.png";
-import { Button, Container, Col, Row } from "react-bootstrap";
+import { Button, Container} from "react-bootstrap";
 
 const Home = () => {
   
