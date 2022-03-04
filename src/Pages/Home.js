@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "../components/Header";
+
 import Broll from "../assests/Broll.mp4";
-import building from "../assests/download.jpg";
-import { Button, Container, Col, Row } from "react-bootstrap";
+
+import { Button, Container } from "react-bootstrap";
 
 const Home = () => {
   return (
