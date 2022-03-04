@@ -45,8 +45,13 @@ code {
   transition: all 0.4s ease !important;
 }
 
-video {
+.background {
   position: absolute;
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.2),
+  rgba(0, 0, 0, .2)), url("./assests/hydepark-pic-1.png") !important;
+  background-position:center;
+  background-size:cover;
+  background-repeat: no-repeat;
   top: 0;
   left: 0;
   min-height: 100vh;
@@ -65,12 +70,16 @@ video {
 
 
 .landing{
-  background-repeat: no-repeat;
   display: table;
   min-height: 80vh;
+  height:inherit;
   width:100%;
   text-align: center;
   color:white;
+ 
+  width: 100%;
+  
+  
   
 
 }

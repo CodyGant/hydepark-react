@@ -7,15 +7,7 @@ import { Button, Container } from "react-bootstrap";
 const Home = () => {
   return (
     <div className="landing">
-
-    <video loop muted autoplay="true" playsinline preload="metadata">
-        <source src={Broll} type="video/mp4" />
-    </video>
-      
-
-
-     
-
+      <div className = 'background'></div>
       <Container className="landingContent">
         <div className="wrapper">
           <h1>HYDE PARK</h1>
@@ -66,7 +58,6 @@ const Home = () => {
           </div>
         </div>
       </Container> */}
-      
     </div>
   );
 };
