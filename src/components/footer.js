@@ -1,5 +1,4 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 import logo from "../assests/good.png";
 
 function footer() {
