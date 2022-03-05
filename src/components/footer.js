@@ -7,22 +7,24 @@ function footer() {
       <footer class="footer-distributed">
         <div class="footer-left">
           <h3>
-            <span><img  className ="footerLogo"src={logo} alt="building" /></span>
+            <span>
+              <img className="footerLogo" src={logo} alt="building" />
+            </span>
           </h3>
           <p class="footer-links">
-            <a href="#" class="link-1">
+            <a href="\" class="link-1">
               Home
             </a>
 
-            <a href="#">Blog</a>
+            <a href="\">Blog</a>
 
-            <a href="#">Pricing</a>
+            <a href="\">Pricing</a>
 
-            <a href="#">About</a>
+            <a href="\">About</a>
 
-            <a href="#">Faq</a>
+            <a href="\">Faq</a>
 
-            <a href="#">Contact</a>
+            <a href="\">Contact</a>
           </p>
 
           <p class="footer-company-name">Hyde Park Restaurant Systems ©2022</p>
@@ -32,7 +34,7 @@ function footer() {
           <div>
             <i class="fa fa-map-marker"></i>
             <p>
-              <span>Beachwood, Ohio,</span>  USA.
+              <span>Beachwood, Ohio,</span> USA.
             </p>
           </div>
 
@@ -57,17 +59,17 @@ function footer() {
           </p>
 
           <div class="footer-icons">
-            <a href="#">
-            <i class="bi bi-facebook"></i>
+            <a href="\">
+              <i class="bi bi-facebook"></i>
             </a>
-            <a href="#">
-            <i class="bi bi-twitter"></i>
+            <a href="\">
+              <i class="bi bi-twitter"></i>
             </a>
-            <a href="#">
-            <i class="bi bi-linkedin"></i>
+            <a href="\">
+              <i class="bi bi-linkedin"></i>
             </a>
-            <a href="#">
-            <i class="bi bi-instagram"></i>
+            <a href="\">
+              <i class="bi bi-instagram"></i>
             </a>
           </div>
         </div>
