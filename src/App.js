@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import Footer from "./components/footer";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useEffect } from 'react';
@@ -9,7 +10,9 @@ import   Home  from './Pages/Home';
  import  Reservations  from './Pages/Reservations';
  import  NoMatch  from './Pages/NoMatch';
  import AOS from "aos";
-import "aos/dist/aos.css"
+import "aos/dist/aos.css";
+
+
 
 
 
@@ -30,16 +33,10 @@ function App() {
               <Route  path="/NoMatch" element={<NoMatch />} />     
             </Routes>       
           </Router>
-
+      <Footer/>
 
      </React.Fragment>
     );
   }
 
 export default App;
-// useEffect(() => {
-//   AOS.init();
-//   AOS.refresh();
-// }, []);
-
-// import "aos/dist/aos.css";
