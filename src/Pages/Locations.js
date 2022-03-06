@@ -1,15 +1,15 @@
-import React from 'react';
+import React from "react";
 import Header from "../components/Header";
-import {Button, Container} from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
 const Locations = () => {
   return (
     <div>
-    <Header/>
-    <Container>
-    <Button className="submitButton" variant='success' type="submit">
-            Submit
+      <Header />
+      <Container>
+        <Button className="submitButton" variant="success" type="submit">
+          Submit
         </Button>
-        </Container>
+      </Container>
     </div>
   );
 };
