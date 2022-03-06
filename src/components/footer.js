@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assests/good.png";
+import logo from "../assests/goodwhite.png";
 
 function footer() {
   return (

@@ -47,7 +47,7 @@ const Home = () => {
                 <Button className="menuButton">VIEW MENU</Button>
               </div>
               <div className="imageContainer">
-                <img className="buildingImage" src={Building} alt="building" />
+                <img data-aos="fade-right" className="buildingImage" src={Building} alt="building" />
               </div>
             </div>
           </Container>
@@ -93,7 +93,7 @@ const Home = () => {
                   </Card.Body>
                 </Card>
 
-                <Card data-aos="flip-right" >
+                <Card data-aos="flip-right">
                   <Card.Img variant="top" src={privateDining} alt="building" />
                   <Card.Body>
                     <Card.Title>PRIVATE DINING.</Card.Title>
@@ -115,8 +115,9 @@ const Home = () => {
                     <Card.Title>EARLY NIGHTS TWO COURSE DINNER.</Card.Title>
                     <br />
                     <Card.Text>
-                      Available Monday - Satuday Until 6PM (6:30 Daytona Beach Location)
-                      & All Night Sunday *Days and Hours of operation Vary for each Store.
+                      Available Monday - Satuday Until 6PM (6:30 Daytona Beach
+                      Location) & All Night Sunday *Days and Hours of operation
+                      Vary for each Store.
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -124,13 +125,13 @@ const Home = () => {
                 <Card data-aos="flip-left" className="card">
                   <Card.Img variant="top" src={wine} alt="building" />
                   <Card.Body>
-                
                     <Card.Title>FROM THE CELLAR.</Card.Title>
-                    <br/>
+                    <br />
                     <Card.Text>
-                      Recently, Hyde Park Prime Steakhouse blended, with the help 
-                      of Winemaker Nick Goldschmidt, a meritage-style blend called RENDITION, 
-                      Merlot-based, this sultry wine is exclusive to the Hyde Park Resaurant CardGroupand limited
+                      Recently, Hyde Park Prime Steakhouse blended, with the
+                      help of Winemaker Nick Goldschmidt, a meritage-style blend
+                      called RENDITION, Merlot-based, this sultry wine is
+                      exclusive to the Hyde Park Resaurant CardGroupand limited
                       to 500 cases.
                     </Card.Text>
                   </Card.Body>
@@ -139,12 +140,12 @@ const Home = () => {
                 <Card data-aos="flip-right" className="card">
                   <Card.Img variant="top" src={giftCard} alt="building" />
                   <Card.Body>
-                   
                     <Card.Title>THE PERFECT GIFT.</Card.Title>
-                    <br/>
+                    <br />
                     <Card.Text>
-                      A Hyde Park Resaurant Group Gift Card is the Gift of a memorable experince
-                      and a reflection of you, as a Generous Thoughtful Person. Hyde Park Gift Cards are Amoung 
+                      A Hyde Park Resaurant Group Gift Card is the Gift of a
+                      memorable experince and a reflection of you, as a Generous
+                      Thoughtful Person. Hyde Park Gift Cards are Amoung
                       Everyones Favorite, for Giving and reciving.
                     </Card.Text>
                   </Card.Body>
