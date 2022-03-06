@@ -399,11 +399,15 @@ code {
 
 .card{
   margin:10px;
+  border: 0 !important;
   background:#6e1717 !important;
   color:white;
   border-radius: 0 !important;
 }
-  
+  .card img{
+    height:220px;
+    ;
+  }
 
 
 .footer-distributed{
