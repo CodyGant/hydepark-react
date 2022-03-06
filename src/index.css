@@ -399,6 +399,7 @@ span {
   background: #521111!important;
   color: white;
   border-radius: 0 !important;
+  box-shadow: 23px 10px 15px -3px rgba(0,0,0,0.3);
 }
 .card img {
   height: 220px;
@@ -406,7 +407,7 @@ span {
 
 .footer-distributed {
   background: #521111;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.562);
   box-sizing: border-box;
   width: 100%;
   text-align: left;
