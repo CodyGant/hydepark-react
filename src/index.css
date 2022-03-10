@@ -162,6 +162,24 @@ code {
 .menuPage img{
   margin-bottom:20px;
 }
+.menuPage button{
+  margin:10px;
+  padding:15px 30px;
+  width:250px;
+  background-color:white !important;
+  border: 2px solid #942525 !important;
+  border-right:none !important;
+  border-left:none !important;
+  border-radius:0 !important;
+  color:black;
+  font-weight: 500;
+  box-shadow: none !important;
+  
+}
+.menuPage button:hover {
+  transition: all 0.4s ease !important;
+  background: #942525 !important;
+}
 .cardBackground {
   background-color: #f8f8ff !important;
   color: black;
@@ -172,6 +190,7 @@ code {
 }
 #bottomCards{
   border:0 !important;
+  
 }
 
 .menuItems {
@@ -185,10 +204,14 @@ span {
 .menulanding {
   margin: 0 auto;
   margin: 50px;
- 
   text-align: left;
   box-shadow: 13px 10px 32px -3px rgba(0, 0, 0, 0.507);
   background-color: #f8f8ff;
+}
+.menuName{
+  text-align: center;
+  font-style: italic;
+  color:#521111;
 }
 .logoImage {
   margin-top: 100px;
@@ -210,6 +233,7 @@ span {
   font-weight: bold;
   width: 100%;
 }
+
 .menuBottom span {
   color: black !important;
   font-weight: normal;
@@ -588,7 +612,7 @@ span {
   width: 35px;
   height: 35px;
   cursor: pointer;
-  background-color: #158dd8;
+  background-color: #270909;
   border-radius: 2px;
 
   font-size: 20px;

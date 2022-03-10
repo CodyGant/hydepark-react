@@ -1,7 +1,7 @@
 import React from "react";
 
 import logo from "../../assests/hydepark.png";
-import { Card, Container, CardGroup } from "react-bootstrap";
+import { Card, Container, CardGroup, Button } from "react-bootstrap";
 function DaytonaMenu() {
   return (
     <div className="menuPage">
@@ -12,10 +12,15 @@ function DaytonaMenu() {
         alt="building"
       />
       <h2>CALL US (386) 226-9844</h2>
-
+      <Button>HAPPY HOUR MENU</Button>
+      <Button>EARLY NIGHTS MENU</Button>
+      <Button>BUTCHER GRILLE MENU</Button>
+      <Button>FAMAILY TO GO MENU</Button>
       <Container className="menulanding">
+        <h1 className="menuName">DINNER MENU</h1>
+
         <CardGroup>
-          <Card data-aos="fade-up" className="cardBackground">
+          <Card data-aos="zoom-in" className="cardBackground">
             <Card.Body className="cardBackground">
               <Card.Title></Card.Title>
               <Card.Title className="cardTitle">RAW BAR • APPETIZER</Card.Title>
@@ -81,7 +86,7 @@ function DaytonaMenu() {
             </Card.Body>
           </Card>
 
-          <Card data-aos="fade-up" className="cardBackground">
+          <Card data-aos="zoom-in" className="cardBackground">
             <Card.Body className="cardBackground">
               <Card.Title></Card.Title>
               <Card.Title className="cardTitle">SOUPS • SALADS</Card.Title>
@@ -127,7 +132,7 @@ function DaytonaMenu() {
         </CardGroup>
 
         <CardGroup>
-          <Card data-aos="fade-up" className="cardBackground">
+          <Card data-aos="zoom-in" className="cardBackground">
             <Card.Body className="cardBackground">
               <Card.Title className="cardTitle">STEAKS • CHOPS</Card.Title>
               <Card.Text className="menuItems">
@@ -170,7 +175,7 @@ function DaytonaMenu() {
             </Card.Body>
           </Card>
 
-          <Card data-aos="fade-up" className="cardBackground">
+          <Card data-aos="zoom-in" className="cardBackground">
             <Card.Body className="cardBackground">
               <Card.Title className="cardTitle">SEAFOOD</Card.Title>
               <Card.Text className="menuItems">
@@ -201,7 +206,7 @@ function DaytonaMenu() {
           </Card>
         </CardGroup>
         <CardGroup>
-          <Card data-aos="fade-up" className="cardBackground">
+          <Card data-aos="zoom-in" className="cardBackground">
             <Card.Body className="cardBackground">
               <Card.Title className="cardTitle">BAR FAVORITES</Card.Title>
               <Card.Text className="menuItems">
@@ -241,7 +246,7 @@ function DaytonaMenu() {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card data-aos="fade-up" className="cardBackground">
+          <Card data-aos="zoom-in" className="cardBackground">
             <Card.Body className="cardBackground">
               <Card.Title className="cardTitle">SIDES</Card.Title>
               <Card.Text className="menuItems">
@@ -311,9 +316,9 @@ function DaytonaMenu() {
             </Card.Body>
           </Card>
         </CardGroup>
-        <CardGroup >
-          <Card data-aos="fade-up" className="cardBackground" id ='bottomCards'>
-            <Card.Body className="cardBackground" id ='bottomCards'>
+        <CardGroup>
+          <Card data-aos="zoom-in" className="cardBackground" id="bottomCards">
+            <Card.Body className="cardBackground" id="bottomCards">
               <Card.Title className="cardTitle">Add Ons</Card.Title>
               <Card.Text className="menuItems">
                 <p>
@@ -345,8 +350,8 @@ function DaytonaMenu() {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card data-aos="fade-up" className="cardBackground" id ='bottomCards'>
-            <Card.Body className="cardBackground" id ='bottomCards'>
+          <Card data-aos="zoom-in" className="cardBackground" id="bottomCards">
+            <Card.Body className="cardBackground" id="bottomCards">
               <Card.Title className="cardTitle">Sauces</Card.Title>
               <Card.Text className="menuItems">
                 <p>
@@ -384,19 +389,18 @@ function DaytonaMenu() {
         <h3>
           Eric Black ~ <span>General Manager</span>
         </h3>
-
         <h3>
           Nick Miller ~ <span>Executive Chef</span>
         </h3>
-        <p>
-        •BLUE- Very red, very cool center</p> <p>•RARE- Red, cool center</p> <p>•MEDIUM RARE-
-          Red, warm center
-        </p>
-        <p>
-          •MEDIUM- Pink center</p> <p>•MEDIUM WELL- Slightly pink center </p><p>•WELL- Cooked
-          throughout, no pink
-        </p>
-        <span>*Consuming raw or undercooked meats, poultry, seafood or shellfish may increase your risk of foodborne illness, especially if you have certain medical conditions.</span>
+        <p>•BLUE- Very red, very cool center</p> <p>•RARE- Red, cool center</p>{" "}
+        <p>•MEDIUM RARE- Red, warm center</p>
+        <p>•MEDIUM- Pink center</p> <p>•MEDIUM WELL- Slightly pink center </p>
+        <p>•WELL- Cooked throughout, no pink</p>
+        <span>
+          *Consuming raw or undercooked meats, poultry, seafood or shellfish may
+          increase your risk of foodborne illness, especially if you have
+          certain medical conditions.
+        </span>
       </div>
       <style jsx>{`
         .navbar a,
