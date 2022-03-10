@@ -21,7 +21,7 @@ import SARASOTA from "./Pages/menus/SARASOTA"
 import INDIANAPOLIS from "./Pages/menus/INDIANAPOLIS"
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+import DAYTONABAR from "./Pages/menus/DAYTONABAR.js";
 
 function App() {
   useEffect(() => {
@@ -50,6 +50,7 @@ function App() {
           <Route path="/CLEVELANDWestlake" element={<CLEVELANDWestlake />} />
           <Route path="/SARASOTA" element={<SARASOTA />} />
           <Route path="/INDIANAPOLIS" element={<INDIANAPOLIS />} />
+          <Route path="/DAYTONABAR" element={<DAYTONABAR />} />
         </Routes>
       </Router>
       <Footer />

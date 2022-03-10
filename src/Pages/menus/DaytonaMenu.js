@@ -16,10 +16,10 @@ function DaytonaMenu() {
       CALL US <a href="/">(386) 226-9844</a>
     </h3>
 
-    <Button>HAPPY HOUR MENU</Button>
-    <Button>EARLY NIGHTS MENU</Button>
-    <Button>BUTCHER GRILLE MENU</Button>
-    <Button>FAMAILY TO GO MENU</Button>
+    <Button className = 'menupagebutton' href='/DAYTONABAR'>HAPPY HOUR MENU</Button>
+    <Button className = 'menupagebutton'>EARLY NIGHTS MENU</Button>
+    <Button className = 'menupagebutton'>BUTCHER GRILLE MENU</Button>
+    <Button className = 'menupagebutton'>FAMAILY TO GO MENU</Button>
     <Container className="menulanding">
       <h1 className="menuName">DINNER MENU</h1>
 
