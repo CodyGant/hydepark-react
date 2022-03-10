@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500&family=Roboto+Slab:wght@100;200;400&display=swap');
 body, html {
-    font-family: "Noto Serif Display", serif !important;
+    font-family:'Roboto Slab', serif !important;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
 }
