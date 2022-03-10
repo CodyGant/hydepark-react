@@ -44,7 +44,7 @@ const Home = () => {
                   the nation, and with the Beauty & Essex menu, he once again
                   has created waves on the food scene.
                 </p>
-                <Button className="menuButton">VIEW MENU</Button>
+                <Button className="menuButton" href='/Menu'>VIEW MENU</Button>
               </div>
               <div className="imageContainer">
                 <img data-aos="fade-right" className="buildingImage" src={Building} alt="building" />

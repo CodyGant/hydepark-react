@@ -113,7 +113,7 @@ code {
 .reserBtn {
   font-family:'Roboto Slab', serif;
   box-shadow: none !important;
-  width: 250px !important;
+  width: 260px !important;
   letter-spacing: 1px;
   border-radius: 0 !important;
   opacity: 1 !important;
@@ -443,7 +443,7 @@ span {
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
 
 * {
-  font-family: Open Sans;
+  font-family:'Roboto Slab', serif;
 }
 
 .cardContainer {

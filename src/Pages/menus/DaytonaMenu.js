@@ -412,6 +412,12 @@ function DaytonaMenu() {
           color: #521111 !important;
           font-weight: 500;
         }
+        @media (max-width: 992px) {
+          .navbar a,
+        p {
+          color: white !important;
+       
+        }
       `}</style>
     </div>
   );
