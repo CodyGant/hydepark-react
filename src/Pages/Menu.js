@@ -2,7 +2,8 @@ import React from "react";
 import { Container, Dropdown } from "react-bootstrap";
 function Menu() {
   return (
-    <div className="reservationsPage">
+    <div className="selectmenupage">
+      
       <Container className="Reservationlanding">
         <div
           data-aos="fade-down"
@@ -32,7 +33,7 @@ function Menu() {
             menus are more extensive, more creative, with a broader appeal than
             the typical steakhouses – check it out.
           </p>
-        </div>
+        
 
         <Dropdown>
           <Dropdown.Toggle className="reserBtn">
@@ -87,6 +88,7 @@ function Menu() {
             </Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
+        </div>
       </Container>
     </div>
   );

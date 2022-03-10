@@ -30,7 +30,7 @@ const Reservations = () => {
               that you choose your attire, refraining from apparel that is
               excessively casual. We look forward to welcoming you!
             </p>
-          </div>
+         
 
          
             <Dropdown >
@@ -107,7 +107,7 @@ const Reservations = () => {
                 </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
-          
+            </div>
         
       </Container>
     </div>

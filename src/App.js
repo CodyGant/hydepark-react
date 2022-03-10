@@ -20,9 +20,11 @@ function App() {
   }, []);
   return (
     <React.Fragment>
-      <Header />
+     <Header />
       <Router>
+      
         <Routes>
+        
           <Route path="/" element={<Home />} />
           <Route path="/Locations" element={<Locations />} />
           <Route path="/Menu" element={<Menu />} />
