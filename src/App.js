@@ -10,8 +10,18 @@ import Locations from "./Pages/Locations";
 import Reservations from "./Pages/Reservations";
 import NoMatch from "./Pages/NoMatch";
 import DaytonaMenu from "./Pages/menus/DaytonaMenu"
+import PITTSBURGH from "./Pages/menus/PITTSBURGH";
+import DETROITBirmingham from "./Pages/menus/DETROITBirmingham";
+import DETROITNorthville from "./Pages/menus/DETROITNorthville";
+import DowntownColumbus from "./Pages/menus/DowntownColumbus";
+import COLUMBUSDublin from "./Pages/menus/COLUMBUSDublin";
+import COLUMBUSUpperArlington from "./Pages/menus/COLUMBUSUpperArlington";
+import CLEVELANDWestlake from "./Pages/menus/CLEVELANDWestlake";
+import SARASOTA from "./Pages/menus/SARASOTA"
+import INDIANAPOLIS from "./Pages/menus/INDIANAPOLIS"
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 
 function App() {
   useEffect(() => {
@@ -31,6 +41,15 @@ function App() {
           <Route path="/Reservations" element={<Reservations />} />
           <Route path="/NoMatch" element={<NoMatch />} />
           <Route path="/DaytonaMenu" element={<DaytonaMenu />} />
+          <Route path="/DowntownColumbus" element={<DowntownColumbus />} />
+          <Route path="/PITTSBURGH" element={<PITTSBURGH />} />
+          <Route path="/DETROITBirmingham" element={<DETROITBirmingham />} />
+          <Route path="/DETROITNorthville" element={<DETROITNorthville />} />
+          <Route path="/COLUMBUSDublin" element={<COLUMBUSDublin />} />
+          <Route path="/COLUMBUSUpperArlington" element={<COLUMBUSUpperArlington />} />
+          <Route path="/CLEVELANDWestlake" element={<CLEVELANDWestlake />} />
+          <Route path="/SARASOTA" element={<SARASOTA />} />
+          <Route path="/INDIANAPOLIS" element={<INDIANAPOLIS />} />
         </Routes>
       </Router>
       <Footer />

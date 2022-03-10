@@ -3,7 +3,6 @@ import { Container, Dropdown } from "react-bootstrap";
 function Menu() {
   return (
     <div className="selectmenupage">
-      
       <Container className="Reservationlanding">
         <div
           data-aos="fade-down"
@@ -33,61 +32,46 @@ function Menu() {
             menus are more extensive, more creative, with a broader appeal than
             the typical steakhouses – check it out.
           </p>
-        
 
-        <Dropdown>
-          <Dropdown.Toggle className="reserBtn">
-            SELECT LOCATION
-          </Dropdown.Toggle>
+          <Dropdown>
+            <Dropdown.Toggle className="reserBtn">
+              SELECT LOCATION
+            </Dropdown.Toggle>
 
-          <Dropdown.Menu className="dropDown">
-            <Dropdown.Item href="/DaytonaMenu">PITTSBURGH</Dropdown.Item>
-            <Dropdown.Item>CLEVELAND - Beachwood</Dropdown.Item>
-            <Dropdown.Item
-              href="https://www.opentable.com/restref/client/?restref=1047934&lang=en-US&ot_source=Restaurant%20website&corrid=b41d404b-b2c8-4f0c-b922-8ad78b42664d"
-              target="_blank"
-            >
-              CLEVELAND - Westlake{" "}
-            </Dropdown.Item>
-            <Dropdown.Item
-              href="https://www.opentable.com/restref/client/?restref=1049617&lang=en-US&ot_source=Restaurant%20website&corrid=fb99fe09-1177-4f51-a8a4-4bb0c29b50a4"
-              target="_blank"
-            >
-              COLUMBUS - Upper Arlington
-            </Dropdown.Item>
-            <Dropdown.Item
-              href="https://www.opentable.com/restref/client/?restref=1049620&lang=en-US&ot_source=Restaurant%20website&corrid=200fde14-9414-4ac3-b003-a43ed215b1c8"
-              target="_blank"
-            >
-              COLUMBUS - Dublin{" "}
-            </Dropdown.Item>
-            <Dropdown.Item
-              href="https://www.opentable.com/restref/client/?restref=275590&lang=en-US&ot_source=Restaurant%20website&corrid=cef039c2-a782-4b94-8d72-7e318b85493f"
-              target="_blank"
-            >
-              COLUMBUS - Downtown
-            </Dropdown.Item>
-            <Dropdown.Item
-              href="/DaytonaMenu"
-            >
-              DAYTONA BEACH
-            </Dropdown.Item>
-            <Dropdown.Item >INDIANAPOLIS</Dropdown.Item>
-            <Dropdown.Item>SARASOTA</Dropdown.Item>
-            <Dropdown.Item
-              href="https://www.opentable.com/restref/client/?restref=1047937&lang=en-US&ot_source=Restaurant%20website&corrid=56d4e630-0b59-485e-bd73-5378ffa4ede4"
-              target="_blank"
-            >
-              DETROIT - Birmingham
-            </Dropdown.Item>
-            <Dropdown.Item
-              href="https://www.opentable.com/restref/client/?restref=1047943&lang=en-US&ot_source=Restaurant%20website&corrid=5751435a-f694-4f5a-9c37-ab4b4d9c1628"
-              target="_blank"
-            >
-              DETROIT - Northville
-            </Dropdown.Item>
-          </Dropdown.Menu>
-        </Dropdown>
+            <Dropdown.Menu className="dropDown">
+              <Dropdown.Item href="/PITTSBURG">PITTSBURGH</Dropdown.Item>
+              <Dropdown.Item href="CLEVELANDWestlake" target="_blank">
+                CLEVELAND - Beachwood
+              </Dropdown.Item>
+              <Dropdown.Item href="CLEVELANDWestlake" target="_blank">
+                CLEVELAND - Westlake{" "}
+              </Dropdown.Item>
+              <Dropdown.Item href="/COLUMBUSUpperArlington" target="_blank">
+                COLUMBUS - Upper Arlington
+              </Dropdown.Item>
+              <Dropdown.Item href="/COLUMBUSDublin" target="_blank">
+                COLUMBUS - Dublin{" "}
+              </Dropdown.Item>
+              <Dropdown.Item href="/DowntownColumbus" target="_blank">
+                COLUMBUS - Downtown
+              </Dropdown.Item>
+              <Dropdown.Item href="/DaytonaMenu" target="_blank">
+                DAYTONA BEACH
+              </Dropdown.Item>
+              <Dropdown.Item href="/INDIANAPOLIS" target="_blank">
+                INDIANAPOLIS
+              </Dropdown.Item>
+              <Dropdown.Item href="/SARASOTA" target="_blank">
+                SARASOTA
+              </Dropdown.Item>
+              <Dropdown.Item href="/DETROITBirmingham" target="_blank">
+                DETROIT - Birmingham
+              </Dropdown.Item>
+              <Dropdown.Item href="/DETROITNorthville" target="_blank">
+                DETROIT - Northville
+              </Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
         </div>
       </Container>
     </div>

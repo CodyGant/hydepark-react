@@ -2,7 +2,7 @@ import React from "react";
 
 import logo from "../../assests/hydepark.png";
 import { Card, Container, CardGroup, Button } from "react-bootstrap";
-function DaytonaMenu() {
+function DETROITNorthville() {
   return (
     <div className="menuPage">
     <img
@@ -11,9 +11,9 @@ function DaytonaMenu() {
       src={logo}
       alt="building"
     />
-    <p className="locationName">DAYTONA BEACH</p>
+    <p className="locationName">Downtown Columbus</p>
     <h3>
-      CALL US <a href="/">(386) 226-9844</a>
+      CALL US <a href="/">(614) 224-2204</a>
     </h3>
 
     <Button>HAPPY HOUR MENU</Button>
@@ -251,27 +251,12 @@ function DaytonaMenu() {
                   <span> 72</span>
                 </span>
               </p>
-              
               <p>
                 Blackboard Fresh Fish*{" "}
                 <span className="priceDetails">
                   ---Pan-seared; lemon crystal citrus sauce or soy vinaigrette{" "}
-                  <span> 38</span>{" "}
-                  
-                </span>
-              </p>
-              <p>
-              Salmon Filet{" "}
-                <span className="priceDetails">
-                  --- {" "}
-                  <span>38</span>
-                </span>
-              </p>
-              <p>
-              Chilean Sea Bass {" "}
-                <span className="priceDetails">
-                  --- {" "}
-                  <span>47</span>
+                  <span> Salmon Filet 38 ---</span>{" "}
+                  <span> Chilean Sea Bass 47</span>
                 </span>
               </p>
             </Card.Text>
@@ -284,12 +269,18 @@ function DaytonaMenu() {
             <Card.Title className="cardTitle">BAR FAVORITES</Card.Title>
             <Card.Text className="menuItems">
               <p>
-              Waltrip's Dry Aged Cheeseburger* 9oz{" "}
+                Dry Aged Cheeseburger* 9oz{" "}
                 <span className="priceDetails">
                   --- Fries or Onion Straws <span>16</span>
                 </span>
               </p>
-              
+              <p>
+                Steak Woody* 7oz{" "}
+                <span className="priceDetails">
+                  --- Petite cuts of tenderloin wrapped in bacon, melted blue
+                  cheese & bordelaise sauce <span>40</span>
+                </span>
+              </p>
 
               <p>
                 Bacon Gruyère Dry Aged Burger* 9oz{" "}
@@ -322,35 +313,53 @@ function DaytonaMenu() {
         </Card>
       </CardGroup>
       <CardGroup>
-      <Card data-aos="zoom-in" className="cardBackground">
-        <Card.Body className="cardBackground">
-          <Card.Title className="cardTitle">DESSERT</Card.Title>
-          <Card.Text className="menuItems">
-            <p>
-            New York Style Cheesecake{" "}
-              <span className="priceDetails">
-                --- Graham Cracker Crust, Amarena Cherries, Chambord Cherry Glaze  <span> 10</span>
-              </span>
-            </p>
-            <p>
-            Colossal Carrot Cake {" "}
-              <span className="priceDetails">
-                --- Spice Cake with Raisins, Nuts, Pineapple, and Cream Cheese Frosting, Caramel Sauce Serves 2-4<span> 16.5</span>
-              </span>
-            </p>
+        <Card data-aos="zoom-in" className="cardBackground">
+          <Card.Body className="cardBackground">
+            <Card.Title className="cardTitle">Dessert</Card.Title>
+            <Card.Text className="menuItems">
+              <p>
+              New York Style Cheesecake{" "}
+                <span className="priceDetails">
+                  --- Graham Cracker Crust, Amarena Cherries, Chambord Cherry Glaze  <span>10</span>
+                </span>
+              </p>
+              <p>
+              Colossal Carrot Cake {" "}
+                <span className="priceDetails">
+                  --- Spice Cake with Raisins, Nuts, Pineapple, and Cream Cheese Frosting, Caramel Sauce Serves 2-4<span>16.5</span>
+                </span>
+              </p>
 
-            <p>
-            Flourless Chocolate Torte{" "}
-              <span className="priceDetails">
-                --- Semi-sweet, Glazed with Dark Chocolate, Bailey's Creme anglaise and Port Wine Reduction  
-                <span> 10</span>
-              </span>
-            </p>
-          
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </CardGroup>
+              <p>
+              Flourless Chocolate Torte{" "}
+                <span className="priceDetails">
+                  --- Semi-sweet, Glazed with Dark Chocolate, Bailey's Creme anglaise and Port Wine Reduction  
+                  <span>10</span>
+                </span>
+              </p>
+              <p>
+                Chicken Milanese*{" "}
+                <span className="priceDetails">
+                  --- Crispy romano-crusted; white wine lemon caper sauce{" "}
+                  <span> 28</span>{" "}
+                </span>
+              </p>
+              <p>
+                Salmon Caesar Salad*{" "}
+                <span className="priceDetails">
+                  --- <span>32</span>{" "}
+                </span>
+              </p>
+              <p>
+                Petite Filet Mignon* 6oz{" "}
+                <span className="priceDetails">
+                  --- <span>39</span>{" "}
+                </span>
+              </p>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </CardGroup>
       <CardGroup>
         <Card data-aos="zoom-in" className="cardBackground">
           <Card.Body className="cardBackground" id="bottomCards">
@@ -424,7 +433,7 @@ function DaytonaMenu() {
 
         <Card data-aos="zoom-in" className="cardBackground" id="bottomCards">
           <Card.Body className="cardBackground" id="bottomCards">
-            <Card.Title className="cardTitle">ADD ONS</Card.Title>
+            <Card.Title className="cardTitle">Add Ons</Card.Title>
             <Card.Text className="menuItems">
               <p>
                 Roasted Cloves of Garlic & Mushrooms{" "}
@@ -457,7 +466,7 @@ function DaytonaMenu() {
         </Card>
         <Card data-aos="zoom-in" className="cardBackground" id="bottomCards">
           <Card.Body className="cardBackground" id="bottomCards">
-            <Card.Title className="cardTitle">SAUCES</Card.Title>
+            <Card.Title className="cardTitle">Sauces</Card.Title>
             <Card.Text className="menuItems">
               <p>
                 Béarnaise Sauce{" "}
@@ -533,4 +542,4 @@ function DaytonaMenu() {
   );
 }
 
-export default DaytonaMenu;
+export default DETROITNorthville;
