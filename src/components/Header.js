@@ -2,7 +2,6 @@ import React from 'react'
 import { Navbar, Nav} from "react-bootstrap";
 
 
-
 export default function Header() {
   return (
     <div data-aos="fade-down" data-aos-easing="linear"

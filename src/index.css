@@ -1,8 +1,10 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
 /* NAVBAR AND BODY STYLES */
 body {
   margin: 0;
-  font-family: "Noto Serif Display", serif !important;
+ 
+  font-family: 'Mukta', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.2)),
@@ -152,38 +154,66 @@ code {
   color: black;
   background-color: white;
   display: table;
+  background-image: url("./assests/flowers.png") !important;
+  background-position: right !important;
+
+  background-repeat: repeat-x;
+}
+.menuPage img{
+  margin-bottom:20px;
 }
 .cardBackground {
-  background-color: white !important;
+  background-color: #f8f8ff !important;
   color: black;
   box-shadow: none !important;
-  text-align: center;
+  margin: 0 !important;
+  border-bottom:1px solid #521111;
   
 }
-.menuItems{
-  text-align: center;
+#bottomCards{
+  border:0 !important;
 }
-.menuItems p, span{
+
+.menuItems {
+  text-align: left;
+}
+.menuItems p,
+span {
   font-weight: bold;
+  color: #270909;
 }
 .menulanding {
   margin: 0 auto;
-  text-align: center;
+  margin: 50px;
+ 
+  text-align: left;
+  box-shadow: 13px 10px 32px -3px rgba(0, 0, 0, 0.507);
+  background-color: #f8f8ff;
 }
 .logoImage {
   margin-top: 100px;
   height: 100px;
 }
-.cardTitle{
+.cardTitle {
   font-size: 25px !important;
   font-weight: bold;
-  font-family:Brush Script MT, Brush Script Std, cursive !important;
+  font-family: Brush Script MT, Brush Script Std, cursive !important;
 }
 
-.priceDetails{
+.priceDetails span {
   font-style: italic !important;
-  color: #521111 !important;
+  color: black !important;
   font-weight: 500;
+}
+.menuBottom {
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+}
+.menuBottom span {
+  color: black !important;
+  font-weight: normal;
+  font-style: italic;
 }
 /* MENU PAGE STYLES */
 
@@ -401,7 +431,7 @@ code {
 }
 .footerContainer h5,
 span {
-  color: black !important;
+  color: white !important;
 }
 .footerContainer a {
   text-decoration: none;
@@ -423,6 +453,7 @@ span {
   text-align: left;
   font: bold 16px sans-serif;
   padding: 55px 50px;
+  color: white;
 }
 
 .footer-distributed .footer-left,
@@ -432,12 +463,9 @@ span {
   vertical-align: top;
 }
 
-
-
 .footer-distributed .footer-left {
   width: 40%;
 }
-
 
 .footer-distributed h3 {
   color: #ffffff;
@@ -446,10 +474,8 @@ span {
 }
 
 .footer-distributed h3 span {
-  color: lightseagreen;
+  color: white;
 }
-
-
 
 .footer-distributed .footer-links {
   color: #ffffff;
@@ -463,16 +489,15 @@ span {
   font-weight: 400;
   text-decoration: none;
   color: inherit;
+  color: white;
 }
 
 .footer-distributed .footer-company-name {
-  color: #222;
+  color: white;
   font-size: 14px;
   font-weight: normal;
   margin: 0;
 }
-
-
 
 .footer-distributed .footer-center {
   width: 35%;
@@ -494,6 +519,7 @@ span {
 .footer-distributed .footer-center i.fa-envelope {
   font-size: 17px;
   line-height: 38px;
+  color: white;
 }
 
 .footer-distributed .footer-center p {
@@ -509,10 +535,11 @@ span {
   font-weight: normal;
   font-size: 14px;
   line-height: 2;
+  color: white;
 }
 
 .footer-distributed .footer-center p a {
-  color: lightseagreen;
+  color: white;
   text-decoration: none;
 }
 
@@ -521,24 +548,24 @@ span {
   font-weight: 300;
   font-size: 20px;
   left: 0;
-  color: #fff;
+  color: black;
   display: inline-block;
   padding-right: 5px;
 }
 
 .footer-distributed .footer-links .link-1:before {
   content: none;
+  color: white;
 }
-
-
 
 .footer-distributed .footer-right {
   width: 20%;
+  color: white;
 }
 
 .footer-distributed .footer-company-about {
   line-height: 20px;
-  color: #92999f;
+  color: white;
   font-size: 13px;
   font-weight: normal;
   margin: 0;
@@ -561,14 +588,13 @@ span {
   width: 35px;
   height: 35px;
   cursor: pointer;
-  background-color: #33383b;
+  background-color: #158dd8;
   border-radius: 2px;
 
   font-size: 20px;
   color: #ffffff;
   text-align: center;
   line-height: 35px;
-
   margin-right: 3px;
   margin-bottom: 5px;
 }

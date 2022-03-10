@@ -11,13 +11,14 @@ function DaytonaMenu() {
         src={logo}
         alt="building"
       />
-     <h2>CALL US (386) 226-9844</h2>
+      <h2>CALL US (386) 226-9844</h2>
+
       <Container className="menulanding">
         <CardGroup>
-          <Card data-aos="flip-left" className="cardBackground">
+          <Card data-aos="fade-up" className="cardBackground">
             <Card.Body className="cardBackground">
               <Card.Title></Card.Title>
-              <Card.Title className = 'cardTitle'>RAW BAR • APPETIZER</Card.Title>
+              <Card.Title className="cardTitle">RAW BAR • APPETIZER</Card.Title>
               <Card.Text className="menuItems">
                 <p>
                   Jumbo Lump Crab Cocktail{" "}
@@ -80,10 +81,10 @@ function DaytonaMenu() {
             </Card.Body>
           </Card>
 
-          <Card data-aos="flip-right" className="cardBackground">
+          <Card data-aos="fade-up" className="cardBackground">
             <Card.Body className="cardBackground">
               <Card.Title></Card.Title>
-              <Card.Title className = 'cardTitle'>SOUPS • SALADS</Card.Title>
+              <Card.Title className="cardTitle">SOUPS • SALADS</Card.Title>
               <Card.Text className="menuItems">
                 <p>
                   Lobster Bisque{" "}
@@ -126,9 +127,9 @@ function DaytonaMenu() {
         </CardGroup>
 
         <CardGroup>
-          <Card data-aos="flip-right" className="cardBackground">
+          <Card data-aos="fade-up" className="cardBackground">
             <Card.Body className="cardBackground">
-              <Card.Title className = 'cardTitle'>STEAKS • CHOPS</Card.Title>
+              <Card.Title className="cardTitle">STEAKS • CHOPS</Card.Title>
               <Card.Text className="menuItems">
                 <p>
                   Lobster Bisque{" "}
@@ -169,9 +170,9 @@ function DaytonaMenu() {
             </Card.Body>
           </Card>
 
-          <Card data-aos="flip-left" className="cardBackground">
+          <Card data-aos="fade-up" className="cardBackground">
             <Card.Body className="cardBackground">
-              <Card.Title className = 'cardTitle'>SEAFOOD</Card.Title>
+              <Card.Title className="cardTitle">SEAFOOD</Card.Title>
               <Card.Text className="menuItems">
                 <p>
                   Surf & Turf*{" "}
@@ -200,9 +201,9 @@ function DaytonaMenu() {
           </Card>
         </CardGroup>
         <CardGroup>
-          <Card data-aos="flip-left" className="cardBackground">
+          <Card data-aos="fade-up" className="cardBackground">
             <Card.Body className="cardBackground">
-              <Card.Title className = 'cardTitle'>BAR FAVORITES</Card.Title>
+              <Card.Title className="cardTitle">BAR FAVORITES</Card.Title>
               <Card.Text className="menuItems">
                 <p>
                   Waltrip's Dry Aged Cheeseburger* 9oz{" "}
@@ -240,9 +241,9 @@ function DaytonaMenu() {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card data-aos="flip-left" className="cardBackground">
+          <Card data-aos="fade-up" className="cardBackground">
             <Card.Body className="cardBackground">
-              <Card.Title className = 'cardTitle'>SIDES</Card.Title>
+              <Card.Title className="cardTitle">SIDES</Card.Title>
               <Card.Text className="menuItems">
                 <p>
                   Sautéed Asparagus, E.V.O.O., parmesan{" "}
@@ -310,10 +311,10 @@ function DaytonaMenu() {
             </Card.Body>
           </Card>
         </CardGroup>
-        <CardGroup>
-          <Card data-aos="flip-left" className="cardBackground">
-            <Card.Body className="cardBackground">
-              <Card.Title className = 'cardTitle'>Add Ons</Card.Title>
+        <CardGroup >
+          <Card data-aos="fade-up" className="cardBackground" id ='bottomCards'>
+            <Card.Body className="cardBackground" id ='bottomCards'>
+              <Card.Title className="cardTitle">Add Ons</Card.Title>
               <Card.Text className="menuItems">
                 <p>
                   Roasted Cloves of Garlic & Mushrooms{" "}
@@ -344,9 +345,9 @@ function DaytonaMenu() {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card data-aos="flip-left" className="cardBackground">
-            <Card.Body className="cardBackground">
-              <Card.Title className = 'cardTitle'>Sauces</Card.Title>
+          <Card data-aos="fade-up" className="cardBackground" id ='bottomCards'>
+            <Card.Body className="cardBackground" id ='bottomCards'>
+              <Card.Title className="cardTitle">Sauces</Card.Title>
               <Card.Text className="menuItems">
                 <p>
                   Béarnaise Sauce{" "}
@@ -379,6 +380,35 @@ function DaytonaMenu() {
           </Card>
         </CardGroup>
       </Container>
+      <div className="menuBottom">
+        <h3>
+          Eric Black ~ <span>General Manager</span>
+        </h3>
+
+        <h3>
+          Nick Miller ~ <span>Executive Chef</span>
+        </h3>
+        <p>
+        •BLUE- Very red, very cool center</p> <p>•RARE- Red, cool center</p> <p>•MEDIUM RARE-
+          Red, warm center
+        </p>
+        <p>
+          •MEDIUM- Pink center</p> <p>•MEDIUM WELL- Slightly pink center </p><p>•WELL- Cooked
+          throughout, no pink
+        </p>
+        <span>*Consuming raw or undercooked meats, poultry, seafood or shellfish may increase your risk of foodborne illness, especially if you have certain medical conditions.</span>
+      </div>
+      <style jsx>{`
+        .navbar a,
+        p {
+          color: black !important;
+        }
+        .priceDetails {
+          font-style: italic !important;
+          color: #521111 !important;
+          font-weight: 500;
+        }
+      `}</style>
     </div>
   );
 }
