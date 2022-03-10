@@ -9,6 +9,7 @@ import Menu from "./Pages/Menu";
 import Locations from "./Pages/Locations";
 import Reservations from "./Pages/Reservations";
 import NoMatch from "./Pages/NoMatch";
+import DaytonaMenu from "./Pages/menus/DaytonaMenu"
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -27,6 +28,7 @@ function App() {
           <Route path="/Menu" element={<Menu />} />
           <Route path="/Reservations" element={<Reservations />} />
           <Route path="/NoMatch" element={<NoMatch />} />
+          <Route path="/DaytonaMenu" element={<DaytonaMenu />} />
         </Routes>
       </Router>
       <Footer />
