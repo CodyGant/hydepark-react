@@ -61,26 +61,7 @@ code {
   transition: all 0.4s ease !important;
 }
 
-.selectmenupage {
-  box-shadow: inset 0px 0px 24px -3px rgba(0, 0, 0, 0.788);
-  min-height: 100vh;
-  height: inherit;
-  width: 100%;
-  text-align: center;
-  color: white;
-  display: table;
-  background-color: #000000 !important;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.664)),url("./assests/slanted-gradient.svg") !important; 
-  background-size: cover;
-}
-.menupagetext {
-  background: #521111;
-  color: white;
 
-  vertical-align: middle;
-  display: table-cell;
-  margin: 0 auto;
-}
 .background {
   font-family: "Roboto Slab", serif;
   position: absolute;
@@ -177,6 +158,26 @@ code {
 /* RESERVATION PAGE STYLES */
 
 /* MENU PAGE STYLES */
+.selectmenupage {
+  box-shadow: inset 0px 0px 24px -3px rgba(0, 0, 0, 0.788);
+  min-height: 100vh;
+  height: inherit;
+  width: 100%;
+  text-align: center;
+  color: white;
+  display: table;
+  background-color: #000000 !important;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.664)),url("./assests/slanted-gradient.svg") !important; 
+  background-size: cover;
+}
+.menupagetext {
+  background: #521111;
+  color: white;
+  vertical-align: middle;
+  display: table-cell;
+  margin: 0 auto;
+}
+
 .menuPage {
   font-family: "Roboto Slab", serif;
   min-height: 100vh;
@@ -193,6 +194,10 @@ code {
 }
 .menuPage img {
   margin-bottom: 20px;
+}
+.menuPage h3 a{
+  color:#521111 !important;
+  text-decoration:none !important;
 }
 .menuPage button {
   margin: 10px;
@@ -240,11 +245,21 @@ span {
   background-color: #f8f8ff;
 }
 .menuName {
-  padding-top: 50px;
+  padding-top: 20px;
+
   font-family: "Roboto Slab", serif;
   text-align: center;
   font-style: italic;
   color: #521111;
+}
+.locationName{
+  text-decoration: underline;
+  text-align: center !important;
+  font-style: italic;
+  color: #521111 !important;
+  margin:0;
+  padding:0;
+
 }
 .logoImage {
   margin-top: 100px;

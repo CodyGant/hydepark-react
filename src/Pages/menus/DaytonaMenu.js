@@ -11,13 +11,17 @@ function DaytonaMenu() {
         src={logo}
         alt="building"
       />
-      <h2>CALL US (386) 226-9844</h2>
+      <p className="locationName">DAYTONA BEACH</p>
+      <h3>CALL US <a href='/'>(386) 226-9844</a></h3>
+      
       <Button>HAPPY HOUR MENU</Button>
       <Button>EARLY NIGHTS MENU</Button>
       <Button>BUTCHER GRILLE MENU</Button>
       <Button>FAMAILY TO GO MENU</Button>
       <Container className="menulanding">
+        
         <h1 className="menuName">DINNER MENU</h1>
+        
 
         <CardGroup>
           <Card data-aos="zoom-in" className="cardBackground">
