@@ -370,6 +370,7 @@ span {
 
 .butcherFlex span {
   font-style: oblique;
+  color:black !important;
 }
 
 .butcherButton {
