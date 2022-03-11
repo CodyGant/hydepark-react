@@ -36,7 +36,7 @@ function DaytonaMenu() {
               </p>
 
               <p>
-                The Ryan Day Steak 26oz{" "}
+              36 Day Dry Aged Bone-in Ribeye 26oz{" "}
                 <span className="priceDetails">
                   --- 36 Day Dry Aged Bone-in Ribeye Heavily marbled, rich
                   beef flavor <span>( $78)</span>
@@ -49,20 +49,20 @@ function DaytonaMenu() {
                 </span>
               </p>
               <p>
-                The Bobby Rahal Steak 16oz{" "}
+              Steak McMurray 16oz{" "}
                 <span className="priceDetails">
                   ---Ribeye, heavily marble <span> ($61)</span>
                 </span>
               </p>
               <p>
-                The Urban Meyer Steak 14oz{" "}
+              The Kurt Busch Steak 14oz{" "}
                 <span className="priceDetails">
                   --- New York Strip Steak <span> ($54)</span>
                 </span>
               </p>
 
               <p>
-                Steak Herbstreit 22oz{" "}
+              The Tony Stewart Steak 22oz{" "}
                 <span className="priceDetails">
                   --- Bone-In Ribeye, heavily marbled<span>( $69)</span>
                 </span>
@@ -74,14 +74,14 @@ function DaytonaMenu() {
                 </span>
               </p>
               <p>
-                Steak Griffin 8oz/12oz{" "}
+              Steak Jarrett 8oz/12oz{" "}
                 <span className="priceDetails">
                   --- Filet Mignon, garlic, cracked black pepper, roasted
                   shallot Cabernet sauce <span> ($54/66)</span>
                 </span>
               </p>
               <p>
-                Steak Tressel 14oz{" "}
+              Steak Johnson 14oz{" "}
                 <span className="priceDetails">
                   --- New York Strip topped with roasted cloves of garlic &
                   mushrooms <span> ($59)</span>
@@ -95,21 +95,15 @@ function DaytonaMenu() {
                 </span>
               </p>
               <p>
-                Steak Kosar 8oz/12oz{" "}
+              Steak Earnhardt 8oz/12oz{" "}
                 <span className="priceDetails">
                   ---A Filet Mignon over bordelaise crowned with asparagus,
                   lobster & bearnaise, sliced mushrooms<span> ($62/74)</span>
                 </span>
               </p>
+              
               <p>
-                Japanese Wagyu 100% A-5{" "}
-                <span className="priceDetails">
-                  ---Strip Loin 6oz, Miyazaki Kagoshima Region Sliced;
-                  prepared rare to medium-rare <span> ($145)</span>
-                </span>
-              </p>
-              <p>
-                The Scarlet & Gray Steak 40oz{" "}
+              The Denny Hamlin Steak 35oz{" "}
                 <span className="priceDetails">
                   --- Long Bone Tomahawk Ribeye, 100% Black Angus, Creekstone
                   Farms <span> ($114)</span>
