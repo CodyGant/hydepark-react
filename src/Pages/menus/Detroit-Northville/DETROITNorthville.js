@@ -1,6 +1,6 @@
 import React from "react";
 
-import logo from "../../assests/hydepark.png";
+import logo from "../../../assests/hydepark.png";
 import { Card, Container, CardGroup, Button } from "react-bootstrap";
 function DETROITNorthville() {
   return (

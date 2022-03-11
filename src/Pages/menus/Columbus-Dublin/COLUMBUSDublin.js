@@ -1,8 +1,8 @@
 import React from "react";
 
-import logo from "../../assests/hydepark.png";
+import logo from "../../../assests/hydepark.png";
 import { Card, Container, CardGroup, Button } from "react-bootstrap";
-function DETROITBirmingham() {
+function COLUMBUSDublin() {
   return (
     <div className="menuPage">
       <img
@@ -11,7 +11,7 @@ function DETROITBirmingham() {
         src={logo}
         alt="building"
       />
-      <p className="locationName">DETROIT Birmingham</p>
+      <p className="locationName">COLUMBUS Dublin</p>
       <h3>CALL US <a href='/'>(386) 226-9844</a></h3>
       
       <Button>HAPPY HOUR MENU</Button>
@@ -434,4 +434,4 @@ function DETROITBirmingham() {
   );
 }
 
-export default DETROITBirmingham;
+export default COLUMBUSDublin;

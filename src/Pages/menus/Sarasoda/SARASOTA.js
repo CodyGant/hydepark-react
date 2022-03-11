@@ -1,8 +1,8 @@
 import React from "react";
 
-import logo from "../../assests/hydepark.png";
+import logo from "../../../assests/hydepark.png";
 import { Card, Container, CardGroup, Button } from "react-bootstrap";
-function COLUMBUSUpperArlington() {
+function SARASOTA() {
   return (
     <div className="menuPage">
       <img
@@ -11,7 +11,7 @@ function COLUMBUSUpperArlington() {
         src={logo}
         alt="building"
       />
-      <p className="locationName">COLUMBUS Upper Arlington</p>
+      <p className="locationName">SARASOTA</p>
       <h3>CALL US <a href='/'>(386) 226-9844</a></h3>
       
       <Button>HAPPY HOUR MENU</Button>
@@ -434,4 +434,4 @@ function COLUMBUSUpperArlington() {
   );
 }
 
-export default COLUMBUSUpperArlington;
+export default SARASOTA;

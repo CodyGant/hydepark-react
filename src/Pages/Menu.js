@@ -39,11 +39,11 @@ function Menu() {
             </Dropdown.Toggle>
 
             <Dropdown.Menu className="dropDown">
-              <Dropdown.Item href="/PITTSBURG">PITTSBURGH</Dropdown.Item>
+              <Dropdown.Item href="/PITTSBURGH">PITTSBURGH</Dropdown.Item>
               <Dropdown.Item href="CLEVELANDWestlake" target="_blank">
                 CLEVELAND - Beachwood
               </Dropdown.Item>
-              <Dropdown.Item href="CLEVELANDWestlake" target="_blank">
+              <Dropdown.Item href="/CLEVELANDWestlake" target="_blank">
                 CLEVELAND - Westlake{" "}
               </Dropdown.Item>
               <Dropdown.Item href="/COLUMBUSUpperArlington" target="_blank">

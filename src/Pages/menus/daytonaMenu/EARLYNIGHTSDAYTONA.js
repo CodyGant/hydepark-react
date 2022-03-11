@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "../../assests/hydepark.png";
+import logo from "../../../assests/hydepark.png";
 import { Card, Container, CardGroup, Button } from "react-bootstrap";
-function DAYTONABAR() {
+function EARLYNIGHTSDAYTONA() {
   return (
     <div className="menuPage">
       <img
@@ -11,48 +11,121 @@ function DAYTONABAR() {
         alt="building"
       />
       <p className="locationName">DAYTONA BEACH</p>
-      <p>AVAILABLE IN OUR BAR & TERRACE MONDAY-FRIDAY 4PM-630PM</p>
+      <p>
+        Available Nightly Until 630pm, (All Night Sundays) Not Available on
+        Holidays
+      </p>
       <h3>
         CALL US <a href="/">(386) 226-9844</a>
       </h3>
 
-      <Button className = 'menupagebutton' href = '/DaytonaMenu'>DINNER MENU</Button>
-      <Button className = 'menupagebutton'>EARLY NIGHTS MENU</Button>
-      <Button className = 'menupagebutton'>BUTCHER GRILLE MENU</Button>
-      <Button className = 'menupagebutton'>FAMAILY TO GO MENU</Button>
+      <Button className="menupagebutton" href="/DaytonaMenu">
+      DINNER MENU
+      </Button>
+      <Button className="menupagebutton" href="/DAYTONABAR" >BAR MENU</Button>
+      <Button className="menupagebutton">BUTCHER GRILLE MENU</Button>
+      <Button className="menupagebutton">FAMILY TO GO MENU</Button>
       <Container className="menulanding">
-        <h1 className="menuName">HAPPY HOUR MENU</h1>
+        <h1 className="menuName">Early Nights Menu</h1>
 
         <CardGroup>
           <Card data-aos="zoom-in" className="cardBackground">
             <Card.Body className="cardBackground">
-              <Card.Title className="cardTitle">BAR PLATES</Card.Title>
+              <Card.Title className="cardTitle">SOUP • SALAD</Card.Title>
               <Card.Text className="menuItems">
+                <p>Select One</p>
                 <p>
-                  Jumbo Shrimp Cocktail (3){" "}
+                  Lobster Bisque{" "}
                   <span className="priceDetails">
-                    --- Cocktail sauce <span>($8)</span>
+                    --- Sherry poached lobster
                   </span>
                 </p>
 
                 <p>
-                  Wagyu Beef Carpaccio*{" "}
+                  Hyde Park Wedge{" "}
                   <span className="priceDetails">
-                    --- Chilled wagyu beef sliced razor thin <span>( $10)</span>
+                    --- Smoked bacon, candied pecans, tomato, blue cheese
+                    dressing, port wine drizzle
                   </span>
                 </p>
                 <p>
-                  Grilled Dry Aged Sirloin Sliders*{" "}
+                  Caesar Salad{" "}
                   <span className="priceDetails">
-                    --- Aged white cheddar, spicy aioli, crispy onion straws
-                    <span> ( $5 )</span>
+                    --- Made to order garlic croutons, chopped anchovies upon
+                    request{" "}
+                  </span>
+                </p>
+                <p>Classic Baked Onion Soup </p>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </CardGroup>
+        <CardGroup>
+          <Card data-aos="zoom-in" className="cardBackground">
+            <Card.Body className="cardBackground" >
+              <Card.Title></Card.Title>
+              <Card.Title className="cardTitle">ENTREES $21.95</Card.Title>
+              <Card.Text className="menuItems">
+                <p>Select One</p>
+                <p>
+                  Crab Wedge Salad{" "}
+                  <span className="priceDetails">
+                    --- Crisp iceberg, tomato, smoked bacon, crab meat, house
+                    vinaigrette
+                  </span>
+                </p>
+
+                <p>
+                  Chicken Milanese{" "}
+                  <span className="priceDetails">
+                    --- Crispy romano crusted; white wine lemon caper sauce,
+                    asparagus
                   </span>
                 </p>
                 <p>
-                  Beef Tenderloin Sliders*{" "}
+                  Dry Aged Chopped Steak*{" "}
                   <span className="priceDetails">
-                    --- Horseradish sauce, spinach, crispy onion straws{" "}
-                    <span> ($8)</span>
+                    --- Dry aged ground beef, charbroiled, roasted garlic
+                    whipped potatoes, mushroom bordelaise sauce, crispy onion
+                    straws
+                  </span>
+                </p>
+                <p>
+                  Shrimp Mac & Cheese{" "}
+                  <span className="priceDetails">
+                    --- Five cheese, toasted breadcrumbs
+                  </span>
+                </p>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </CardGroup>
+        <CardGroup>
+          <Card data-aos="zoom-in" className="cardBackground">
+            <Card.Body className="cardBackground" >
+              <Card.Title></Card.Title>
+              <Card.Title className="cardTitle">ENTREES $32.95</Card.Title>
+              <Card.Text className="menuItems">
+                <p>Select One</p>
+                <p>
+                  Salmon Filet*{" "}
+                  <span className="priceDetails">
+                    --- Sautéed spinach, roasted garlic whipped potatoes, lemon
+                    crystal citrus sauce
+                  </span>
+                </p>
+
+                <p>
+                  Petite Twin Filet Mignon 6oz*{" "}
+                  <span className="priceDetails">
+                    --- Roasted garlic whipped potatoes, béarnaise sauce, crispy
+                    onion straws
+                  </span>
+                </p>
+                <p>
+                  Crab Cake Oscar{" "}
+                  <span className="priceDetails">
+                    --- Sauteed asparagus, lumb crab, bearnaise
                   </span>
                 </p>
               </Card.Text>
@@ -63,67 +136,14 @@ function DAYTONABAR() {
           <Card data-aos="zoom-in" className="cardBackground">
             <Card.Body className="cardBackground" id="bottomCards">
               <Card.Title></Card.Title>
-              <Card.Title className="cardTitle">COCKTAILS</Card.Title>
+              <Card.Title className="cardTitle">ENTREE $43.95</Card.Title>
               <Card.Text className="menuItems">
+                <p>Select One</p>
+                <p>Available for a Limited Time Only</p>
                 <p>
-                  Bee's Knees{" "}
+                  Surf & Turf*{" "}
                   <span className="priceDetails">
-                    ---Aviation Gin, Lemon, Honey Simple Syrup<span> ($7)</span>
-                  </span>
-                </p>
-
-                <p>
-                  Black Cherry Old Fashioned{" "}
-                  <span className="priceDetails">
-                    --- Old Forester Bourbon, Amaretto Di Saronno, Black Cherry
-                    Syrup, Old Fashioned Bitters <span> ($7)</span>
-                  </span>
-                </p>
-                <p>
-                  Pink Grapefruit{" "}
-                  <span className="priceDetails">
-                    --- Finlandia Grapefruit Vodka, St. Germain, Grapefruit &
-                    Cranberry Juices <span>( $8)</span>
-                  </span>
-                </p>
-                <p>
-                  Tito’s Kickin’ Mule{" "}
-                  <span className="priceDetails">
-                    --- Tito’s Vodka, Ginger Beer, Lime (Keep the Mug Additional
-                    $20) <span>( $8)</span>
-                  </span>
-                </p>
-                <p>
-                  Classic Cosmopolitan{" "}
-                  <span className="priceDetails">
-                    ---Red pepper aioli, spicy mustard sauce <span>( $22)</span>
-                  </span>
-                </p>
-                <p>
-                  Chilled Lobster Tail Cocktail{" "}
-                  <span className="priceDetails">
-                    --- Deep Eddy Lemon Vodka, Cointreau, Cranberry Juice, Lime{" "}
-                    <span> ($8)</span>
-                  </span>
-                </p>
-                <p>
-                  White Pear{" "}
-                  <span className="priceDetails">
-                    --- Grey Goose La Poire Vodka, St. Germain, Lemon
-                    <span>( $9)</span>
-                  </span>
-                </p>
-                <p>
-                  Pure Martini{" "}
-                  <span className="priceDetails">
-                    --- Tito’s Vodka, Served Up <span> ($9)</span>
-                  </span>
-                </p>
-                <p>
-                  Rosé All Day{" "}
-                  <span className="priceDetails">
-                    --- Bombay Sapphire Gin, Lillet Rosé, Lemon, Prosecco{" "}
-                    <span> ($9)</span>
+                    --- Petite Filet Mignon 6oz & 4oz Lobster Tail
                   </span>
                 </p>
               </Card.Text>
@@ -174,4 +194,4 @@ function DAYTONABAR() {
   );
 }
 
-export default DAYTONABAR;
+export default EARLYNIGHTSDAYTONA;

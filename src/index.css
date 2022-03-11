@@ -293,6 +293,11 @@ span {
   font-weight: normal;
   font-style: italic;
 }
+
+#wineinfo{
+  text-align: center !important;
+  border:none !important;
+}
 /* MENU PAGE STYLES */
 
 /* SECONDPART OF LANDING PAGE STYLES */

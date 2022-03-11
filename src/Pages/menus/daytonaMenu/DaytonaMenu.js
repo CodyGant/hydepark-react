@@ -1,6 +1,6 @@
 import React from "react";
 
-import logo from "../../assests/hydepark.png";
+import logo from "../../../assests/hydepark.png";
 import { Card, Container, CardGroup, Button } from "react-bootstrap";
 function DaytonaMenu() {
   return (
@@ -17,9 +17,9 @@ function DaytonaMenu() {
     </h3>
 
     <Button className = 'menupagebutton' href='/DAYTONABAR'>HAPPY HOUR MENU</Button>
-    <Button className = 'menupagebutton'>EARLY NIGHTS MENU</Button>
-    <Button className = 'menupagebutton'>BUTCHER GRILLE MENU</Button>
-    <Button className = 'menupagebutton'>FAMAILY TO GO MENU</Button>
+    <Button className = 'menupagebutton' href='/DaytonaEarly'>EARLY NIGHTS MENU</Button>
+    <Button className = 'menupagebutton' >BUTCHER GRILLE MENU</Button>
+    <Button className = 'menupagebutton'href = '/DaytonaFamily'>FAMAILY TO GO MENU</Button>
     <Container className="menulanding">
       <h1 className="menuName">DINNER MENU</h1>
 
