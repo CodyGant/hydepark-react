@@ -18,8 +18,8 @@ function DaytonaMenu() {
 
     <Button className = 'menupagebutton' href='/DAYTONABAR'>HAPPY HOUR MENU</Button>
     <Button className = 'menupagebutton' href='/DaytonaEarly'>EARLY NIGHTS MENU</Button>
-    <Button className = 'menupagebutton' >BUTCHER GRILLE MENU</Button>
-    <Button className = 'menupagebutton'href = '/DaytonaFamily'>FAMAILY TO GO MENU</Button>
+    <Button className = 'menupagebutton' href='/DaytonaButcher'>BUTCHER GRILLE MENU</Button>
+    <Button className = 'menupagebutton' href = '/DaytonaFamily'>FAMAILY TO GO MENU</Button>
     <Container className="menulanding">
       <h1 className="menuName">DINNER MENU</h1>
 

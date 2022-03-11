@@ -22,6 +22,11 @@ import INDIANAPOLIS from "./Pages/menus/Indianapolis/INDIANAPOLIS";
 import DAYTONABAR from "./Pages/menus/daytonaMenu/DAYTONABAR";
 import DaytonaEarly from './Pages/menus/daytonaMenu/EARLYNIGHTSDAYTONA';
 import DaytonaFamily from './Pages/menus/daytonaMenu/FamilyDaytonamenu';
+import PITTSBURGBAR from './Pages/menus/Pittsburgh/PITTSBURGBAR';
+
+import PITTSBURGHBUTCHER from './Pages/menus/Pittsburgh/PITTSBURGHBUTCHER';
+import PITTSBURGHEARLY from './Pages/menus/Pittsburgh/PITTSBURGHEARLY';
+import PITTSBURGHfamily from './Pages/menus/Pittsburgh/PITTSBURGHfamily';
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -56,6 +61,11 @@ function App() {
           <Route path="/DAYTONABAR" element={<DAYTONABAR />} />
           <Route path="/DaytonaEarly" element={<DaytonaEarly />} />
           <Route path="/DaytonaFamily" element={<DaytonaFamily />} />
+          <Route path="/PITTSBURGBAR" element={<PITTSBURGBAR />} />
+          <Route path="/PITTSBURGHBUTCHER" element={<PITTSBURGHBUTCHER />} />
+          <Route path="/PITTSBURGHEARLY" element={<PITTSBURGHEARLY />} />
+          <Route path="/PITTSBURGHfamily" element={<PITTSBURGHfamily />} />
+          
         </Routes>
       </Router>
       <Footer />

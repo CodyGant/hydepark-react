@@ -11,15 +11,15 @@ function PITTSBURGH() {
       src={logo}
       alt="building"
     />
-    <p className="locationName">DAYTONA BEACH</p>
+    <p className="locationName">PITTSBURGH</p>
     <h3>
-      CALL US <a href="/">(386) 226-9844</a>
+      CALL US <a href="/">(412) 222-4014</a>
     </h3>
 
-    <Button className = 'menupagebutton' href='/DAYTONABAR'>HAPPY HOUR MENU</Button>
-    <Button className = 'menupagebutton' href='/DaytonaEarly'>EARLY NIGHTS MENU</Button>
-    <Button className = 'menupagebutton' href='/DaytonaButcher'>BUTCHER GRILLE MENU</Button>
-    <Button className = 'menupagebutton'href = '/DaytonaFamily'>FAMAILY TO GO MENU</Button>
+    <Button className = 'menupagebutton' href='/PITTSBURGBAR'>HAPPY HOUR MENU</Button>
+    <Button className = 'menupagebutton' href='/PITTSBURGHEARLY'>EARLY NIGHTS MENU</Button>
+    <Button className = 'menupagebutton' href='/PITTSBURGHBUTCHER'>BUTCHER GRILLE MENU</Button>
+    <Button className = 'menupagebutton'href = '/PITTSBURGHfamily'>FAMAILY TO GO MENU</Button>
     <Container className="menulanding">
       <h1 className="menuName">DINNER MENU</h1>
 
@@ -314,7 +314,7 @@ function PITTSBURGH() {
                 --- Graham Cracker Crust, Amarena Cherries, Chambord Cherry Glaze  <span> 10</span>
               </span>
             </p>
-            <p>
+            <p> 
             Colossal Red Velvet Cake {" "}
               <span className="priceDetails">
                 --- Chocolate Shavings and Sauce Serves 2-4<span> 15.5</span>

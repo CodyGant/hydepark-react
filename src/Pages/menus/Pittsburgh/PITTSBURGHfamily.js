@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../../assests/hydepark.png";
 import { Card, Container, CardGroup, Button } from "react-bootstrap";
-function FamilyDaytonamenu() {
+function PITTSBURGHfamily() {
   return (
     <div className="menuPage">
       <img
@@ -10,24 +10,30 @@ function FamilyDaytonamenu() {
         src={logo}
         alt="building"
       />
-      <p className="locationName">DAYTONA BEACH</p>
+      <p className="locationName">PITTSBURGH</p>
       <p>- Available Only for Carryout or Curbside Pickup -</p>
       <p>Three Course Menu for Four or More Starting at $59 Per Person</p>
       <p>
         (Includes individual entrees, salad, and family-style sides and dessert)
       </p>
       <h3>
-        CALL US <a href="/">(386) 226-9844</a>
+        CALL US <a href="/">(412) 222-4014</a>
       </h3>
 
-      <Button className="menupagebutton" href="/DaytonaMenu">
+      <Button className="menupagebutton" href="/PITTSBURGH">
         DINNER MENU
       </Button>
-      <Button className="menupagebutton"  href='/DaytonaEarly'>EARLY NIGHTS MENU</Button>
-      <Button className="menupagebutton" href="/DaytonaButcher">BUTCHER GRILLE MENU</Button>
-      <Button className="menupagebutton"  href="/DAYTONABAR">HAPPY HOUR MENU</Button>
+      <Button className="menupagebutton" href="/PITTSBURGHEARLY">
+        EARLY NIGHTS MENU
+      </Button>
+      <Button className="menupagebutton" href="/PITTSBURGHBUTCHER">
+        BUTCHER GRILLE MENU
+      </Button>
+      <Button className="menupagebutton" href="/PITTSBURGBAR">
+        HAPPY HOUR MENU
+      </Button>
       <Container className="menulanding">
-        <h1 className="menuName" >For The Family Menu</h1>
+        <h1 className="menuName">For The Family Menu</h1>
 
         <CardGroup>
           <Card data-aos="zoom-in" className="cardBackground">
@@ -85,13 +91,7 @@ function FamilyDaytonamenu() {
                   Lobster Tail 12oz-14oz*{" "}
                   <span className="priceDetails">--- $16 per person </span>
                 </p>
-                <p>
-                  White Pear{" "}
-                  <span className="priceDetails">
-                    --- Grey Goose La Poire Vodka, St. Germain, Lemon
-                    <span>( $9)</span>
-                  </span>
-                </p>
+               
                 <p>
                   Bone-In Ribeye 22oz*{" "}
                   <span className="priceDetails">--- $14 per person</span>
@@ -175,7 +175,10 @@ function FamilyDaytonamenu() {
                 </p>
 
                 <p>at 25% Off Menu Price </p>
-                <span className="priceDetails">(Up to $500 Retail; 6 Bottle Maximum) Must Be 21 Years or Older to Purchase</span>
+                <span className="priceDetails">
+                  (Up to $500 Retail; 6 Bottle Maximum) Must Be 21 Years or
+                  Older to Purchase
+                </span>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -228,4 +231,4 @@ function FamilyDaytonamenu() {
   );
 }
 
-export default FamilyDaytonamenu;
+export default PITTSBURGHfamily;

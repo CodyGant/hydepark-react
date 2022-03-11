@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../../assests/hydepark.png";
 import { Card, Container, CardGroup, Button } from "react-bootstrap";
-function EARLYNIGHTSDAYTONA() {
+function PITTSBURGHEARLY() {
   return (
     <div className="menuPage">
       <img
@@ -10,25 +10,25 @@ function EARLYNIGHTSDAYTONA() {
         src={logo}
         alt="building"
       />
-      <p className="locationName">DAYTONA BEACH</p>
+      <p className="locationName">PITTSBURGH</p>
       <p>
         Available Nightly Until 630pm, (All Night Sundays) Not Available on
         Holidays
       </p>
       <h3>
-        CALL US <a href="/">(386) 226-9844</a>
+        CALL US <a href="/">(412) 222-4014</a>
       </h3>
 
-      <Button className="menupagebutton" href="/DaytonaMenu">
+      <Button className="menupagebutton" href="/PITTSBURGH">
         DINNER MENU
       </Button>
-      <Button className="menupagebutton" href="/DAYTONABAR">
+      <Button className="menupagebutton" href="/PITTSBURGBAR">
         HAPPY HOUR MENU
       </Button>
-      <Button className="menupagebutton" href="/DaytonaButcher">
+      <Button className="menupagebutton" href="/PITTSBURGHBUTCHER">
         BUTCHER GRILLE MENU
       </Button>
-      <Button className="menupagebutton" href="/DaytonaFamily">
+      <Button className="menupagebutton" href="/PITTSBURGHfamily">
         FAMILY TO GO MENU
       </Button>
 
@@ -201,4 +201,4 @@ function EARLYNIGHTSDAYTONA() {
   );
 }
 
-export default EARLYNIGHTSDAYTONA;
+export default PITTSBURGHEARLY;

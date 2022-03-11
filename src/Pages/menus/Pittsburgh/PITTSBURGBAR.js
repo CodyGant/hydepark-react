@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../../assests/hydepark.png";
 import { Card, Container, CardGroup, Button } from "react-bootstrap";
-function DAYTONABAR() {
+function PITTSBURGBAR() {
   return (
     <div className="menuPage">
       <img
@@ -10,16 +10,16 @@ function DAYTONABAR() {
         src={logo}
         alt="building"
       />
-      <p className="locationName">DAYTONA BEACH</p>
+      <p className="locationName">PITTSBURGH</p>
       <p>AVAILABLE IN OUR BAR & TERRACE MONDAY-FRIDAY 4PM-630PM</p>
       <h3>
-        CALL US <a href="/">(386) 226-9844</a>
+        CALL US <a href="/">(412) 222-4014</a>
       </h3>
 
-      <Button className = 'menupagebutton' href = '/DaytonaMenu'>DINNER MENU</Button>
-      <Button className = 'menupagebutton' href='/DaytonaEarly'>EARLY NIGHTS MENU</Button>
-      <Button className = 'menupagebutton' href='/DaytonaButcher'>BUTCHER GRILLE MENU</Button>
-      <Button className = 'menupagebutton'  href = '/DaytonaFamily'>FAMAILY TO GO MENU</Button>
+      <Button className = 'menupagebutton' href = '/PITTSBURGH'>DINNER MENU</Button>
+      <Button className = 'menupagebutton' href='/PITTSBURGHEARLY'>EARLY NIGHTS MENU</Button>
+      <Button className = 'menupagebutton' href='/PITTSBURGHBUTCHER'>BUTCHER GRILLE MENU</Button>
+      <Button className = 'menupagebutton'  href = '/PITTSBURGHfamily'>FAMILY TO GO MENU</Button>
       <Container className="menulanding">
         <h1 className="menuName">HAPPY HOUR MENU</h1>
 
@@ -174,4 +174,4 @@ function DAYTONABAR() {
   );
 }
 
-export default DAYTONABAR;
+export default PITTSBURGBAR;
