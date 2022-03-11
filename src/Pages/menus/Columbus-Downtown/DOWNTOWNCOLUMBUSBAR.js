@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../../assests/hydepark.png";
 import { Card, Container, CardGroup, Button } from "react-bootstrap";
-function PITTSBURGBAR() {
+function DOWNTOWNCOLUMBUSBAR() {
   return (
     <div className="menuPage">
       <img
@@ -10,16 +10,16 @@ function PITTSBURGBAR() {
         src={logo}
         alt="building"
       />
-      <p className="locationName">PITTSBURGH</p>
+      <p className="locationName">DOWNTOWN COLUMBUS</p>
       <p>AVAILABLE IN OUR BAR & TERRACE MONDAY-FRIDAY 4PM-630PM</p>
       <h3>
-        CALL US <a href="/">(412) 222-4014</a>
+        CALL US <a href="/">(614) 224-2204</a>
       </h3>
 
-      <Button className = 'menupagebutton' href = '/PITTSBURGH'>DINNER MENU</Button>
-      <Button className = 'menupagebutton' href='/PITTSBURGHEARLY'>EARLY NIGHTS MENU</Button>
-      <Button className = 'menupagebutton' href='/PITTSBURGHBUTCHER'>BUTCHER GRILLE MENU</Button>
-      <Button className = 'menupagebutton'  href = '/PITTSBURGHfamily'>FAMILY TO GO MENU</Button>
+      <Button className = 'menupagebutton' href = '/DOWNTOWNCOLUMBUS'>DINNER MENU</Button>
+      <Button className = 'menupagebutton' href='/DOWNTOWNCOLUMBUSEARLY'>EARLY NIGHTS MENU</Button>
+      <Button className = 'menupagebutton' href='/DOWNTOWNCOLUMBUSBUTCHER'>BUTCHER GRILLE MENU</Button>
+      <Button className = 'menupagebutton'  href = '/DOWNTOWNCOLUMBUSFAMILY'>FAMILY TO GO MENU</Button>
       <Container className="menulanding">
         <h1 className="menuName">HAPPY HOUR MENU</h1>
 
@@ -68,7 +68,7 @@ function PITTSBURGBAR() {
                 <p>
                   Bee's Knees{" "}
                   <span className="priceDetails">
-                    ---Aviation Gin, Lemon, Honey Simple Syrup<span> ($7)</span>
+                    ---Aviation Gin, Lemon, Honey Simple Syrup<span> ( $7 )</span>
                   </span>
                 </p>
 
@@ -76,54 +76,51 @@ function PITTSBURGBAR() {
                   Black Cherry Old Fashioned{" "}
                   <span className="priceDetails">
                     --- Old Forester Bourbon, Amaretto Di Saronno, Black Cherry
-                    Syrup, Old Fashioned Bitters <span> ($7)</span>
+                    Syrup, Old Fashioned Bitters <span> ( $7 )</span>
                   </span>
                 </p>
-                <p>
-                  Pink Grapefruit{" "}
-                  <span className="priceDetails">
-                    --- Finlandia Grapefruit Vodka, St. Germain, Grapefruit &
-                    Cranberry Juices <span>( $8)</span>
-                  </span>
-                </p>
-                <p>
-                  Tito’s Kickin’ Mule{" "}
-                  <span className="priceDetails">
-                    --- Tito’s Vodka, Ginger Beer, Lime (Keep the Mug Additional
-                    $20) <span>( $8)</span>
-                  </span>
-                </p>
+
                 <p>
                   Classic Cosmopolitan{" "}
                   <span className="priceDetails">
                     ---Red pepper aioli, spicy mustard sauce <span>( $22)</span>
                   </span>
                 </p>
+
                 <p>
-                  Chilled Lobster Tail Cocktail{" "}
+                  Tito’s Kickin’ Mule{" "}
                   <span className="priceDetails">
-                    --- Deep Eddy Lemon Vodka, Cointreau, Cranberry Juice, Lime{" "}
-                    <span> ($8)</span>
+                    --- Tito’s Vodka, Ginger Beer, Lime (Keep the Mug Additional
+                    $20) <span>( $8 )</span>
                   </span>
                 </p>
+
+                <p>
+                  Pink Grapefruit{" "}
+                  <span className="priceDetails">
+                    --- Finlandia Grapefruit Vodka, St. Germain, Grapefruit &
+                    Cranberry Juices <span>( $8 )</span>
+                  </span>
+                </p>
+                
                 <p>
                   White Pear{" "}
                   <span className="priceDetails">
                     --- Grey Goose La Poire Vodka, St. Germain, Lemon
-                    <span>( $9)</span>
+                    <span>( $9 )</span>
                   </span>
                 </p>
                 <p>
                   Pure Martini{" "}
                   <span className="priceDetails">
-                    --- Tito’s Vodka, Served Up <span> ($9)</span>
+                    --- Tito’s Vodka, Served Up <span> ( $9 )</span>
                   </span>
                 </p>
                 <p>
                   Rosé All Day{" "}
                   <span className="priceDetails">
                     --- Bombay Sapphire Gin, Lillet Rosé, Lemon, Prosecco{" "}
-                    <span> ($9)</span>
+                    <span> ( $9 )</span>
                   </span>
                 </p>
               </Card.Text>
@@ -133,10 +130,10 @@ function PITTSBURGBAR() {
       </Container>
       <div className="menuBottom">
         <h3>
-          Eric Black ~ <span>General Manager</span>
+          BLANK ~ <span>General Manager</span>
         </h3>
         <h3>
-          Nick Miller ~ <span>Executive Chef</span>
+         BLANK ~ <span>Executive Chef</span>
         </h3>
         <p>•BLUE- Very red, very cool center</p> <p>•RARE- Red, cool center</p>{" "}
         <p>•MEDIUM RARE- Red, warm center</p>
@@ -174,4 +171,4 @@ function PITTSBURGBAR() {
   );
 }
 
-export default PITTSBURGBAR;
+export default DOWNTOWNCOLUMBUSBAR;

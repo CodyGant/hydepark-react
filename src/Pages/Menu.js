@@ -43,16 +43,16 @@ function Menu() {
               <Dropdown.Item href="CLEVELANDWestlake" target="_blank">
                 CLEVELAND - Beachwood
               </Dropdown.Item>
-              <Dropdown.Item href="/CLEVELANDWestlake" target="_blank">
+              <Dropdown.Item href="/CLEVELANDWESTLAKE" target="_blank">
                 CLEVELAND - Westlake{" "}
               </Dropdown.Item>
-              <Dropdown.Item href="/COLUMBUSUpperArlington" target="_blank">
+              <Dropdown.Item href="/UPPERARLINGTONCOLUMBUS" target="_blank">
                 COLUMBUS - Upper Arlington
               </Dropdown.Item>
-              <Dropdown.Item href="/COLUMBUSDublin" target="_blank">
+              <Dropdown.Item href="/COLUMBUSDUBLIN" target="_blank">
                 COLUMBUS - Dublin{" "}
               </Dropdown.Item>
-              <Dropdown.Item href="/DowntownColumbus" target="_blank">
+              <Dropdown.Item href="/DOWNTOWNCOLUMBUS" target="_blank">
                 COLUMBUS - Downtown
               </Dropdown.Item>
               <Dropdown.Item href="/DaytonaMenu" target="_blank">
@@ -64,10 +64,10 @@ function Menu() {
               <Dropdown.Item href="/SARASOTA" target="_blank">
                 SARASOTA
               </Dropdown.Item>
-              <Dropdown.Item href="/DETROITBirmingham" target="_blank">
+              <Dropdown.Item href="/DETROITBIRGMINGHAM" target="_blank">
                 DETROIT - Birmingham
               </Dropdown.Item>
-              <Dropdown.Item href="/DETROITNorthville" target="_blank">
+              <Dropdown.Item href="/DETROITNORTHVILLE" target="_blank">
                 DETROIT - Northville
               </Dropdown.Item>
             </Dropdown.Menu>

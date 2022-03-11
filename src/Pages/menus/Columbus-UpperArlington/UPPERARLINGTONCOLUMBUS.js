@@ -2,7 +2,7 @@ import React from "react";
 
 import logo from "../../../assests/hydepark.png";
 import { Card, Container, CardGroup, Button } from "react-bootstrap";
-function DETROITBIRMINGHAM() {
+function UPPERARLINGTONCOLUMBUS() {
   return (
     <div className="menuPage">
       <img
@@ -11,9 +11,9 @@ function DETROITBIRMINGHAM() {
         src={logo}
         alt="building"
       />
-      <p className="locationName">DETROIT BIRMINGHAM</p>
+      <p className="locationName">UPPER ARLINGTON COLUMBUS</p>
       <h3>
-        CALL US <a href="/">(248) 594-4369</a>
+        CALL US <a href="/">(614) 442-3310</a>
       </h3>
 
       <Button className="menupagebutton" href="/UPPERARLINGTONCOLUMBUSBAR">
@@ -37,84 +37,92 @@ function DETROITBIRMINGHAM() {
               <Card.Title className="cardTitle">STEAKS • CHOPS</Card.Title>
               <Card.Text className="menuItems">
                 <p>
-                  Filet Mignon 8oz/12oz{" "}
+                  Filet Mignon 6oz/8oz/12oz{" "}
                   <span className="priceDetails">
-                    --- center cut <span>( $50/62 )</span>
+                    --- center cut <span>( $46/58 )</span>
                   </span>
                 </p>
 
                 <p>
                   Double Cut Lamb Chops 14oz{" "}
                   <span className="priceDetails">
-                    --- <span> ( $49 )</span>
-                  </span>
-                </p>
-                <p>
-                  Steak Zetterberg 8oz{" "}
-                  <span className="priceDetails">
-                    --- Wagyu Filet Mignon, Ranger Valley Farms, Australia{" "}
-                    <span> ( $69 )</span>
+                    --- <span> ( $39 )</span>
                   </span>
                 </p>
 
                 <p>
-                  Steak Daly 22oz{" "}
+                  The Ryan Day Steak 26oz{" "}
                   <span className="priceDetails">
-                    --- Porterhouse, filet & strip in one, 21-day aged Black
-                    Angus, Creekstone Farms <span>( $76 )</span>
+                    --- 36 Day Dry Aged Bone-in Ribeye Heavily marbled, rich
+                    beef flavor <span>( $76 )</span>
                   </span>
                 </p>
 
                 <p>
-                  Ribeye 16oz{" "}
+                  The Bobby Rahal Steak 16oz{" "}
                   <span className="priceDetails">
-                    --- heavily marble <span> ( $59 )</span>
+                    --- Ribeye, heavily marble <span> ( $41 )</span>
                   </span>
                 </p>
                 <p>
-                  New York Strip Steak 14oz{" "}
+                  The Urban Meyer Steak 14oz{" "}
                   <span className="priceDetails">
-                    --- <span> ( $54 )</span>
-                  </span>
-                </p>
-
-                <p>
-                  The Cabrera Steak 22oz{" "}
-                  <span className="priceDetails">
-                    --- Bone-In Ribeye, heavily marbled<span>( $69 )</span>
-                  </span>
-                </p>
-                
-
-                <p>
-                  Steak Yzerman{" "}
-                  <span className="priceDetails">
-                    --- Long Bone Tomahawk Ribeye, 100% Black Angus, Creekstone
-                    Farms <span> ( $114 )</span>
+                    --- New York Strip <span> ( $41 )</span>
                   </span>
                 </p>
 
                 <p>
-                  Steak Harwell 8oz/12oz{" "}
+                  Steak Herbstreit 22oz{" "}
+                  <span className="priceDetails">
+                    --- Bone-In Ribeye, heavily marbled<span>( $51 )</span>
+                  </span>
+                </p>
+                <p>
+                  Australian Wagyu Filet Mignon 8oz{" "}
+                  <span className="priceDetails">
+                    --- Ranger Valley Farms<span>( $67 )</span>
+                  </span>
+                </p>
+
+                <p>
+                  Steak Woody 7oz{" "}
+                  <span className="priceDetails">
+                    --- Petite cuts of tenderloin wrapped in bacon, melted blue
+                    cheese & bordelaise sauce <span> ( $29 )</span>
+                  </span>
+                </p>
+
+                <p>
+                  Steak Griffin 8oz/12oz{" "}
                   <span className="priceDetails">
                     --- Filet Mignon, garlic, cracked black pepper, roasted
-                    shallot Cabernet sauce <span> ( $54/66 )</span>
+                    shallot Cabernet sauce <span> ( $47/60 )</span>
                   </span>
                 </p>
                 <p>
-                  Steak Casey 14oz{" "}
+                  Steak Tressel 14oz{" "}
                   <span className="priceDetails">
                     --- New York Strip topped with roasted cloves of garlic &
-                    mushrooms <span> ( $59 )</span>
+                    mushrooms <span> ( $46 )</span>
                   </span>
                 </p>
                 <p>
-                  Japanese Wagyu 100% A-5{" "}
+                  Steak Au Nicklaus 14oz{" "}
                   <span className="priceDetails">
-                    --- Strip Loin 6oz, Miyazaki Kagoshima Region Sliced;
-                    prepared rare to medium-rare <span> ( $145 )</span>
+                    --- Filet Mignon, cracked peppercorns & cognac bordelaise
+                    (Spicy) <span> ( $46 )</span>
                   </span>
                 </p>
+
+                <p>
+                  Steak Kosar 6oz/8oz/12oz{" "}
+                  <span className="priceDetails">
+                    --- A Filet Mignon over bordelaise crowned with asparagus,
+                    lobster & bearnaise, sliced mushrooms
+                    <span> ( $46/55/68 )</span>
+                  </span>
+                </p>
+
               </Card.Text>
             </Card.Body>
           </Card>
@@ -128,68 +136,67 @@ function DETROITBIRMINGHAM() {
                 <p>
                   Jumbo Lump Crab Cocktail{" "}
                   <span className="priceDetails">
-                    --- Spicy mustard, cocktail sauce <span> ( $22 )</span>
+                    --- Spicy mustard, cocktail sauce <span> ( $19 )</span>
                   </span>
                 </p>
+
+                
+
 
                 <p>
                   Shrimp Cocktail{" "}
                   <span className="priceDetails">
-                    --- Cocktail sauce (3,5) <span>( $14/22 )</span>
+                    --- Cocktail sauce (3,5) <span>( $12/19 )</span>
                   </span>
                 </p>
 
                 <p>
                   Crab Cake{" "}
                   <span className="priceDetails">
-                    --- Red pepper aioli, spicy mustard sauce{" "}
-                    <span>( $22 )</span>
-                  </span>
-                </p>
-
-                <p>
-                Wagyu Beef Carpaccio{" "}
-                  <span className="priceDetails">
-                    ---Chilled wagyu beef sliced razor thin{" "}
+                    --- Red pepper aioli, spicy mustard sauce {" "}
                     <span>( $19 )</span>
                   </span>
                 </p>
 
                 <p>
-                  Chilled Lobster Tail Cocktail{" "}
+                  Escargot{" "}
                   <span className="priceDetails">
-                    --- Cucumber lime jalapeno & classic cocktail sauces, lemon {" "}
-                    <span> ( $23 )</span>
+                    --- Port wine reduction, garlic butter, toast points  <span>( $11 )</span>
                   </span>
                 </p>
 
+
                 <p>
-                Duroc Thick Cut Bacon{" "}
+                  Chilled Lobster Tail Cocktail{" "}
                   <span className="priceDetails">
-                    ---Bragg's cider vinegar glaze  <span> ( $18 )</span>
+                    --- Cucumber lime jalapeno & classic cocktail sauces {" "}
+                    <span> ( $21 )</span>
+                  </span>
+                </p>
+
+                
+                <p>
+                Oysters Rockefeller{" "}
+                  <span className="priceDetails">
+                    --- Spinach, melted provolone <span> ( $17 )</span>
                   </span>
                 </p>
 
                 <p>
                   Oysters on the Half Shell* (4){" "}
                   <span className="priceDetails">
-                    --- <span> ( $14 )</span> - Add <span>( $3.75 )</span> each
+                    --- <span> ( $14 )</span> - Add <span>( $3.50 )</span>{" "}
+                    each
                   </span>
                 </p>
                 <p>
                   Ahi Tuna Tower*{" "}
                   <span className="priceDetails">
                     --- Avocado, wasabi soy lime dressing, wontons{" "}
-                    <span> ( $19 )</span>
+                    <span> ( $17 )</span>
                   </span>
                 </p>
-                <p>
-                Crispy Calamari*{" "}
-                  <span className="priceDetails">
-                    --- Thai sweet hot chili sauce, peppers, carrots, scallions, roasted cashews {" "}
-                    <span> ( $18 )</span>
-                  </span>
-                </p>
+                
               </Card.Text>
             </Card.Body>
           </Card>
@@ -203,7 +210,7 @@ function DETROITBIRMINGHAM() {
                 <p>
                   Lobster Bisque{" "}
                   <span className="priceDetails">
-                    --- Sherry poached lobster <span>( $16 )</span>
+                    --- Sherry poached lobster <span>( $12 )</span>
                   </span>
                 </p>
 
@@ -211,22 +218,24 @@ function DETROITBIRMINGHAM() {
                   Caesar Salad{" "}
                   <span className="priceDetails">
                     --- Made to order garlic croutons, chopped anchovies upon
-                    request <span> ( $13 )</span>
+                    request <span> ( $11 )</span>
                   </span>
                 </p>
 
                 <p>
                   Classic Baked Onion Soup{" "}
                   <span className="priceDetails">
-                    --- <span> ( $14 )</span>
+                    --- <span> ( $11 )</span>
                   </span>
                 </p>
+
+                
 
                 <p>
                   Hyde Park Wedge{" "}
                   <span className="priceDetails">
                     --- Smoked bacon, candied pecans, heirloom tomatoes, blue
-                    cheese dressing, port wine drizzle <span>( $14 )</span>
+                    cheese dressing, port wine drizzle <span>( $12 )</span>
                   </span>
                 </p>
                 <p>
@@ -234,7 +243,7 @@ function DETROITBIRMINGHAM() {
                   <span className="priceDetails">
                     --- Crispy pancetta, hard egg, juliennned English cucumber,
                     heirloom tomatoes, red onion, celery, buttermilk ranch, aged
-                    white cheddar, crispy onions <span> ( $15 )</span>
+                    white cheddar, crispy onions <span> ( $11 )</span>
                   </span>
                 </p>
               </Card.Text>
@@ -250,7 +259,7 @@ function DETROITBIRMINGHAM() {
                   Surf & Turf*{" "}
                   <span className="priceDetails">
                     --- 6oz Filet & Twin Lobster Tails, 4oz each{" "}
-                    <span>( $75 )</span>
+                    <span>( $72 )</span>
                   </span>
                 </p>
 
@@ -261,21 +270,26 @@ function DETROITBIRMINGHAM() {
                     <span>( $72 )</span>
                   </span>
                 </p>
-                
+                <p>
+                Crab Cakes{" "}
+                  <span className="priceDetails">
+                    --- Red pepper aioli, spicy mustard sauce 
+                    <span>( $28 )</span>
+                  </span>
+                </p>
 
                 <p>
                   Blackboard Fresh Fish*{" "}
                   <span className="priceDetails">
-                    --- Pan-seared; lemon crystal citrus sauce or soy
-                    vinaigrette{" "}
+                    --- Pan-seared; lemon crystal citrus sauce or soy vinaigrette{" "}
                     <p>
                       Salmon Filet{" "}
                       <span className="priceDetails">
-                        --- <span>( $37 )</span>
+                        --- <span>( $33 )</span>
                         <p>
                           Chilean Sea Bass{" "}
                           <span className="priceDetails">
-                            --- <span>( $45 )</span>
+                            --- <span>( $40 )</span>
                           </span>
                         </p>
                       </span>
@@ -294,7 +308,7 @@ function DETROITBIRMINGHAM() {
                 <p>
                   Dry Aged Cheeseburger* 9oz{" "}
                   <span className="priceDetails">
-                    --- Fries or Onion Straws <span> ( $15 )</span>
+                    --- Fries or Onion Straws <span> ( $14 )</span>
                   </span>
                 </p>
 
@@ -302,7 +316,7 @@ function DETROITBIRMINGHAM() {
                   Chicken Milanese*{" "}
                   <span className="priceDetails">
                     --- Crispy romano-crusted; white wine lemon caper sauce{" "}
-                    <span> ( $25 )</span>{" "}
+                    <span> ( $21 )</span>{" "}
                   </span>
                 </p>
 
@@ -310,22 +324,23 @@ function DETROITBIRMINGHAM() {
                   Bacon Gruyère Dry Aged Burger* 9oz{" "}
                   <span className="priceDetails">
                     --- Fries or Onion Straws
-                    <span> ( $16 )</span>
+                    <span> ( $15 )</span>
                   </span>
                 </p>
 
                 <p>
                   Salmon Caesar Salad*{" "}
                   <span className="priceDetails">
-                    --- House made warm garlic croutons, chopped anchovies upon request  <span> ( $32 )</span>{" "}
+                    --- <span> ( $29 )</span>{" "}
                   </span>
                 </p>
                 <p>
-                  Twin Filet Mignon* 3oz each{" "}
+                Twin Filet Mignon* 3oz each{" "}
                   <span className="priceDetails">
-                    --- <span>( $39 )</span>{" "}
+                    --- <span>( $28 )</span>{" "}
                   </span>
                 </p>
+                
               </Card.Text>
             </Card.Body>
           </Card>
@@ -339,16 +354,15 @@ function DETROITBIRMINGHAM() {
                   New York Style Cheesecake{" "}
                   <span className="priceDetails">
                     --- Graham Cracker Crust, Amarena Cherries, Chambord Cherry
-                    Glaze <span> ( $10 )</span>
+                    Glaze <span> ( $8.5 )</span>
                   </span>
                 </p>
 
                 <p>
-                  Colossal Carrot Cake{" "}
+                Colossal Red Velvet Cake {" "}
                   <span className="priceDetails">
-                    --- Spice Cake with Raisins, Nuts, Pineapple, and Cream
-                    Cheese Frosting, Caramel Sauce Serves 2-4
-                    <span> ( $16.5 )</span>
+                    --- Chocolate Shavings and Sauce   Serves 2-4
+                    <span> ( $15.5 )</span>
                   </span>
                 </p>
 
@@ -357,7 +371,7 @@ function DETROITBIRMINGHAM() {
                   <span className="priceDetails">
                     --- Semi-sweet, Glazed with Dark Chocolate, Bailey's Creme
                     anglaise and Port Wine Reduction
-                    <span> ( $10 )</span>
+                    <span> ( $9 )</span>
                   </span>
                 </p>
               </Card.Text>
@@ -372,20 +386,20 @@ function DETROITBIRMINGHAM() {
                 <p>
                   Sautéed Asparagus, E.V.O.O., parmesan{" "}
                   <span className="priceDetails">
-                    --- <span>( $13 )</span>
+                    --- <span>( $11 )</span>
                   </span>
                 </p>
 
                 <p>
                   Sautéed Spinach & Mushrooms{" "}
                   <span className="priceDetails">
-                    --- <span>( $13 )</span>{" "}
+                    --- <span>( $10 )</span>{" "}
                   </span>
                 </p>
                 <p>
                   Sautéed Mushrooms{" "}
                   <span className="priceDetails">
-                    --- <span>( $13 )</span>{" "}
+                    --- <span>( $10 )</span>{" "}
                   </span>
                 </p>
 
@@ -393,52 +407,48 @@ function DETROITBIRMINGHAM() {
                   Roasted Brussels Sprouts{" "}
                   <span className="priceDetails">
                     --- bacon marmalade
-                    <span>( $14 )</span>
+                    <span>( $13 )</span>
                   </span>
                 </p>
 
                 <p>
                   Lobster Mac & Cheese{" "}
                   <span className="priceDetails">
-                    --- <span>( $23 )</span>{" "}
+                    --- <span>( $24 )</span>{" "}
                   </span>
                 </p>
 
                 <p>
                   Potatoes Gruyère Gratin{" "}
                   <span className="priceDetails">
-                    --- <span>( $13 )</span>{" "}
+                    --- <span>( $12 )</span>{" "}
                   </span>
                 </p>
 
                 <p>
                   Roasted Garlic Whipped Potatoes{" "}
                   <span className="priceDetails">
-                    --- <span>( $12 )</span>{" "}
+                    --- <span>( $8 )</span>{" "}
                   </span>
                 </p>
 
                 <p>
                   French Fries{" "}
                   <span className="priceDetails">
-                    --- <span>( $10 )</span>{" "}
+                    --- <span>( $7 )</span>{" "}
                   </span>
                 </p>
+
 
                 <p>
                   One Pound Baked Idaho Potato{" "}
                   <span className="priceDetails">
-                    --- <span>( $10 )</span>{" "}
-                  </span>
-                </p>
-                <p>
-                Roasted Creamed Corn Pancetta {" "}
-                  <span className="priceDetails">
-                    --- <span>( $13 )</span>{" "}
+                    --- <span>( $8 )</span>{" "}
                   </span>
                 </p>
 
-               
+               <p>Add a Hyde Park Mixed Green Salad ( $1.95 )</p>
+
               </Card.Text>
             </Card.Body>
           </Card>
@@ -448,20 +458,18 @@ function DETROITBIRMINGHAM() {
               <Card.Title className="cardTitle">ADD ONS</Card.Title>
               <Card.Text className="menuItems">
                 <p>
-                Zip Sauce{" "}
-                  <span className="priceDetails">
-                    --- <span>( $2 )</span>
-                  </span>
-                </p>
-                <p>
                   Roasted Cloves of Garlic & Mushrooms{" "}
                   <span className="priceDetails">
                     --- <span>( $6 )</span>
                   </span>
                 </p>
 
-
-              
+                <p>
+                Blue Cheese Crusted/Bordelaise{" "}
+                  <span className="priceDetails">
+                    --- <span>( $6 )</span>
+                  </span>
+                </p>
 
                 <p>
                   Jumbo Crab, Asparagus, Béarnaise{" "}
@@ -559,4 +567,4 @@ function DETROITBIRMINGHAM() {
   );
 }
 
-export default DETROITBIRMINGHAM;
+export default UPPERARLINGTONCOLUMBUS;
