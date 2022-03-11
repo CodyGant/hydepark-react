@@ -66,8 +66,8 @@ code {
   font-family: "Roboto Slab", serif;
   position: absolute;
   background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.473)),
-    url("./assests/hydepark-pic-1.png") !important;
-  background-position: bottom !important;
+    url("./assests/landingphoto.png") !important;
+  background-position: center !important;
   background-size: cover;
   background-repeat: no-repeat;
   top: 0;
