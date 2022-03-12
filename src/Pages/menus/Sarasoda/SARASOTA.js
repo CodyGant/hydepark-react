@@ -12,19 +12,111 @@ function SARASOTA() {
         alt="building"
       />
       <p className="locationName">SARASOTA</p>
-      <h3>CALL US <a href='/'>(386) 226-9844</a></h3>
-      
-      <Button>HAPPY HOUR MENU</Button>
-      <Button>EARLY NIGHTS MENU</Button>
-      <Button>BUTCHER GRILLE MENU</Button>
-      <Button>FAMAILY TO GO MENU</Button>
+      <h3>
+        CALL US <a href="/">(248) 594-4369</a>
+      </h3>
+
+      <Button className="menupagebutton" href="/DETROITBIRMINGHAMBAR">
+        HAPPY HOUR MENU
+      </Button>
+      <Button className="menupagebutton" href="/DETROITBIRMINGHAMEARLY">
+        EARLY NIGHTS MENU
+      </Button>
+      <Button className="menupagebutton" href="/DETROITBIRMINGHAMBUTCHER">
+        BUTCHER GRILLE MENU
+      </Button>
+      <Button className="menupagebutton" href="/DETROITBIRMINGHAMFAMILY">
+        FAMAILY TO GO MENU
+      </Button>
       <Container className="menulanding">
-        
         <h1 className="menuName">DINNER MENU</h1>
-       
 
+        <CardGroup>
+          <Card data-aos="zoom-in" className="cardBackground">
+            <Card.Body className="cardBackground">
+              <Card.Title className="cardTitle">STEAKS • CHOPS</Card.Title>
+              <Card.Text className="menuItems">
+                <p>
+                  Filet Mignon, 6oz/8oz/12oz{" "}
+                  <span className="priceDetails">
+                    --- <span>( $39/50/62 )</span>
+                  </span>
+                </p>
 
+                <p>
+                  Double Cut Lamb Chops 14oz{" "}
+                  <span className="priceDetails">
+                    --- <span> ( $49 )</span>
+                  </span>
+                </p>
+                <p>
+                  36 Day Dry Aged Bone-in Ribeye 26oz{" "}
+                  <span className="priceDetails">
+                    --- Heavily marbled, rich beef flavor <span> ( $72 )</span>
+                  </span>
+                </p>
 
+                <p>
+                  Ribeye 16oz{" "}
+                  <span className="priceDetails">
+                    --- Heavily marble <span>( $49 )</span>
+                  </span>
+                </p>
+
+                <p>
+                  Bone-In Ribeye 22oz{" "}
+                  <span className="priceDetails">
+                    --- heavily marbled <span> ( $66 )</span>
+                  </span>
+                </p>
+                <p>
+                  Long Bone Tomahawk Ribeye 35oz{" "}
+                  <span className="priceDetails">
+                    --- <span> ( $99 )</span>
+                  </span>
+                </p>
+
+                <p>
+                  Australian Wagyu Filet Mignon 8oz{" "}
+                  <span className="priceDetails">
+                    --- Ranger Valley Farms <span>( $69 )</span>
+                  </span>
+                </p>
+
+                <p>
+                  Steak Dijon 7oz{" "}
+                  <span className="priceDetails">
+                    --- Bacon wrapped petite cuts of tenderloin, sweet Dijon
+                    hollandaise sauce <span> ( $38 )</span>
+                  </span>
+                </p>
+
+                <p>
+                  Steak Cabernet 8oz/12oz{" "}
+                  <span className="priceDetails">
+                    --- Filet Mignon, garlic, cracked black pepper, roasted
+                    shallot Cabernet sauce <span> ( $54/66 )</span>
+                  </span>
+                </p>
+                <p>
+                  The Garlic Steak 14oz{" "}
+                  <span className="priceDetails">
+                    --- New York Strip topped with roasted cloves of garlic &
+                    mushrooms <span> ( $54 )</span>
+                  </span>
+                </p>
+                <p>
+                  Steak a la Lobster 8oz/12oz{" "}
+                  <span className="priceDetails">
+                    --- A Filet Mignon over bordelaise crowned with asparagus,
+                    lobster & bearnaise, sliced mushrooms
+                    <span> ( $62/74 )</span>
+                  </span>
+                </p>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </CardGroup>
         <CardGroup>
           <Card data-aos="zoom-in" className="cardBackground">
             <Card.Body className="cardBackground">
@@ -34,64 +126,72 @@ function SARASOTA() {
                 <p>
                   Jumbo Lump Crab Cocktail{" "}
                   <span className="priceDetails">
-                    ---Spicy mustard, cocktail sauce <span>22</span>
+                    --- Spicy mustard, cocktail sauce <span> ( $22 )</span>
                   </span>
                 </p>
 
                 <p>
-                  King Crab Legs, center cut 5oz{" "}
-                  <span className="priceDetails">
-                    ---Spicy mustard & Cocktail Sauce <span>25</span>
-                  </span>
-                </p>
-                <p>
-                  Wagyu Beef Carpaccio*{" "}
-                  <span className="priceDetails">
-                    ---Chilled wagyu beef sliced razor thin <span>19</span>
-                  </span>
-                </p>
-                <p>
                   Shrimp Cocktail{" "}
                   <span className="priceDetails">
-                    ---Cocktail sauce (3,5) <span>14/22</span>
+                    --- Cocktail sauce (3,5) <span>( $14/22 )</span>
                   </span>
                 </p>
+
                 <p>
                   Crab Cake{" "}
                   <span className="priceDetails">
-                    ---Red pepper aioli, spicy mustard sauce <span>22</span>
+                    --- Red pepper aioli, spicy mustard sauce{" "}
+                    <span>( $22 )</span>
                   </span>
                 </p>
+
+                <p>
+                  Wagyu Beef Carpaccio{" "}
+                  <span className="priceDetails">
+                    ---Chilled wagyu beef sliced razor thin <span>( $19 )</span>
+                  </span>
+                </p>
+
                 <p>
                   Chilled Lobster Tail Cocktail{" "}
                   <span className="priceDetails">
-                    ---Spicy mustard & classic cocktail sauce <span>23</span>
+                    --- Cucumber lime jalapeno & classic cocktail sauces, lemon{" "}
+                    <span> ( $23 )</span>
                   </span>
                 </p>
+
                 <p>
-                  Oysters on the Half Shell*{" "}
+                  Duroc Thick Cut Bacon{" "}
                   <span className="priceDetails">
-                    ---(4) <span>15</span> - Add <span>3.75</span> each
+                    ---Bragg's cider vinegar glaze <span> ( $18 )</span>
+                  </span>
+                </p>
+
+                <p>
+                  Oysters on the Half Shell* (4){" "}
+                  <span className="priceDetails">
+                    --- <span> ( $14 )</span> - Add <span>( $3.75 )</span> each
                   </span>
                 </p>
                 <p>
                   Ahi Tuna Tower*{" "}
                   <span className="priceDetails">
-                    ---Avocado, wasabi soy lime dressing, wontons{" "}
-                    <span>20</span>
+                    --- Avocado, wasabi soy lime dressing, wontons{" "}
+                    <span> ( $19 )</span>
                   </span>
                 </p>
                 <p>
                   Crispy Calamari*{" "}
                   <span className="priceDetails">
-                    ---Thai sweet hot chili sauce, peppers, carrots, scallions,
-                    roasted cashews <span>19</span>
+                    --- Thai sweet hot chili sauce, peppers, carrots, scallions,
+                    roasted cashews <span> ( $18 )</span>
                   </span>
                 </p>
               </Card.Text>
             </Card.Body>
           </Card>
-
+        </CardGroup>
+        <CardGroup>
           <Card data-aos="zoom-in" className="cardBackground">
             <Card.Body className="cardBackground">
               <Card.Title></Card.Title>
@@ -100,87 +200,45 @@ function SARASOTA() {
                 <p>
                   Lobster Bisque{" "}
                   <span className="priceDetails">
-                    ---Sherry poached lobster <span>16</span>
+                    --- Sherry poached lobster <span>( $13 )</span>
                   </span>
                 </p>
 
                 <p>
                   Caesar Salad{" "}
                   <span className="priceDetails">
-                    ---Made to order garlic croutons, chopped anchovies upon
-                    request <span> 13</span>
+                    --- Made to order garlic croutons, chopped anchovies upon
+                    request <span> ( $13 )</span>
                   </span>
                 </p>
+
                 <p>
                   Classic Baked Onion Soup{" "}
                   <span className="priceDetails">
-                    --- <span> 14</span>
+                    --- <span> ( $12 )</span>
                   </span>
                 </p>
+
                 <p>
                   Hyde Park Wedge{" "}
                   <span className="priceDetails">
-                    ---Smoked bacon, candied pecans, heirloom tomatoes, blue
-                    cheese dressing, port wine drizzle <span>14</span>
+                    --- Smoked bacon, candied pecans, heirloom tomatoes, blue
+                    cheese dressing, port wine drizzle <span>( $14 )</span>
                   </span>
                 </p>
                 <p>
                   Double Chop Salad{" "}
                   <span className="priceDetails">
-                    ---Crispy pancetta, hard egg, juliennned English cucumber,
+                    --- Crispy pancetta, hard egg, juliennned English cucumber,
                     heirloom tomatoes, red onion, celery, buttermilk ranch, aged
-                    white cheddar, crispy onions <span>15</span>
+                    white cheddar, crispy onions <span> ( $15 )</span>
                   </span>
                 </p>
               </Card.Text>
             </Card.Body>
           </Card>
         </CardGroup>
-
         <CardGroup>
-          <Card data-aos="zoom-in" className="cardBackground">
-            <Card.Body className="cardBackground">
-              <Card.Title className="cardTitle">STEAKS • CHOPS</Card.Title>
-              <Card.Text className="menuItems">
-                <p>
-                  Lobster Bisque{" "}
-                  <span className="priceDetails">
-                    ---Sherry poached lobster <span>16</span>
-                  </span>
-                </p>
-
-                <p>
-                  Caesar Salad{" "}
-                  <span className="priceDetails">
-                    ---Made to order garlic croutons, chopped anchovies upon
-                    request <span> 13</span>
-                  </span>
-                </p>
-                <p>
-                  Classic Baked Onion Soup{" "}
-                  <span className="priceDetails">
-                    --- <span> 14</span>
-                  </span>
-                </p>
-                <p>
-                  Hyde Park Wedge{" "}
-                  <span className="priceDetails">
-                    ---Smoked bacon, candied pecans, heirloom tomatoes, blue
-                    cheese dressing, port wine drizzle <span>14</span>
-                  </span>
-                </p>
-                <p>
-                  Double Chop Salad{" "}
-                  <span className="priceDetails">
-                    ---Crispy pancetta, hard egg, juliennned English cucumber,
-                    heirloom tomatoes, red onion, celery, buttermilk ranch, aged
-                    white cheddar, crispy onions <span>15</span>
-                  </span>
-                </p>
-              </Card.Text>
-            </Card.Body>
-          </Card>
-
           <Card data-aos="zoom-in" className="cardBackground">
             <Card.Body className="cardBackground">
               <Card.Title className="cardTitle">SEAFOOD</Card.Title>
@@ -188,7 +246,8 @@ function SARASOTA() {
                 <p>
                   Surf & Turf*{" "}
                   <span className="priceDetails">
-                    ---6oz Filet & Twin Lobster Tails, 4oz each <span>75</span>
+                    --- 6oz Filet & Twin Lobster Tails, 4oz each{" "}
+                    <span>( $75 )</span>
                   </span>
                 </p>
 
@@ -196,15 +255,27 @@ function SARASOTA() {
                   Lobster Tail 12oz-14oz{" "}
                   <span className="priceDetails">
                     ---
-                    <span> 72</span>
+                    <span>( $72 )</span>
                   </span>
                 </p>
+
                 <p>
                   Blackboard Fresh Fish*{" "}
                   <span className="priceDetails">
-                    ---Pan-seared; lemon crystal citrus sauce or soy vinaigrette{" "}
-                    <span> Salmon Filet 38 ---</span>{" "}
-                    <span> Chilean Sea Bass 47</span>
+                    --- Pan-seared; lemon crystal citrus sauce or soy
+                    vinaigrette{" "}
+                    <p>
+                      Salmon Filet{" "}
+                      <span className="priceDetails">
+                        --- <span>( $37 )</span>
+                        <p>
+                          Chilean Sea Bass{" "}
+                          <span className="priceDetails">
+                            --- <span>( $45 )</span>
+                          </span>
+                        </p>
+                      </span>
+                    </p>
                   </span>
                 </p>
               </Card.Text>
@@ -217,9 +288,17 @@ function SARASOTA() {
               <Card.Title className="cardTitle">BAR FAVORITES</Card.Title>
               <Card.Text className="menuItems">
                 <p>
-                  Waltrip's Dry Aged Cheeseburger* 9oz{" "}
+                  Dry Aged Cheeseburger* 9oz{" "}
                   <span className="priceDetails">
-                    --- Fries or Onion Straws <span>16</span>
+                    --- Fries or Onion Straws <span> ( $15 )</span>
+                  </span>
+                </p>
+
+                <p>
+                  Chicken Milanese*{" "}
+                  <span className="priceDetails">
+                    --- Crispy romano-crusted; white wine lemon caper sauce{" "}
+                    <span> ( $25 )</span>{" "}
                   </span>
                 </p>
 
@@ -227,95 +306,21 @@ function SARASOTA() {
                   Bacon Gruyère Dry Aged Burger* 9oz{" "}
                   <span className="priceDetails">
                     --- Fries or Onion Straws
-                    <span> 17</span>
-                  </span>
-                </p>
-                <p>
-                  Chicken Milanese*{" "}
-                  <span className="priceDetails">
-                    --- Crispy romano-crusted; white wine lemon caper sauce{" "}
-                    <span> 28</span>{" "}
-                  </span>
-                </p>
-                <p>
-                  Salmon Caesar Salad*{" "}
-                  <span className="priceDetails">
-                    --- <span>32</span>{" "}
-                  </span>
-                </p>
-                <p>
-                  Petite Filet Mignon* 6oz{" "}
-                  <span className="priceDetails">
-                    --- <span>39</span>{" "}
-                  </span>
-                </p>
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card data-aos="zoom-in" className="cardBackground">
-            <Card.Body className="cardBackground">
-              <Card.Title className="cardTitle">SIDES</Card.Title>
-              <Card.Text className="menuItems">
-                <p>
-                  Sautéed Asparagus, E.V.O.O., parmesan{" "}
-                  <span className="priceDetails">
-                    --- <span>13</span>
+                    <span> ( $16 )</span>
                   </span>
                 </p>
 
                 <p>
-                  Roasted Brussels Sprouts, bacon marmalade{" "}
+                  Salmon Caesar Salad*{" "}
                   <span className="priceDetails">
-                    ---
-                    <span>14</span>
+                    --- House made warm garlic croutons, chopped anchovies upon
+                    request <span> ( $32 )</span>{" "}
                   </span>
                 </p>
                 <p>
-                  Sautéed Spinach & Mushrooms{" "}
+                  Twin Filet Mignon* 3oz each{" "}
                   <span className="priceDetails">
-                    --- <span>13</span>{" "}
-                  </span>
-                </p>
-                <p>
-                  Lobster Mac & Cheese{" "}
-                  <span className="priceDetails">
-                    --- <span>24</span>{" "}
-                  </span>
-                </p>
-                <p>
-                  Roasted Garlic Whipped Potatoes{" "}
-                  <span className="priceDetails">
-                    --- <span>12</span>{" "}
-                  </span>
-                </p>
-                <p>
-                  Potatoes Gruyère Gratin{" "}
-                  <span className="priceDetails">
-                    --- <span>13</span>{" "}
-                  </span>
-                </p>
-                <p>
-                  French Fries{" "}
-                  <span className="priceDetails">
-                    --- <span>10</span>{" "}
-                  </span>
-                </p>
-                <p>
-                  Sautéed Mushrooms{" "}
-                  <span className="priceDetails">
-                    --- <span>13</span>{" "}
-                  </span>
-                </p>
-                <p>
-                  Roasted Creamed Corn Pancetta{" "}
-                  <span className="priceDetails">
-                    --- <span>13</span>{" "}
-                  </span>
-                </p>
-                <p>
-                  One Pound Baked Idaho Potato{" "}
-                  <span className="priceDetails">
-                    --- <span>10</span>{" "}
+                    --- <span>( $35 )</span>{" "}
                   </span>
                 </p>
               </Card.Text>
@@ -323,14 +328,121 @@ function SARASOTA() {
           </Card>
         </CardGroup>
         <CardGroup>
+          <Card data-aos="zoom-in" className="cardBackground">
+            <Card.Body className="cardBackground">
+              <Card.Title className="cardTitle">DESSERT</Card.Title>
+              <Card.Text className="menuItems">
+                <p>
+                  New York Style Cheesecake{" "}
+                  <span className="priceDetails">
+                    --- Graham Cracker Crust, Amarena Cherries, Chambord Cherry
+                    Glaze <span> ( $10 )</span>
+                  </span>
+                </p>
+
+                <p>
+                  Flourless Chocolate Torte{" "}
+                  <span className="priceDetails">
+                    --- Semi-sweet, Glazed with Dark Chocolate, Bailey's Creme
+                    anglaise and Port Wine Reduction
+                    <span> ( $10 )</span>
+                  </span>
+                </p>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </CardGroup>
+        <CardGroup>
+          <Card data-aos="zoom-in" className="cardBackground">
+            <Card.Body className="cardBackground" id="bottomCards">
+              <Card.Title className="cardTitle">SIDES</Card.Title>
+              <Card.Text className="menuItems">
+                <p>
+                  Sautéed Asparagus, E.V.O.O., parmesan{" "}
+                  <span className="priceDetails">
+                    --- <span>( $13 )</span>
+                  </span>
+                </p>
+
+                <p>
+                  Sautéed Spinach & Mushrooms{" "}
+                  <span className="priceDetails">
+                    --- <span>( $13 )</span>{" "}
+                  </span>
+                </p>
+                <p>
+                  Sautéed Mushrooms{" "}
+                  <span className="priceDetails">
+                    --- <span>( $13 )</span>{" "}
+                  </span>
+                </p>
+
+                <p>
+                  Roasted Brussels Sprouts{" "}
+                  <span className="priceDetails">
+                    --- bacon marmalade
+                    <span>( $14 )</span>
+                  </span>
+                </p>
+
+                <p>
+                  Lobster Mac & Cheese{" "}
+                  <span className="priceDetails">
+                    --- <span>( $24 )</span>{" "}
+                  </span>
+                </p>
+
+                <p>
+                  Potatoes Gruyère Gratin{" "}
+                  <span className="priceDetails">
+                    --- <span>( $13 )</span>{" "}
+                  </span>
+                </p>
+
+                <p>
+                  Roasted Garlic Whipped Potatoes{" "}
+                  <span className="priceDetails">
+                    --- <span>( $12 )</span>{" "}
+                  </span>
+                </p>
+
+                <p>
+                  French Fries{" "}
+                  <span className="priceDetails">
+                    --- <span>( $10 )</span>{" "}
+                  </span>
+                </p>
+
+                <p>
+                  One Pound Baked Idaho Potato{" "}
+                  <span className="priceDetails">
+                    --- <span>( $10 )</span>{" "}
+                  </span>
+                </p>
+                <p>
+                  Roasted Creamed Corn Pancetta{" "}
+                  <span className="priceDetails">
+                    --- <span>( $13 )</span>{" "}
+                  </span>
+                </p>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+
           <Card data-aos="zoom-in" className="cardBackground" id="bottomCards">
             <Card.Body className="cardBackground" id="bottomCards">
-              <Card.Title className="cardTitle">Add Ons</Card.Title>
+              <Card.Title className="cardTitle">ADD ONS</Card.Title>
               <Card.Text className="menuItems">
+                <p>
+                  Sweet Dijon Hollandaise Sauce{" "}
+                  <span className="priceDetails">
+                    --- <span>( $6 )</span>
+                  </span>
+                </p>
                 <p>
                   Roasted Cloves of Garlic & Mushrooms{" "}
                   <span className="priceDetails">
-                    --- <span>6</span>
+                    --- <span>( $6 )</span>
                   </span>
                 </p>
 
@@ -338,19 +450,13 @@ function SARASOTA() {
                   Jumbo Crab, Asparagus, Béarnaise{" "}
                   <span className="priceDetails">
                     ---
-                    <span>14</span>
+                    <span>( $14 )</span>
                   </span>
                 </p>
                 <p>
                   Petite Lobster Tail 4oz{" "}
                   <span className="priceDetails">
-                    --- <span>19</span>{" "}
-                  </span>
-                </p>
-                <p>
-                  Horseradish Sauce{" "}
-                  <span className="priceDetails">
-                    --- <span>5</span>{" "}
+                    --- <span>( $19 )</span>{" "}
                   </span>
                 </p>
               </Card.Text>
@@ -358,12 +464,26 @@ function SARASOTA() {
           </Card>
           <Card data-aos="zoom-in" className="cardBackground" id="bottomCards">
             <Card.Body className="cardBackground" id="bottomCards">
-              <Card.Title className="cardTitle">Sauces</Card.Title>
+              <Card.Title className="cardTitle">SAUCES</Card.Title>
               <Card.Text className="menuItems">
                 <p>
                   Béarnaise Sauce{" "}
                   <span className="priceDetails">
-                    --- <span>5</span>
+                    --- <span>( $5 )</span>
+                  </span>
+                </p>
+
+                <p>
+                  Cognac Peppercorn Bordelaise{" "}
+                  <span className="priceDetails">
+                    --- <span>( $5 )</span>{" "}
+                  </span>
+                </p>
+
+                <p>
+                  Horseradish Sauce{" "}
+                  <span className="priceDetails">
+                    --- <span>( $5 )</span>{" "}
                   </span>
                 </p>
 
@@ -371,19 +491,7 @@ function SARASOTA() {
                   Roasted Shallot Cabernet Sauce{" "}
                   <span className="priceDetails">
                     ---
-                    <span>5</span>
-                  </span>
-                </p>
-                <p>
-                  Cognac Peppercorn Bordelaise{" "}
-                  <span className="priceDetails">
-                    --- <span>5</span>{" "}
-                  </span>
-                </p>
-                <p>
-                  Horseradish Sauce{" "}
-                  <span className="priceDetails">
-                    --- <span>5</span>{" "}
+                    <span>( $5 )</span>
                   </span>
                 </p>
               </Card.Text>
@@ -393,10 +501,10 @@ function SARASOTA() {
       </Container>
       <div className="menuBottom">
         <h3>
-          Eric Black ~ <span>General Manager</span>
+          BLANK ~ <span>General Manager</span>
         </h3>
         <h3>
-          Nick Miller ~ <span>Executive Chef</span>
+          BLANK ~ <span>Executive Chef</span>
         </h3>
         <p>•BLUE- Very red, very cool center</p> <p>•RARE- Red, cool center</p>{" "}
         <p>•MEDIUM RARE- Red, warm center</p>
@@ -409,27 +517,27 @@ function SARASOTA() {
         </span>
       </div>
       <style jsx>{`
-        .navbar a,
-        p {
-          color: black !important;
-        }
-        .priceDetails {
-          font-style: italic !important;
-          color: #521111 !important;
-          font-weight: 500;
-        }
-        @media (max-width: 992px) {
-          .navbar a
-         {
-          color: white !important;
-       
-        }
-        .navbar p
-         {
-          color: white !important;
-       
-        }
-      `}</style>
+      .navbar a,
+      p {
+        color: black !important;
+      }
+      .priceDetails {
+        font-style: italic !important;
+        color: #521111 !important;
+        font-weight: 500;
+      }
+      @media (max-width: 992px) {
+        .navbar a
+       {
+        color: white !important;
+     
+      }
+      .navbar p
+       {
+        color: white !important;
+     
+      }
+    `}</style>
     </div>
   );
 }
