@@ -11,23 +11,23 @@ import Reservations from "./Pages/Reservations";
 import NoMatch from "./Pages/NoMatch";
 
 
-import DETROITBIRMINGHAM from "./Pages/menus/Detroit-BIRMINGHAM/DETROITBIRMINGHAM";
+import DETROITBIRMINGHAM from "./Pages/menus/DetroitBIRMINGHAM/DETROITBIRMINGHAM";
 
 import DETROITNorthville from "./Pages/menus/Detroit-Northville/DETROITNorthville";
 
-import COLUMBUSDUBLIN from "./Pages/menus/Columbus-Dublin/COLUMBUSDUBLIN";
-import COLUMBUSDUBLINBAR from "./Pages/menus/Columbus-Dublin/COLUMBUSDUBLINBAR";
-import COLUMBUSDUBLINBUTCHER from "./Pages/menus/Columbus-Dublin/COLUMBUSDUBLINBUTCHER";
-import COLUMBUSDUBLINEARLY from "./Pages/menus/Columbus-Dublin/COLUMBUSDUBLINEARLY";
-import COLUMBUSDUBLINFAMILY from "./Pages/menus/Columbus-Dublin/COLUMBUSDUBLINFAMILY";
+import COLUMBUSDUBLIN from "./Pages/menus/ColumbusDublin/COLUMBUSDUBLIN";
+import COLUMBUSDUBLINBAR from "./Pages/menus/ColumbusDublin/COLUMBUSDUBLINBAR";
+import COLUMBUSDUBLINBUTCHER from "./Pages/menus/ColumbusDublin/COLUMBUSDUBLINBUTCHER";
+import COLUMBUSDUBLINEARLY from "./Pages/menus/ColumbusDublin/COLUMBUSDUBLINEARLY";
+import COLUMBUSDUBLINFAMILY from "./Pages/menus/ColumbusDublin/COLUMBUSDUBLINFAMILY";
 
 
 
-import UPPERARLINGTONCOLUMBUS from "./Pages/menus/Columbus-UpperArlington/UPPERARLINGTONCOLUMBUS";
-import UPPERARLINGTONCOLUMBUSBAR from "./Pages/menus/Columbus-UpperArlington/UPPERARLINGTONCOLUMBUSBAR";
-import UPPERARLINGTONCOLUMBUSBUTCHER from "./Pages/menus/Columbus-UpperArlington/UPPERARLINGTONCOLUMBUSBUTCHER";
-import UPPERARLINGTONCOLUMBUSEARLY from "./Pages/menus/Columbus-UpperArlington/UPPERARLINGTONCOLUMBUSEARLY";
-import UPPERARLINGTONCOLUMBUSFAMILY from "./Pages/menus/Columbus-UpperArlington/UPPERARLINGTONCOLUMBUSFAMILY";
+import UPPERARLINGTONCOLUMBUS from "./Pages/menus/ColumbusUpperArlington/UPPERARLINGTONCOLUMBUS";
+import UPPERARLINGTONCOLUMBUSBAR from "./Pages/menus/ColumbusUpperArlington/UPPERARLINGTONCOLUMBUSBAR";
+import UPPERARLINGTONCOLUMBUSBUTCHER from "./Pages/menus/ColumbusUpperArlington/UPPERARLINGTONCOLUMBUSBUTCHER";
+import UPPERARLINGTONCOLUMBUSEARLY from "./Pages/menus/ColumbusUpperArlington/UPPERARLINGTONCOLUMBUSEARLY";
+import UPPERARLINGTONCOLUMBUSFAMILY from "./Pages/menus/ColumbusUpperArlington/UPPERARLINGTONCOLUMBUSFAMILY";
 
 import SARASOTA from "./Pages/menus/Sarasoda/SARASOTA";
 
@@ -44,17 +44,17 @@ import PITTSBURGHBUTCHER from './Pages/menus/Pittsburgh/PITTSBURGHBUTCHER';
 import PITTSBURGHEARLY from './Pages/menus/Pittsburgh/PITTSBURGHEARLY';
 import PITTSBURGHfamily from './Pages/menus/Pittsburgh/PITTSBURGHfamily';
 
-import CLEVELANDWESTLAKE from "./Pages/menus/Cleveland-westLake/CLEVELANDWESTLAKE";
-import CLEVELANDWESTLAKEBAR from './Pages/menus/Cleveland-westLake/CLEVELANDWESTLAKEBAR';
-import CLEVELANDWESTLAKEEARLY from './Pages/menus/Cleveland-westLake/CLEVELANDWESTLAKEEARLY';
-import CLEVELANDWESTLAKEFAMILY from './Pages/menus/Cleveland-westLake/CLEVELANDWESTLAKEFAMILY';
-import CLEVELANDWESTLAKEBUTCHER from './Pages/menus/Cleveland-westLake/CLEVELANDWESTLAKEBUTCHER';
+import CLEVELANDWESTLAKE from "./Pages/menus/ClevelandwestLake/CLEVELANDWESTLAKE";
+import CLEVELANDWESTLAKEBAR from './Pages/menus/ClevelandwestLake/CLEVELANDWESTLAKEBAR';
+import CLEVELANDWESTLAKEEARLY from './Pages/menus/ClevelandwestLake/CLEVELANDWESTLAKEEARLY';
+import CLEVELANDWESTLAKEFAMILY from './Pages/menus/ClevelandwestLake/CLEVELANDWESTLAKEFAMILY';
+import CLEVELANDWESTLAKEBUTCHER from './Pages/menus/ClevelandwestLake/CLEVELANDWESTLAKEBUTCHER';
 
-import DOWNTOWNCOLUMBUS from "./Pages/menus/Columbus-Downtown/DOWNTOWNCOLUMBUS";
-import DOWNTOWNCOLUMBUSBAR from "./Pages/menus/Columbus-Downtown/DOWNTOWNCOLUMBUSBAR";
-import DOWNTOWNCOLUMBUSBUTCHER from "./Pages/menus/Columbus-Downtown/DOWNTOWNCOLUMBUSBUTCHER";
-import DOWNTOWNCOLUMBUSEARLY from "./Pages/menus/Columbus-Downtown/DOWNTOWNCOLUMBUS";
-import DOWNTOWNCOLUMBUSFAMILY from "./Pages/menus/Columbus-Downtown/DOWNTOWNCOLUMBUSFAMILY";
+import DOWNTOWNCOLUMBUS from "./Pages/menus/ColumbusDowntown/DOWNTOWNCOLUMBUS";
+import DOWNTOWNCOLUMBUSBAR from "./Pages/menus/ColumbusDowntown/DOWNTOWNCOLUMBUSBAR";
+import DOWNTOWNCOLUMBUSBUTCHER from "./Pages/menus/ColumbusDowntown/DOWNTOWNCOLUMBUSBUTCHER";
+import DOWNTOWNCOLUMBUSEARLY from "./Pages/menus/ColumbusDowntown/DOWNTOWNCOLUMBUS";
+import DOWNTOWNCOLUMBUSFAMILY from "./Pages/menus/ColumbusDowntown/DOWNTOWNCOLUMBUSFAMILY";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
