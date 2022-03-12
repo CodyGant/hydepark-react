@@ -11,7 +11,7 @@ import Reservations from "./Pages/Reservations";
 import NoMatch from "./Pages/NoMatch";
 
 
-import DETROITBIRMINGHAM from "./Pages/menus/Detroit-Brigmingham/DETROITBIRMINGHAM";
+import DETROITBIRMINGHAM from "./Pages/menus/Detroit-BIRMINGHAM/DETROITBIRMINGHAM";
 
 import DETROITNorthville from "./Pages/menus/Detroit-Northville/DETROITNorthville";
 
