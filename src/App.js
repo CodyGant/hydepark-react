@@ -42,6 +42,10 @@ import UPPERARLINGTONCOLUMBUSFAMILY from "./Pages/menus/ColumbusUpperArlington/U
 import SARASOTA from "./Pages/menus/Sarasoda/SARASOTA";
 
 import INDIANAPOLIS from "./Pages/menus/Indianapolis/INDIANAPOLIS";
+import INDIANAPOLISBAR from "./Pages/menus/Indianapolis/INDIANAPOLISBAR";
+import INDIANAPOLISEARLY from "./Pages/menus/Indianapolis/INDIANAPOLISEARLY";
+import INDIANAPOLISBUTCHER from "./Pages/menus/Indianapolis/INDIANAPOLISBUTCHER";
+import INDIANAPOLISFAMILY from "./Pages/menus/Indianapolis/INDIANAPOLISFAMILY";
 
 import DaytonaMenu from "./Pages/menus/daytonaMenu/DaytonaMenu"
 import DAYTONABAR from "./Pages/menus/daytonaMenu/DAYTONABAR";
@@ -121,7 +125,12 @@ function App() {
 
           
           <Route path="/SARASOTA" element={<SARASOTA />} />
+
           <Route path="/INDIANAPOLIS" element={<INDIANAPOLIS />} />
+          <Route path="/INDIANAPOLISFAMILY" element={<INDIANAPOLISFAMILY />} />
+          <Route path="/INDIANAPOLISBUTCHER" element={<INDIANAPOLISBUTCHER />} />
+          <Route path="/INDIANAPOLISBAR" element={<INDIANAPOLISBAR />} />
+          <Route path="/INDIANAPOLISEARLY" element={<INDIANAPOLISEARLY />} />
           
           <Route path="/DaytonaMenu" element={<DaytonaMenu />} />
           <Route path="/DAYTONABAR" element={<DAYTONABAR />} />
