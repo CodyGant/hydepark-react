@@ -12,8 +12,18 @@ import NoMatch from "./Pages/NoMatch";
 
 
 import DETROITBIRMINGHAM from "./Pages/menus/DetroitBIRMINGHAM/DETROITBIRMINGHAM";
+import DETROITBIRMINGHAMBAR from "./Pages/menus/DetroitBIRMINGHAM/DETROITBIRMINGHAMBAR";
+import DETROITBIRMINGHAMBUTCHER from "./Pages/menus/DetroitBIRMINGHAM/DETROITBIRMINGHAMBUTCHER";
+import DETROITBIRMINGHAMEARLY from "./Pages/menus/DetroitBIRMINGHAM/DETROITBIRMINGHAMEARLY";
+import DETROITBIRMINGHAMFAMILY from "./Pages/menus/DetroitBIRMINGHAM/DETROITBIRMINGHAMFAMILY"; 
 
-import DETROITNorthville from "./Pages/menus/Detroit-Northville/DETROITNorthville";
+
+import DETROITNorthville from "./Pages/menus/DetroitNorthville/DETROITNorthville";
+import DETROITNorthvilleBAR from "./Pages/menus/DetroitNorthville/DETROITNorthvilleBAR";
+import DETROITNorthvilleEARLY from "./Pages/menus/DetroitNorthville/DETROITNorthvilleEARLY";
+import DETROITNorthvilleBUTCHER from "./Pages/menus/DetroitNorthville/DETROITNorthvilleBUTCHER";
+import DETROITNorthvilleFAMILY from "./Pages/menus/DetroitNorthville/DETROITNorthvilleFAMILY";
+
 
 import COLUMBUSDUBLIN from "./Pages/menus/ColumbusDublin/COLUMBUSDUBLIN";
 import COLUMBUSDUBLINBAR from "./Pages/menus/ColumbusDublin/COLUMBUSDUBLINBAR";
@@ -85,8 +95,17 @@ function App() {
           <Route path="/DOWNTOWNCOLUMBUSFAMILY" element={<DOWNTOWNCOLUMBUSFAMILY />} />
           
           <Route path="/DETROITBIRMINGHAM" element={<DETROITBIRMINGHAM />} />
+          <Route path="/DETROITBIRMINGHAMBAR" element={<DETROITBIRMINGHAMBAR />} />
+          <Route path="/DETROITBIRMINGHAMBUTCHER" element={<DETROITBIRMINGHAMBUTCHER />} />
+          <Route path="/DETROITBIRMINGHAMEARLY" element={<DETROITBIRMINGHAMEARLY />} />
+          <Route path="/DETROITBIRMINGHAMFAMILY" element={<DETROITBIRMINGHAMFAMILY />} />
 
           <Route path="/DETROITNorthville" element={<DETROITNorthville />} />
+          <Route path="/DETROITNorthvilleBAR" element={<DETROITNorthvilleBAR />} />
+          <Route path="/DETROITNorthvilleEARLY" element={<DETROITNorthvilleEARLY />} />
+          <Route path="/DETROITNorthvilleBUTCHER" element={<DETROITNorthvilleBUTCHER />} />
+          <Route path="/DETROITNorthvilleFAMILY" element={<DETROITNorthvilleFAMILY />} />
+
 
           <Route path="/COLUMBUSDUBLIN" element={<COLUMBUSDUBLIN />} />
           <Route path="/COLUMBUSDUBLINBAR" element={<COLUMBUSDUBLINBAR />} />

@@ -2,7 +2,7 @@ import React from "react";
 
 import logo from "../../../assests/hydepark.png";
 import { Card, Container, CardGroup, Button } from "react-bootstrap";
-function DETROITBIRMINGHAM() {
+function DETROITNorthville() {
   return (
     <div className="menuPage">
       <img
@@ -11,21 +11,21 @@ function DETROITBIRMINGHAM() {
         src={logo}
         alt="building"
       />
-      <p className="locationName">DETROIT BIRMINGHAM</p>
+      <p className="locationName">DETROIT NORTHVILLE</p>
       <h3>
-        CALL US <a href="/">(248) 594-4369</a>
+        CALL US <a href="/">(248) 679-0007</a>
       </h3>
 
-      <Button className="menupagebutton" href="/DETROITBIRMINGHAMBAR">
+      <Button className="menupagebutton" href="/DETROITNorthvilleBAR">
         HAPPY HOUR MENU
       </Button>
-      <Button className="menupagebutton" href="/DETROITBIRMINGHAMEARLY">
+      <Button className="menupagebutton" href="/DETROITNorthvilleEARLY">
         EARLY NIGHTS MENU
       </Button>
-      <Button className="menupagebutton" href="/DETROITBIRMINGHAMBUTCHER">
+      <Button className="menupagebutton" href="/DETROITNorthvilleBUTCHER">
         BUTCHER GRILLE MENU
       </Button>
-      <Button className="menupagebutton" href="/DETROITBIRMINGHAMFAMILY">
+      <Button className="menupagebutton" href="/DETROITNorthvilleFAMILY">
         FAMAILY TO GO MENU
       </Button>
       <Container className="menulanding">
@@ -559,4 +559,4 @@ function DETROITBIRMINGHAM() {
   );
 }
 
-export default DETROITBIRMINGHAM;
+export default DETROITNorthville;
