@@ -74,6 +74,12 @@ import DOWNTOWNCOLUMBUSBUTCHER from "./Pages/menus/ColumbusDowntown/DOWNTOWNCOLU
 import DOWNTOWNCOLUMBUSEARLY from "./Pages/menus/ColumbusDowntown/DOWNTOWNCOLUMBUS";
 import DOWNTOWNCOLUMBUSFAMILY from "./Pages/menus/ColumbusDowntown/DOWNTOWNCOLUMBUSFAMILY";
 
+import CLEVELANDBEACHWOOD from "./Pages/menus/ClevelandBeachwood/CLEVELANDBEACHWOOD";
+import CLEVELANDBEACHWOODBAR from "./Pages/menus/ClevelandBeachwood/CLEVELANDBEACHWOODBAR";
+import CLEVELANDBEACHWOODEARLY from "./Pages/menus/ClevelandBeachwood/CLEVELANDBEACHWOODEARLY";
+import CLEVELANDBEACHWOODBUTCHER from "./Pages/menus/ClevelandBeachwood/CLEVELANDBEACHWOODBUTCHER";
+import CLEVELANDBEACHWOODFAMILY from "./Pages/menus/ClevelandBeachwood/CLEVELANDBEACHWOODFAMILY";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -156,6 +162,13 @@ function App() {
           <Route path="/CLEVELANDWESTLAKEEARLY" element={<CLEVELANDWESTLAKEEARLY />} />
           <Route path="/CLEVELANDWESTLAKEFAMILY" element={<CLEVELANDWESTLAKEFAMILY />} />
           <Route path="/CLEVELANDWESTLAKEBUTCHER" element={<CLEVELANDWESTLAKEBUTCHER />} />
+
+          <Route path="/CLEVELANDBEACHWOOD" element={<CLEVELANDBEACHWOOD />} />
+          <Route path="/CLEVELANDBEACHWOODBAR" element={<CLEVELANDBEACHWOODBAR />} />
+          <Route path="/CLEVELANDBEACHWOODEARLY" element={<CLEVELANDBEACHWOODEARLY />} />
+          <Route path="/CLEVELANDBEACHWOODBUTCHER" element={<CLEVELANDBEACHWOODBUTCHER />} />
+          <Route path="/CLEVELANDBEACHWOODFAMILY" element={<CLEVELANDBEACHWOODFAMILY />} />
+
         </Routes>
       </Router>
       <Footer />
