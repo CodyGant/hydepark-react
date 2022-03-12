@@ -23,11 +23,17 @@ function FamilyDaytonamenu() {
       <Button className="menupagebutton" href="/DaytonaMenu">
         DINNER MENU
       </Button>
-      <Button className="menupagebutton"  href='/DaytonaEarly'>EARLY NIGHTS MENU</Button>
-      <Button className="menupagebutton" href="/DaytonaButcher">BUTCHER GRILLE MENU</Button>
-      <Button className="menupagebutton"  href="/DAYTONABAR">HAPPY HOUR MENU</Button>
+      <Button className="menupagebutton" href="/DaytonaEarly">
+        EARLY NIGHTS MENU
+      </Button>
+      <Button className="menupagebutton" href="/DaytonaButcher">
+        BUTCHER GRILLE MENU
+      </Button>
+      <Button className="menupagebutton" href="/DAYTONABAR">
+        HAPPY HOUR MENU
+      </Button>
       <Container className="menulanding">
-        <h1 className="menuName" >For The Family Menu</h1>
+        <h1 className="menuName">For The Family Menu</h1>
 
         <CardGroup>
           <Card data-aos="zoom-in" className="cardBackground">
@@ -175,7 +181,10 @@ function FamilyDaytonamenu() {
                 </p>
 
                 <p>at 25% Off Menu Price </p>
-                <span className="priceDetails">(Up to $500 Retail; 6 Bottle Maximum) Must Be 21 Years or Older to Purchase</span>
+                <span className="priceDetails">
+                  (Up to $500 Retail; 6 Bottle Maximum) Must Be 21 Years or
+                  Older to Purchase
+                </span>
               </Card.Text>
             </Card.Body>
           </Card>
