@@ -64,7 +64,7 @@ function Menu() {
               <Dropdown.Item href="/SARASOTA" target="_blank">
                 SARASOTA
               </Dropdown.Item>
-              <Dropdown.Item href="/DETROITBIRGMINGHAM" target="_blank">
+              <Dropdown.Item href="/DETROITBIRMINGHAM" target="_blank">
                 DETROIT - Birmingham
               </Dropdown.Item>
               <Dropdown.Item href="/DETROITNORTHVILLE" target="_blank">
