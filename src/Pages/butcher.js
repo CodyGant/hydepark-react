@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "../../../assests/butcher.png";
+import logo from "../assests/butcher.png";
 import { Card, Container, CardGroup, Button } from "react-bootstrap";
-function DaytonaButcher() {
+function butcher() {
   return (
     <div className="menuPage">
       <img
@@ -10,21 +10,14 @@ function DaytonaButcher() {
         src={logo}
         alt="building"
       />
-      <p className="locationName">DAYTONA BEACH</p>
+     
       <p>- Available For Pick-Up in Stores Only. -</p>
       <p>All steaks are Cryovaced and Aged for 28 Days.</p>
       <p>
         We suggest you prepare or freeze steaks within seven days and fresh fish
         within 48 hours.
       </p>
-      <h3>
-        CALL US <a href="/">(386) 226-9844</a>
-      </h3>
-
-      <Button className = 'menupagebutton' href='/DaytonaMenu'>DINNER MENU</Button>
-    <Button className = 'menupagebutton' href='/DaytonaEarly'>EARLY NIGHTS MENU</Button>
-    <Button className = 'menupagebutton' href='/DAYTONABAR'>HAPPY HOUR MENU</Button>
-    <Button className = 'menupagebutton' href = '/DaytonaFamily'>FAMILY TO GO MENU</Button>
+      
       <Container className="menulanding">
         <h1 className="menuName">BUTCHER GRILLE BOX</h1>
             <p>Ready to Cook At Home Featuring Our Signature Steak Rub</p>
@@ -148,31 +141,31 @@ function DaytonaButcher() {
                 <p>
                   Roasted Brussels Sprouts{" "}
                   <span className="priceDetails">--- Bacon marmalade
-                  <span> ( $24 )</span>
+                  <span>( $24 )</span>
                   </span>
                 </p>
                 <p>
                   Roasted Garlic Whipped Potatoes{" "}
-                  <span className="priceDetails"> ---
-                  <span> ( $20 )</span>
+                  <span className="priceDetails">
+                  <span>( $20 )</span>
 
                   </span>
                 </p>
                 <p>
                   Sauteed Asparagus{" "}
                   <span className="priceDetails">--- E.V.O.O., parmesan
-                  <span> ( $20 )</span>
+                  <span>( $20 )</span>
                   </span>
                 </p>
                 <p>
                   Lobster Mac & Cheese{" "}
                   <span className="priceDetails">--- 
-                  <span> ( $45 )</span></span>
+                  <span>( $45 )</span></span>
                 </p>
                 <p>
                   Potatoes Gruyere Gratin{" "}
                   <span className="priceDetails">--- 
-                  <span> ( $20 )</span></span>
+                  <span>( $20 )</span></span>
                 </p>
               </Card.Text>
             </Card.Body>
@@ -203,20 +196,12 @@ function DaytonaButcher() {
         </CardGroup>
       </Container>
       <div className="menuBottom">
-        <h3>
-          Eric Black ~ <span>General Manager</span>
-        </h3>
-        <h3>
-          Nick Miller ~ <span>Executive Chef</span>
-        </h3>
+        
         <p>
           Before placing your order please let us know if anyone in your party
           has a food allergy.
         </p>
-        <p>•BLUE- Very red, very cool center</p> <p>•RARE- Red, cool center</p>{" "}
-        <p>•MEDIUM RARE- Red, warm center</p>
-        <p>•MEDIUM- Pink center</p> <p>•MEDIUM WELL- Slightly pink center </p>
-        <p>•WELL- Cooked throughout, no pink</p>
+        
         <span>
           *Consuming raw or undercooked meats, poultry, seafood or shellfish may
           increase your risk of foodborne illness, especially if you have
@@ -249,4 +234,4 @@ function DaytonaButcher() {
   );
 }
 
-export default DaytonaButcher;
+export default butcher;

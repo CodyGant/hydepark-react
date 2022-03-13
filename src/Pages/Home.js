@@ -69,7 +69,7 @@ const Home = () => {
               </p>
               <h2>Premium Selections</h2>
               <h3>Avalible For Pick-Up In Stores Only</h3>
-              <Button className="butcherButton">BUTCHER BOX MENU</Button>
+              <Button className="butcherButton" href = '/butcher'>BUTCHER BOX MENU</Button>
             </div>
           </div>
         </Container>

@@ -59,7 +59,7 @@ function DOWNTOWNCOLUMBUS() {
                 <p>
                   The Bobby Rahal Steak 16oz{" "}
                   <span className="priceDetails">
-                    ---heavily marble <span> ( $61 )</span>
+                    --- Heavily marble <span> ( $61 )</span>
                   </span>
                 </p>
                 <p>
@@ -85,36 +85,36 @@ function DOWNTOWNCOLUMBUS() {
                   Steak Griffin 8oz/12oz{" "}
                   <span className="priceDetails">
                     --- Filet Mignon, garlic, cracked black pepper, roasted
-                    shallot Cabernet sauce <span> ( $54/66 )</span>
+                    shallot Cabernet sauce <span>( $54/66 )</span>
                   </span>
                 </p>
                 <p>
                   Steak Au Nicklaus 14oz{" "}
                   <span className="priceDetails">
                     --- Filet Mignon, cracked peppercorns & cognac bordelaise
-                    (Spicy) <span> ( $59 )</span>
+                    (Spicy) <span>( $59 )</span>
                   </span>
                 </p>
                 <p>
                   Japanese Wagyu 100% A-5{" "}
                   <span className="priceDetails">
                     --- Strip Loin 6oz, Miyazaki Kagoshima Region Sliced;
-                    prepared rare to medium-rare <span> ( $145 )</span>
+                    prepared rare to medium-rare <span>( $145 )</span>
                   </span>
                 </p>
                 <p>
                   Steak Tressel 14oz{" "}
                   <span className="priceDetails">
                     --- New York Strip topped with roasted cloves of garlic &
-                    mushrooms <span> ( $59 )</span>
+                    mushrooms <span>( $59 )</span>
                   </span>
                 </p>
                 <p>
                   Steak Kosar 8oz/12oz{" "}
                   <span className="priceDetails">
-                    ---A Filet Mignon over bordelaise crowned with asparagus,
+                    --- A Filet Mignon over bordelaise crowned with asparagus,
                     lobster & bearnaise, sliced mushrooms
-                    <span> ( $62/74 )</span>
+                    <span>( $62/74 )</span>
                   </span>
                 </p>
 
@@ -122,7 +122,7 @@ function DOWNTOWNCOLUMBUS() {
                   The Scarlet & Gray Steak 40oz{" "}
                   <span className="priceDetails">
                     --- Long Bone Tomahawk Ribeye, 100% Black Angus, Creekstone
-                    Farms <span> ( $114 )</span>
+                    Farms <span>( $114 )</span>
                   </span>
                 </p>
               </Card.Text>
@@ -138,7 +138,7 @@ function DOWNTOWNCOLUMBUS() {
                 <p>
                   Jumbo Lump Crab Cocktail{" "}
                   <span className="priceDetails">
-                    ---Spicy mustard, cocktail sauce <span> ( $22 )</span>
+                    ---Spicy mustard, cocktail sauce <span>( $22 )</span>
                   </span>
                 </p>
 
@@ -161,7 +161,7 @@ function DOWNTOWNCOLUMBUS() {
                   Chilled Lobster Tail Cocktail{" "}
                   <span className="priceDetails">
                     ---Spicy mustard & classic cocktail sauce{" "}
-                    <span> ( $23 )</span>
+                    <span>( $23 )</span>
                   </span>
                 </p>
 
@@ -175,7 +175,7 @@ function DOWNTOWNCOLUMBUS() {
                 <p>
                   Duroc Thick Cut Bacon{" "}
                   <span className="priceDetails">
-                    --- Bragg's cider vinegar glaze <span> ( $19 )</span>
+                    --- Bragg's cider vinegar glaze <span>( $19 )</span>
                   </span>
                 </p>
 
@@ -190,14 +190,14 @@ function DOWNTOWNCOLUMBUS() {
                   Ahi Tuna Tower*{" "}
                   <span className="priceDetails">
                     ---Avocado, wasabi soy lime dressing, wontons{" "}
-                    <span> ( $20 )</span>
+                    <span>( $20 )</span>
                   </span>
                 </p>
                 <p>
                   Crispy Calamari*{" "}
                   <span className="priceDetails">
                     ---Thai sweet hot chili sauce, peppers, carrots, scallions,
-                    roasted cashews <span> ( $19 )</span>
+                    roasted cashews <span>( $19 )</span>
                   </span>
                 </p>
               </Card.Text>
@@ -275,7 +275,7 @@ function DOWNTOWNCOLUMBUS() {
                 <p>
                   Blackboard Fresh Fish*{" "}
                   <span className="priceDetails">
-                    ---Pan-seared; lemon crystal citrus sauce or soy vinaigrette{" "}
+                    --- Pan-seared; lemon crystal citrus sauce or soy vinaigrette{" "}
                     <p>
                       Salmon Filet{" "}
                       <span className="priceDetails">
