@@ -266,6 +266,10 @@ span {
   margin-top: 100px;
   height: 100px;
 }
+.butcherImage{
+  margin-top: 100px;
+  height: 150px;
+}
 .cardTitle {
   font-size: 25px !important;
   font-weight: bold;
@@ -279,6 +283,7 @@ span {
   font-style: italic !important;
   color: black !important;
   font-weight: 500;
+  white-space: nowrap; 
 }
 .menuBottom {
   font-family: "Roboto Slab", serif;

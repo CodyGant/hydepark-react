@@ -40,7 +40,7 @@ function Menu() {
 
             <Dropdown.Menu className="dropDown">
               <Dropdown.Item href="/PITTSBURGH">PITTSBURGH</Dropdown.Item>
-              <Dropdown.Item href="CLEVELANDWestlake" target="_blank">
+              <Dropdown.Item href="/CLEVELANDBEACHWOOD" target="_blank">
                 CLEVELAND - Beachwood
               </Dropdown.Item>
               <Dropdown.Item href="/CLEVELANDWESTLAKE" target="_blank">
