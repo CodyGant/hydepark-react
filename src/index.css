@@ -380,18 +380,21 @@ span {
 /* private dining STYLES */
 .privateDining {
   min-height: 100vh;
+  width:100% !important;
   background-image: linear-gradient(rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.103)),
     url("./assests/squares.svg");
   box-shadow: inset 0px 0px 24px -3px rgba(0, 0, 0, 0.788);
   display: table;
+
 }
 .privatetext {
   letter-spacing: 2px;
-  padding: 100px;
+  padding-top:100px;
   text-align: center;
   margin: 0 auto;
   color: black;
   color: rgb(211, 206, 206);
+  width:auto;
   height: inherit;
   
 }
