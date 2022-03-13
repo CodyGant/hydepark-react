@@ -377,6 +377,68 @@ span {
 }
 /* SECONDPART OF LANDING PAGE STYLES */
 
+/* private dining STYLES */
+.privateDining {
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.103)),
+    url("./assests/squares.svg");
+  box-shadow: inset 0px 0px 24px -3px rgba(0, 0, 0, 0.788);
+  display: table;
+}
+.privatetext {
+  letter-spacing: 2px;
+  padding: 100px;
+  text-align: center;
+  margin: 0 auto;
+  color: black;
+  color: rgb(211, 206, 206);
+  height: inherit;
+  
+}
+.privatetext h1 {
+  font-size: 50px;
+}
+.privateFlex {
+  box-shadow: 13px 10px 32px -3px rgba(0, 0, 0, 0.842);
+  display:table-cell;
+  vertical-align: middle;
+  height: inherit;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  width:70vw;
+ 
+  
+}
+.privateButton {
+  cursor: pointer;
+  outline: none !important;
+  border: none !important;
+  background-color: white !important;
+  padding: 15px 30px !important;
+  font-size: 1.3rem;
+  font-weight: 550;
+  color: #521111 !important;
+  background-size: 100% 100%;
+  border-radius: 0 !important;
+}
+.privateButton:hover {
+  background: linear-gradient(
+    55deg,
+    transparent 10%,
+    black 10% 20%,
+    transparent 20% 30%,
+    black 30% 40%,
+    transparent 40% 50%,
+    black 50% 60%,
+    transparent 60% 70%,
+    black 70% 80%,
+    transparent 80% 90%,
+    black 90% 100%
+  );
+}
+/* private dining STYLES */
+
+
 /* BUTCHERBOX OF LANDING PAGE STYLES */
 .butcherBox {
   min-height: 100vh;

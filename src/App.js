@@ -10,6 +10,7 @@ import Locations from "./Pages/Locations";
 import Reservations from "./Pages/Reservations";
 import NoMatch from "./Pages/NoMatch";
 import Butcher from "./Pages/butcher";
+import Privatedining from "./Pages/privateDining";
 
 import DETROITBIRMINGHAM from "./Pages/menus/DetroitBIRMINGHAM/DETROITBIRMINGHAM";
 import DETROITBIRMINGHAMBAR from "./Pages/menus/DetroitBIRMINGHAM/DETROITBIRMINGHAMBAR";
@@ -103,6 +104,7 @@ function App() {
           <Route path="/Reservations" element={<Reservations />} />
           <Route path="/NoMatch" element={<NoMatch />} />
           <Route path="/butcher" element={<Butcher />} />
+          <Route path="/privateDining" element={<Privatedining />} />
         
           <Route path="/DOWNTOWNCOLUMBUS" element={<DOWNTOWNCOLUMBUS />} />
           <Route path="/DOWNTOWNCOLUMBUSBAR" element={<DOWNTOWNCOLUMBUSBAR />} />
