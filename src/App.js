@@ -55,6 +55,7 @@ import DaytonaMenu from "./Pages/menus/daytonaMenu/DaytonaMenu"
 import DAYTONABAR from "./Pages/menus/daytonaMenu/DAYTONABAR";
 import DaytonaEarly from './Pages/menus/daytonaMenu/EARLYNIGHTSDAYTONA';
 import DaytonaFamily from './Pages/menus/daytonaMenu/FamilyDaytonamenu';
+import DaytonaButcher from './Pages/menus/daytonaMenu/DaytonaButcher';
 
 import PITTSBURGH from "./Pages/menus/Pittsburgh/PITTSBURGH";
 import PITTSBURGHBAR from './Pages/menus/Pittsburgh/PITTSBURGHBAR';
@@ -150,6 +151,7 @@ function App() {
           <Route path="/DAYTONABAR" element={<DAYTONABAR />} />
           <Route path="/DaytonaEarly" element={<DaytonaEarly />} />
           <Route path="/DaytonaFamily" element={<DaytonaFamily />} />
+          <Route path="/DaytonaButcher" element={<DaytonaButcher />} />
           
           <Route path="/PITTSBURGH" element={<PITTSBURGH />} />
           <Route path="/PITTSBURGHBAR" element={<PITTSBURGHBAR />} />
