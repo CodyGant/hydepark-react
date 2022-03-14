@@ -42,8 +42,8 @@ function privateDining() {
               complete the form and we will contact you to answer all your
               questions.
             </h4>
-
-            <Button className="privateButton" href="/butcher">
+             
+            <Button className="privateButton" href="/privateContactus">
               CONTACT US
             </Button>
           </div>
