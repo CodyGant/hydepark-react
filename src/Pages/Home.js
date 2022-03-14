@@ -106,7 +106,7 @@ const Home = () => {
                       Semi-Private Venues will Make Your Event a Success Well
                       Beyond Your Expectations.
                     </Card.Text>
-                    <Button href = '/privateDining'>Learn More</Button>
+                    <Button  className ='cardButton' href = '/privateDining'>Learn More</Button>
                   </Card.Body>
                 </Card>
 

@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import { Card, Container, CardGroup } from "react-bootstrap";
+
+
+
+
 function PrivateContactus() {
   const [fullname, setFullname] = useState("");
   const [email, setEmail] = useState("");
@@ -91,18 +95,18 @@ function PrivateContactus() {
   return (
     <div className="contactMain">
       <Container className="ContactContainer">
-        <CardGroup className = 'cardform'>
+        <CardGroup >
           <Card
             data-aos="flip-left"
             data-aos-easing="linear"
             data-aos-duration="300"
-            className="cardpls"
+            
           >
-            <Card.Body>
+            <Card.Body className = 'cardBody'>
               
               <Card.Title className = 'cardtitle'>EMAIL OUR PRIVATE EVENT PROFESSIONALS</Card.Title>
               <Card.Text className = 'cardText'>
-                <div classname = 'centerform'>
+                <div className = 'centerform'>
                   <form onSubmit={handleSubmit}>
 
 

@@ -440,23 +440,22 @@ span {
   width: 100%;
   height: 100%;
   display: table;
-
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/src/assests/dotedbackground.png");
-  background-position: right;
-  background-size: cover;
-  background-repeat: no-repeat;
+    url("/src/assests/hollowedboxes.svg");
 }
 
 .ContactContainer {
   display: table-cell;
   vertical-align: middle;
-  width: 90vw;
   text-align: left;
+  
 }
 
 .cardtitle{
   text-align: center;
+}
+.cardBody{
+  background-color: #64080848 !important;
 }
 
 .input {
@@ -471,16 +470,16 @@ span {
   margin-top: 50px;
   background: transparent;
   border-radius: 0;
-  border: 4px solid #648b7f;
+  border: 4px solid black;
   border-left: none;
   border-right: none;
-  color: #648b7f;
+  color: white;
   font-weight: 600;
 }
 .contactbtn:hover {
-  color: #648b7f;
-  background-color: #ebc08a;
-  border: 4px solid #ebc08a;
+  color: black;
+  background-color: white;
+  border: 4px solid white;
   border-left: none;
   border-right: none;
   transition-duration: 0.5s !important;
@@ -618,6 +617,22 @@ span {
 }
 .card img {
   height: 220px;
+}
+.cardButton{
+  padding:15px 30px !important;
+  background-color:white !important;
+  color:#521111 !important;
+  border-radius: 0 !important;
+  box-shadow: none!important;
+  border: none !important;
+}
+.cardButton:hover{
+  background-color:black !important;
+  color:white !important;
+  border-radius: 0 !important;
+  box-shadow: none!important;
+  box-shadow: none!important;
+  border: none!important;
 }
 
 /* CARDS OF LANDING PAGE STYLES */
