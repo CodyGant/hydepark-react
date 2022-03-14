@@ -5,6 +5,10 @@ function PrivateContactus() {
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
+  const [phonenumber, setNumber] = useState("");
+  const [groupname, setGroup] = useState("");
+  const [fax, setFax] = useState("");
+  const [guestNum, setGuest] = useState("");
 
   //   Form validation state
   const [errors, setErrors] = useState({});
@@ -58,6 +62,11 @@ function PrivateContactus() {
           fullname: fullname,
           subject: subject,
           message: message,
+          fax:fax,
+          phonenumber: phonenumber,
+          groupname: groupname,
+          guestNum: guestNum,
+
         }),
         headers: {
           "Content-Type": "application/json",
@@ -95,6 +104,8 @@ function PrivateContactus() {
               <Card.Text className = 'cardText'>
                 <div classname = 'centerform'>
                   <form onSubmit={handleSubmit}>
+
+
                     <label htmlFor="fullname">
                       FULL NAME<span>*</span>
                     </label>
@@ -107,6 +118,8 @@ function PrivateContactus() {
                       }}
                       name="fullname"
                     />
+
+
                     {errors?.fullname && <p>Fullname cannot be empty.</p>}
                     <label htmlFor="GROUPNAME">
                     COMPANY OR GROUP NAME<span> (optional)</span>
@@ -114,47 +127,53 @@ function PrivateContactus() {
                     <input
                       className="input"
                       type="text"
-                      value={fullname}
+                      value={groupname}
                       onChange={(e) => {
-                        setFullname(e.target.value);
+                        setGroup(e.target.value);
                       }}
-                      name=""
+                      name="groupname"
                     />
+
+
                      <label htmlFor="GUESTNUMBER">
                     NUMBER OF ATTENDING<span></span>
                     </label>
                     <input
                       className="input"
                       type="text"
-                      value={fullname}
+                      value={guestNum}
                       onChange={(e) => {
-                        setFullname(e.target.value);
+                        setGuest(e.target.value);
                       }}
-                      name="PHONE NUMBER"
+                      name="guestNum"
                     />
+
+
                      <label htmlFor="PHONE">
                     PHONE NUMBER<span>*</span>
                     </label>
                     <input
                       className="input"
                       type="text"
-                      value={fullname}
+                      value={phonenumber}
                       onChange={(e) => {
-                        setFullname(e.target.value);
+                        setNumber(e.target.value);
                       }}
-                      name="PHONE NUMBER"
+                      name="PHONENUMBER"
                     />
-                     <label htmlFor="FAX">
+
+
+                     <label htmlFor="fax">
                     FAX NUMBER<span> (optional)</span>
                     </label>
                     <input
                       className="input"
                       type="text"
-                      value={fullname}
+                      value={fax}
                       onChange={(e) => {
-                        setFullname(e.target.value);
+                        setFax(e.target.value);
                       }}
-                      name="FAX NUMBER"
+                      name="FAX"
                     />
 
                     <label htmlFor="email">
