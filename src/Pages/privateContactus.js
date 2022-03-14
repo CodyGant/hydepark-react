@@ -1,8 +1,5 @@
 import React, { useState } from "react";
-import { Card, Container, CardGroup } from "react-bootstrap";
-
-
-
+import { Card, Container, CardGroup, Dropdown } from "react-bootstrap";
 
 function PrivateContactus() {
   const [fullname, setFullname] = useState("");
@@ -66,11 +63,10 @@ function PrivateContactus() {
           fullname: fullname,
           subject: subject,
           message: message,
-          fax:fax,
+          fax: fax,
           phonenumber: phonenumber,
           groupname: groupname,
           guestNum: guestNum,
-
         }),
         headers: {
           "Content-Type": "application/json",
@@ -95,20 +91,75 @@ function PrivateContactus() {
   return (
     <div className="contactMain">
       <Container className="ContactContainer">
-        <CardGroup >
+        <CardGroup>
           <Card
             data-aos="flip-left"
             data-aos-easing="linear"
             data-aos-duration="300"
-            
           >
-            <Card.Body className = 'cardBody'>
-              
-              <Card.Title className = 'cardtitle'>EMAIL OUR PRIVATE EVENT PROFESSIONALS</Card.Title>
-              <Card.Text className = 'cardText'>
-                <div className = 'centerform'>
+            <Card.Body className="cardBody">
+              <Card.Title className="cardtitle">
+                EMAIL OUR PRIVATE EVENT PROFESSIONALS
+              </Card.Title>
+              <Card.Text className="cardText">
+                <div className="centerform">
                   <form onSubmit={handleSubmit}>
+                    <Dropdown>
+                      <Dropdown.Toggle className="selectLocation">
+                        SELECT LOCATION
+                      </Dropdown.Toggle>
 
+                      <Dropdown.Menu className="dropDown">
+                        <Dropdown.Item href="/PITTSBURGH">
+                          PITTSBURGH
+                        </Dropdown.Item>
+                        <Dropdown.Item
+                          href="/CLEVELANDBEACHWOOD"
+                          target="_blank"
+                        >
+                          CLEVELAND - Beachwood
+                        </Dropdown.Item>
+                        <Dropdown.Item
+                          href="/CLEVELANDWESTLAKE"
+                          target="_blank"
+                        >
+                          CLEVELAND - Westlake{" "}
+                        </Dropdown.Item>
+                        <Dropdown.Item
+                          href="/UPPERARLINGTONCOLUMBUS"
+                          target="_blank"
+                        >
+                          COLUMBUS - Upper Arlington
+                        </Dropdown.Item>
+                        <Dropdown.Item href="/COLUMBUSDUBLIN" target="_blank">
+                          COLUMBUS - Dublin{" "}
+                        </Dropdown.Item>
+                        <Dropdown.Item href="/DOWNTOWNCOLUMBUS" target="_blank">
+                          COLUMBUS - Downtown
+                        </Dropdown.Item>
+                        <Dropdown.Item href="/DaytonaMenu" target="_blank">
+                          DAYTONA BEACH
+                        </Dropdown.Item>
+                        <Dropdown.Item href="/INDIANAPOLIS" target="_blank">
+                          INDIANAPOLIS
+                        </Dropdown.Item>
+                        <Dropdown.Item href="/SARASOTA" target="_blank">
+                          SARASOTA
+                        </Dropdown.Item>
+                        <Dropdown.Item
+                          href="/DETROITBIRMINGHAM"
+                          target="_blank"
+                        >
+                          DETROIT - Birmingham
+                        </Dropdown.Item>
+                        <Dropdown.Item
+                          href="/DETROITNORTHVILLE"
+                          target="_blank"
+                        >
+                          DETROIT - Northville
+                        </Dropdown.Item>
+                      </Dropdown.Menu>
+                    </Dropdown>
 
                     <label htmlFor="fullname">
                       FULL NAME<span>*</span>
@@ -123,10 +174,9 @@ function PrivateContactus() {
                       name="fullname"
                     />
 
-
                     {errors?.fullname && <p>Fullname cannot be empty.</p>}
                     <label htmlFor="GROUPNAME">
-                    COMPANY OR GROUP NAME<span> (optional)</span>
+                      COMPANY OR GROUP NAME<span> (optional)</span>
                     </label>
                     <input
                       className="input"
@@ -138,9 +188,8 @@ function PrivateContactus() {
                       name="groupname"
                     />
 
-
-                     <label htmlFor="GUESTNUMBER">
-                    NUMBER OF ATTENDING<span></span>
+                    <label htmlFor="GUESTNUMBER">
+                      NUMBER OF ATTENDING<span></span>
                     </label>
                     <input
                       className="input"
@@ -152,9 +201,8 @@ function PrivateContactus() {
                       name="guestNum"
                     />
 
-
-                     <label htmlFor="PHONE">
-                    PHONE NUMBER<span>*</span>
+                    <label htmlFor="PHONE">
+                      PHONE NUMBER<span>*</span>
                     </label>
                     <input
                       className="input"
@@ -166,9 +214,8 @@ function PrivateContactus() {
                       name="PHONENUMBER"
                     />
 
-
-                     <label htmlFor="fax">
-                    FAX NUMBER<span> (optional)</span>
+                    <label htmlFor="fax">
+                      FAX NUMBER<span> (optional)</span>
                     </label>
                     <input
                       className="input"
