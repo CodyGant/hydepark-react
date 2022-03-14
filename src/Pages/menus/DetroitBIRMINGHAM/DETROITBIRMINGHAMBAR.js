@@ -10,7 +10,7 @@ function DETROITBIRMINGHAMBAR() {
         src={logo}
         alt="building"
       />
-      <p className="locationName">DETROIT BIRMINGHAM </p>
+      <p className="locationName">DETROIT BIRMINGHAM</p>
       <p>AVAILABLE IN OUR BAR TUESDAY-FRIDAY 430PM-6PM</p>
       <h3>
         CALL US <a href="/">(248) 594-4369</a>

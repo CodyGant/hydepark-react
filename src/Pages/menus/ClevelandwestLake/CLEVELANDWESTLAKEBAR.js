@@ -10,10 +10,10 @@ function CLEVELANDWESTLAKEBAR() {
         src={logo}
         alt="building"
       />
-      <p className="locationName">DAYTONA BEACH</p>
-      <p>AVAILABLE IN OUR BAR & TERRACE MONDAY-FRIDAY 4PM-630PM</p>
+      <p className="locationName">CLEVELAND WESTLAKE</p>
+      <p>AVAILABLE IN OUR BAR TUESDAY-FRIDAY 4PM-6PM</p>
       <h3>
-        CALL US <a href="/">(386) 226-9844</a>
+        CALL US <a href="/">(440) 892-4933</a>
       </h3>
 
       <Button className="menupagebutton" href="/CLEVELANDWESTLAKE">

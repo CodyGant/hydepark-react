@@ -31,14 +31,14 @@ function DAYTONABAR() {
                 <p>
                   Jumbo Shrimp Cocktail (3){" "}
                   <span className="priceDetails">
-                    --- Cocktail sauce <span>($8)</span>
+                    --- Cocktail sauce <span>( $8 )</span>
                   </span>
                 </p>
 
                 <p>
                   Wagyu Beef Carpaccio*{" "}
                   <span className="priceDetails">
-                    --- Chilled wagyu beef sliced razor thin <span>( $10)</span>
+                    --- Chilled wagyu beef sliced razor thin <span>( $10 )</span>
                   </span>
                 </p>
                 <p>
@@ -52,7 +52,7 @@ function DAYTONABAR() {
                   Beef Tenderloin Sliders*{" "}
                   <span className="priceDetails">
                     --- Horseradish sauce, spinach, crispy onion straws{" "}
-                    <span> ($8)</span>
+                    <span> ( $8 )</span>
                   </span>
                 </p>
               </Card.Text>
@@ -68,7 +68,7 @@ function DAYTONABAR() {
                 <p>
                   Bee's Knees{" "}
                   <span className="priceDetails">
-                    ---Aviation Gin, Lemon, Honey Simple Syrup<span> ($7)</span>
+                    --- Aviation Gin, Lemon, Honey Simple Syrup<span> ( $7 )</span>
                   </span>
                 </p>
 
@@ -76,54 +76,54 @@ function DAYTONABAR() {
                   Black Cherry Old Fashioned{" "}
                   <span className="priceDetails">
                     --- Old Forester Bourbon, Amaretto Di Saronno, Black Cherry
-                    Syrup, Old Fashioned Bitters <span> ($7)</span>
+                    Syrup, Old Fashioned Bitters <span> ( $7 )</span>
                   </span>
                 </p>
                 <p>
                   Pink Grapefruit{" "}
                   <span className="priceDetails">
                     --- Finlandia Grapefruit Vodka, St. Germain, Grapefruit &
-                    Cranberry Juices <span>( $8)</span>
+                    Cranberry Juices <span>( $8 )</span>
                   </span>
                 </p>
                 <p>
                   Tito’s Kickin’ Mule{" "}
                   <span className="priceDetails">
                     --- Tito’s Vodka, Ginger Beer, Lime (Keep the Mug Additional
-                    $20) <span>( $8)</span>
+                    $20) <span>( $8 )</span>
                   </span>
                 </p>
                 <p>
                   Classic Cosmopolitan{" "}
                   <span className="priceDetails">
-                    ---Red pepper aioli, spicy mustard sauce <span>( $22)</span>
+                    --- Red pepper aioli, spicy mustard sauce <span>( $22 )</span>
                   </span>
                 </p>
                 <p>
                   Chilled Lobster Tail Cocktail{" "}
                   <span className="priceDetails">
                     --- Deep Eddy Lemon Vodka, Cointreau, Cranberry Juice, Lime{" "}
-                    <span> ($8)</span>
+                    <span>  ($8 )</span>
                   </span>
                 </p>
                 <p>
                   White Pear{" "}
                   <span className="priceDetails">
                     --- Grey Goose La Poire Vodka, St. Germain, Lemon
-                    <span>( $9)</span>
+                    <span>( $9 )</span>
                   </span>
                 </p>
                 <p>
                   Pure Martini{" "}
                   <span className="priceDetails">
-                    --- Tito’s Vodka, Served Up <span> ($9)</span>
+                    --- Tito’s Vodka, Served Up <span> ( $9 )</span>
                   </span>
                 </p>
                 <p>
                   Rosé All Day{" "}
                   <span className="priceDetails">
                     --- Bombay Sapphire Gin, Lillet Rosé, Lemon, Prosecco{" "}
-                    <span> ($9)</span>
+                    <span> ( $9 )</span>
                   </span>
                 </p>
               </Card.Text>

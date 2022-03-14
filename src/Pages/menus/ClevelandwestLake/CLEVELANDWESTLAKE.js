@@ -13,7 +13,7 @@ function CLEVELANDWESTLAKE() {
       />
       <p className="locationName">CLEVELAND WESTLAKE</p>
       <h3>
-        CALL US <a href="/"> (440) 892-4933</a>
+        CALL US <a href="/">(440) 892-4933</a>
       </h3>
 
       <Button className="menupagebutton" href="/CLEVELANDWESTLAKEBAR">
@@ -39,7 +39,7 @@ function CLEVELANDWESTLAKE() {
                 <p>
                   Filet Mignon 6oz/8oz/12oz{" "}
                   <span className="priceDetails">
-                    --- <span>( $37/47/58)</span>
+                    --- <span>( $37/47/58 )</span>
                   </span>
                 </p>
 
@@ -47,73 +47,73 @@ function CLEVELANDWESTLAKE() {
                   36 Day Dry Aged Bone-in Ribeye 26oz{" "}
                   <span className="priceDetails">
                     --- 36 Day Dry Aged Bone-in Ribeye Heavily marbled, rich
-                    beef flavor <span>( $78)</span>
+                    beef flavor <span>( $76 )</span>
                   </span>
                 </p>
                 <p>
                   Heavy Double Cut Lamb Chops 14oz{" "}
                   <span className="priceDetails">
-                    --- <span> ( $44 )</span>
+                    --- <span>( $44 )</span>
                   </span>
                 </p>
                 <p>
                   Ribeye 16oz{" "}
                   <span className="priceDetails">
-                    ---heavily marble <span> ($49)</span>
+                    ---heavily marble <span>( $49 )</span>
                   </span>
                 </p>
                 <p>
                   New York Strip Steak 14oz{" "}
                   <span className="priceDetails">
-                    --- <span> ($44)</span>
+                    --- <span>( $44 )</span>
                   </span>
                 </p>
 
                 <p>
                   Bone-In Ribeye 22oz{" "}
                   <span className="priceDetails">
-                    --- heavily marbled<span>( $ 51)</span>
+                    --- heavily marbled<span>( $51 )</span>
                   </span>
                 </p>
                 <p>
                   Australian Wagyu Filet Mignon 8oz{" "}
                   <span className="priceDetails">
-                    --- Ranger Valley Farms<span>( $66)</span>
+                    --- Ranger Valley Farms<span>( $66 )</span>
                   </span>
                 </p>
                 <p>
                   Steak Brown 8oz/12oz{" "}
                   <span className="priceDetails">
                     --- Filet Mignon, garlic, cracked black pepper, roasted
-                    shallot Cabernet sauce <span> ( $51/62)</span>
+                    shallot Cabernet sauce <span> ( $51/62 )</span>
                   </span>
                 </p>
                 <p>
                   The Baker Mayfield 8oz/12oz{" "}
                   <span className="priceDetails">
                     --- Filet Mignon, cracked peppercorns & cognac bordelaise
-                    (Spicy) <span> ($51/62)</span>
+                    (Spicy) <span> ( $51/62 )</span>
                   </span>
                 </p>
                 <p>
                   Steak Oscar 9oz{" "}
                   <span className="priceDetails">
                     --- Sliced tenderloin, asparagus, lump crab, bearnaise sauce{" "}
-                    <span> ($43)</span>
+                    <span> ( $43 )</span>
                   </span>
                 </p>
                 <p>
                   Steak Francona 14oz{" "}
                   <span className="priceDetails">
                     --- New York Strip topped with roasted cloves of garlic &
-                    mushrooms <span> ($49)</span>
+                    mushrooms <span> ( $49 )</span>
                   </span>
                 </p>
                 <p>
                   Steak Kosar 8oz/12oz{" "}
                   <span className="priceDetails">
                     ---A Filet Mignon over bordelaise crowned with asparagus,
-                    lobster & bearnaise, sliced mushrooms<span> ($59/70)</span>
+                    lobster & bearnaise, sliced mushrooms<span> ( $59/70 )</span>
                   </span>
                 </p>
 
@@ -121,7 +121,7 @@ function CLEVELANDWESTLAKE() {
                   The Wine & Gold Steak 40oz{" "}
                   <span className="priceDetails">
                     --- Long Bone Tomahawk Ribeye, 100% Black Angus, Creekstone
-                    Farms <span> ($114)</span>
+                    Farms <span> ( $114 )</span>
                   </span>
                 </p>
               </Card.Text>
@@ -137,59 +137,59 @@ function CLEVELANDWESTLAKE() {
                 <p>
                   Jumbo Lump Crab Cocktail{" "}
                   <span className="priceDetails">
-                    ---Spicy mustard, cocktail sauce <span> ($22)</span>
+                    ---Spicy mustard, cocktail sauce <span> ( $22 )</span>
                   </span>
                 </p>
 
                 <p>
                   Duroc Thick Cut Bacon{" "}
                   <span className="priceDetails">
-                    --- Bragg's cider vinegar glaze <span> ($19)</span>
+                    --- Bragg's cider vinegar glaze <span> ( $19 )</span>
                   </span>
                 </p>
                 <p>
                   Wagyu Beef Carpaccio*{" "}
                   <span className="priceDetails">
-                    ---Chilled wagyu beef sliced razor thin <span>( $19)</span>
+                    ---Chilled wagyu beef sliced razor thin <span>( $19 )</span>
                   </span>
                 </p>
                 <p>
                   Shrimp Cocktail{" "}
                   <span className="priceDetails">
-                    ---Cocktail sauce (3,5) <span>( $14/22)</span>
+                    ---Cocktail sauce (3,5) <span>( $14/22 )</span>
                   </span>
                 </p>
                 <p>
                   Crab Cake{" "}
                   <span className="priceDetails">
-                    ---Red pepper aioli, spicy mustard sauce <span>( $22)</span>
+                    ---Red pepper aioli, spicy mustard sauce <span>( $22 )</span>
                   </span>
                 </p>
                 <p>
                   Chilled Lobster Tail Cocktail{" "}
                   <span className="priceDetails">
                     ---Spicy mustard & classic cocktail sauce{" "}
-                    <span> ($23)</span>
+                    <span> ( $23 )</span>
                   </span>
                 </p>
                 <p>
                   Oysters on the Half Shell*{" "}
                   <span className="priceDetails">
-                    ---(4) <span> ($15)</span> - Add <span>( $3.75)</span> each
+                    ---(4) <span> ( $15 )</span> - Add <span>( $3.75 )</span> each
                   </span>
                 </p>
                 <p>
                   Ahi Tuna Tower*{" "}
                   <span className="priceDetails">
                     ---Avocado, wasabi soy lime dressing, wontons{" "}
-                    <span> ($20)</span>
+                    <span> ( $20 )</span>
                   </span>
                 </p>
                 <p>
                   Crispy Calamari*{" "}
                   <span className="priceDetails">
                     ---Thai sweet hot chili sauce, peppers, carrots, scallions,
-                    roasted cashews <span> ($19)</span>
+                    roasted cashews <span> ( $19 )</span>
                   </span>
                 </p>
               </Card.Text>
@@ -205,7 +205,7 @@ function CLEVELANDWESTLAKE() {
                 <p>
                   Lobster Bisque{" "}
                   <span className="priceDetails">
-                    ---Sherry poached lobster <span>( $16)</span>
+                    ---Sherry poached lobster <span>( $16 )</span>
                   </span>
                 </p>
 
@@ -213,20 +213,20 @@ function CLEVELANDWESTLAKE() {
                   Caesar Salad{" "}
                   <span className="priceDetails">
                     ---Made to order garlic croutons, chopped anchovies upon
-                    request <span> ( $13)</span>
+                    request <span> ( $13 )</span>
                   </span>
                 </p>
                 <p>
                   Classic Baked Onion Soup{" "}
                   <span className="priceDetails">
-                    --- <span> ($14)</span>
+                    --- <span> ( $14 )</span>
                   </span>
                 </p>
                 <p>
                   Hyde Park Wedge{" "}
                   <span className="priceDetails">
                     ---Smoked bacon, candied pecans, heirloom tomatoes, blue
-                    cheese dressing, port wine drizzle <span>( $14)</span>
+                    cheese dressing, port wine drizzle <span>( $14 )</span>
                   </span>
                 </p>
                 <p>
@@ -234,7 +234,7 @@ function CLEVELANDWESTLAKE() {
                   <span className="priceDetails">
                     ---Crispy pancetta, hard egg, juliennned English cucumber,
                     heirloom tomatoes, red onion, celery, buttermilk ranch, aged
-                    white cheddar, crispy onions <span> ($15)</span>
+                    white cheddar, crispy onions <span> ( $15 )</span>
                   </span>
                 </p>
               </Card.Text>
@@ -250,7 +250,7 @@ function CLEVELANDWESTLAKE() {
                   Surf & Turf*{" "}
                   <span className="priceDetails">
                     ---6oz Filet & Twin Lobster Tails, 4oz each{" "}
-                    <span>($72)</span>
+                    <span>( $72 )</span>
                   </span>
                 </p>
 
@@ -258,7 +258,7 @@ function CLEVELANDWESTLAKE() {
                   Lobster Tail 12oz-14oz{" "}
                   <span className="priceDetails">
                     ---
-                    <span>($72)</span>
+                    <span>( $72 )</span>
                   </span>
                 </p>
 
@@ -269,11 +269,11 @@ function CLEVELANDWESTLAKE() {
                     <p>
                       Salmon Filet{" "}
                       <span className="priceDetails">
-                        --- <span>($34)</span>
+                        --- <span>( $34 )</span>
                         <p>
                           Chilean Sea Bass{" "}
                           <span className="priceDetails">
-                            --- <span>($40)</span>
+                            --- <span>( $40 )</span>
                           </span>
                         </p>
                       </span>

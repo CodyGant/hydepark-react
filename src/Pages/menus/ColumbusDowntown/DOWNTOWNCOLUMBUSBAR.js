@@ -31,14 +31,14 @@ function DOWNTOWNCOLUMBUSBAR() {
                 <p>
                   Jumbo Shrimp Cocktail (3){" "}
                   <span className="priceDetails">
-                    --- Cocktail sauce <span>($8)</span>
+                    --- Cocktail sauce <span>( $8 )</span>
                   </span>
                 </p>
 
                 <p>
                   Wagyu Beef Carpaccio*{" "}
                   <span className="priceDetails">
-                    --- Chilled wagyu beef sliced razor thin <span>( $10)</span>
+                    --- Chilled wagyu beef sliced razor thin <span>( $10 )</span>
                   </span>
                 </p>
                 <p>
@@ -52,7 +52,7 @@ function DOWNTOWNCOLUMBUSBAR() {
                   Beef Tenderloin Sliders*{" "}
                   <span className="priceDetails">
                     --- Horseradish sauce, spinach, crispy onion straws{" "}
-                    <span> ($8)</span>
+                    <span> ( $8 )</span>
                   </span>
                 </p>
               </Card.Text>
@@ -83,7 +83,7 @@ function DOWNTOWNCOLUMBUSBAR() {
                 <p>
                   Classic Cosmopolitan{" "}
                   <span className="priceDetails">
-                    ---Red pepper aioli, spicy mustard sauce <span>( $22)</span>
+                    ---Red pepper aioli, spicy mustard sauce <span>( $22 )</span>
                   </span>
                 </p>
 

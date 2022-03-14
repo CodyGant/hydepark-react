@@ -16,16 +16,16 @@ function SARASOTABAR() {
         CALL US <a href="/">(248) 594-4369</a>
       </h3>
 
-      <Button className="menupagebutton" href="/DETROITBIRMINGHAM">
+      <Button className="menupagebutton" href="/SARASOTA">
         DINNER MENU
       </Button>
-      <Button className="menupagebutton" href="/DETROITBIRMINGHAMEARLY">
+      <Button className="menupagebutton" href="/SARASOTAEARLY">
         EARLY NIGHTS MENU
       </Button>
-      <Button className="menupagebutton" href="/DETROITBIRMINGHAMBUTCHER">
+      <Button className="menupagebutton" href="/SARASOTABUTCHER">
         BUTCHER GRILLE MENU
       </Button>
-      <Button className="menupagebutton" href="/DETROITBIRMINGHAMFAMILY">
+      <Button className="menupagebutton" href="/SARASOTAFAMILY">
         FAMILY TO GO MENU
       </Button>
       <Container className="menulanding">

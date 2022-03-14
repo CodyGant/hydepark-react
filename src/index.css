@@ -23,8 +23,8 @@ code {
 .navbar {
   position: absolute !important;
   top: 0px;
-  left:0;
-  right:0;
+  left: 0;
+  right: 0;
   float: top;
   padding: 0;
   height: auto;
@@ -60,7 +60,6 @@ code {
   color: #c54848 !important;
   transition: all 0.4s ease !important;
 }
-
 
 .background {
   font-family: "Roboto Slab", serif;
@@ -167,7 +166,8 @@ code {
   color: white;
   display: table;
   background-color: #000000 !important;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.664)),url("./assests/slanted-gradient.svg") !important; 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.664)),
+    url("./assests/slanted-gradient.svg") !important;
   background-size: cover;
 }
 .menupagetext {
@@ -195,9 +195,9 @@ code {
 .menuPage img {
   margin-bottom: 20px;
 }
-.menuPage h3 a{
-  color:#521111 !important;
-  text-decoration:none !important;
+.menuPage h3 a {
+  color: #521111 !important;
+  text-decoration: none !important;
 }
 .menupagebutton {
   margin: 10px;
@@ -213,7 +213,7 @@ code {
   box-shadow: none !important;
 }
 .menupagebutton:hover {
-  color:white !important;
+  color: white !important;
   transition: all 0.4s ease !important;
   background: #942525 !important;
 }
@@ -253,20 +253,19 @@ span {
   font-style: italic;
   color: #521111;
 }
-.locationName{
+.locationName {
   text-decoration: underline;
   text-align: center !important;
   font-style: italic;
   color: #521111 !important;
-  margin:0;
-  padding:0;
-
+  margin: 0;
+  padding: 0;
 }
 .logoImage {
   margin-top: 100px;
   height: 100px;
 }
-.butcherImage{
+.butcherImage {
   margin-top: 100px;
   height: 150px;
 }
@@ -275,7 +274,7 @@ span {
   font-weight: bold;
   font-family: "Roboto Slab", serif;
   text-align: left;
-  color:#521111;
+  color: #521111;
   text-decoration: underline;
 }
 
@@ -283,7 +282,7 @@ span {
   font-style: italic !important;
   color: black !important;
   font-weight: 500;
-  white-space: nowrap; 
+  white-space: nowrap;
 }
 .menuBottom {
   font-family: "Roboto Slab", serif;
@@ -299,9 +298,9 @@ span {
   font-style: italic;
 }
 
-#wineinfo{
+#wineinfo {
   text-align: center !important;
-  border:none !important;
+  border: none !important;
 }
 /* MENU PAGE STYLES */
 
@@ -380,52 +379,43 @@ span {
 /* private dining STYLES */
 .privateDining {
   min-height: 100vh;
-  width:100% !important;
+  width: 100% !important;
   background-image: linear-gradient(rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.103)),
     url("./assests/squares.svg");
-    
   box-shadow: inset 0px 0px 24px -3px rgba(0, 0, 0, 0.035);
   display: table;
-
 }
 .privatetext {
   letter-spacing: 2px;
-  padding-top:100px;
+  padding-top: 100px;
   text-align: center;
-  
+
   margin: 0 auto;
-  
+
   color: black;
   color: rgb(211, 206, 206);
-  width:90vw !important;
-  height:inherit;
- 
+  width: 90vw !important;
+  height: inherit;
+
   background-color: #00000073;
-  
-  
 }
 .privatetext h1 {
   font-size: 30px;
-  color:white;
+  color: white;
   text-align: center;
-  
 }
 .privateFlex {
   box-shadow: 13px 10px 32px -3px rgba(0, 0, 0, 0.842);
-  display:table-cell;
+  display: table-cell;
   vertical-align: middle;
   height: inherit;
   padding-bottom: 10px;
   margin: 0 auto;
-  padding-top:200px !important;
-  padding-bottom:190px;
-  
-  
- 
-  
+  padding-top: 200px !important;
+  padding-bottom: 190px;
 }
 .privateButton {
-  margin:0 auto;
+  margin: 0 auto;
   cursor: pointer;
   outline: none !important;
   border: none !important;
@@ -436,16 +426,65 @@ span {
   color: #521111 !important;
   background-size: 100% 100%;
   border-radius: 0 !important;
-  margin-top:20px;
-  margin-bottom:50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 .privateButton:hover {
- background:black !important;
- color:white !important;
- transition: all 0.4s ease !important;
+  background: black !important;
+  color: white !important;
+  transition: all 0.4s ease !important;
 }
 /* private dining STYLES */
+.contactMain {
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+  display: table;
 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("/src/assests/dotedbackground.png");
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ContactContainer {
+  display: table-cell;
+  vertical-align: middle;
+  width: 90vw;
+  text-align: left;
+}
+
+.cardtitle{
+  text-align: center;
+}
+
+.input {
+  width: 100%;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.contactbtn {
+  padding: 15px 30px;
+  width: 100%;
+  margin-top: 50px;
+  background: transparent;
+  border-radius: 0;
+  border: 4px solid #648b7f;
+  border-left: none;
+  border-right: none;
+  color: #648b7f;
+  font-weight: 600;
+}
+.contactbtn:hover {
+  color: #648b7f;
+  background-color: #ebc08a;
+  border: 4px solid #ebc08a;
+  border-left: none;
+  border-right: none;
+  transition-duration: 0.5s !important;
+}
 
 /* BUTCHERBOX OF LANDING PAGE STYLES */
 .butcherBox {
@@ -802,15 +841,14 @@ span {
     padding-top: 0;
     background-color: #521111;
     text-align: center;
-    
+
     width: 100%;
   }
-.Reservationlanding{
-  padding-top:10em;
-  height: inherit !important;
-}
+  .Reservationlanding {
+    padding-top: 10em;
+    height: inherit !important;
+  }
   .navbar {
-    
     top: -5px !important;
     background-color: #521111;
     height: 100px;
@@ -818,11 +856,11 @@ span {
   .butcherFlex {
     margin-top: 14vh;
   }
-  .privatetext{
-    width:100%;
+  .privatetext {
+    width: 100%;
   }
-  .reserBtn{
-    margin-bottom:50px;
+  .reserBtn {
+    margin-bottom: 50px;
   }
 }
 @media (max-width: 880px) {
