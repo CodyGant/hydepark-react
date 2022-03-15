@@ -105,11 +105,11 @@ function PrivateContactus() {
                 <div className="centerform">
                   <form onSubmit={handleSubmit}>
                     <Dropdown>
-                      <Dropdown.Toggle className="selectLocation">
+                      <Dropdown.Toggle className="privatebtn">
                         SELECT LOCATION
                       </Dropdown.Toggle>
 
-                      <Dropdown.Menu className="dropDown">
+                      <Dropdown.Menu className="privateDropdown">
                         <Dropdown.Item href="/PITTSBURGH">
                           PITTSBURGH
                         </Dropdown.Item>

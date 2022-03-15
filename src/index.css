@@ -150,13 +150,32 @@ code {
   display: table-cell;
 }
 
+.privateDropdown {
+  width:100%;
+  border-radius: 0 !important;
+}
+/* RESERVATION PAGE STYLES */
+.privatebtn{
+  font-family: "Roboto Slab", serif;
+  box-shadow: none !important;
+  width: 100% !important;
+  letter-spacing: 1px;
+  border-radius: 0 !important;
+  opacity: 1 !important;
+  border: solid #ffffff 4px !important;
+  text-decoration: none !important;
+  color: white !important;
+  border-left: black !important;
+  border-right: black !important;
+  padding: 15px 30px !important;
+  background-color: transparent !important;
+  margin-bottom:30px;
+}
 .dropDown {
   width: 260px;
   border-radius: 0 !important;
 }
-/* RESERVATION PAGE STYLES */
-
-/* MENU PAGE STYLES */
+/* MENU PAgE STYLES */
 .selectmenupage {
   box-shadow: inset 0px 0px 24px -3px rgba(0, 0, 0, 0.788);
   min-height: 100vh;
