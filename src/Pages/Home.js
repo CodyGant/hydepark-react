@@ -90,7 +90,9 @@ const Home = () => {
                       Manhattan: Woodfor Reserve Bourbon, Sweet Vermouth Gourmet
                       Amarena Cherries, and Old Fashined Bitters, Served Up
                     </Card.Text>
+                    
                   </Card.Body>
+                  <Button  className ='cardButton' href = '/privateDining'>Learn More</Button>
                 </Card>
 
                 <Card data-aos="flip-right">
@@ -106,8 +108,9 @@ const Home = () => {
                       Semi-Private Venues will Make Your Event a Success Well
                       Beyond Your Expectations.
                     </Card.Text>
-                    <Button  className ='cardButton' href = '/privateDining'>Learn More</Button>
+                    
                   </Card.Body>
+                  <Button  className ='cardButton' href = '/privateDining'>Learn More</Button>
                 </Card>
 
                 <Card data-aos="flip-right" className="card">
@@ -120,7 +123,9 @@ const Home = () => {
                       Location) & All Night Sunday *Days and Hours of operation
                       Vary for each Store.
                     </Card.Text>
+                    
                   </Card.Body>
+                  <Button  className ='cardButton' href = '/earlynights'>Learn More</Button>
                 </Card>
 
                 <Card data-aos="flip-left" className="card">
@@ -135,7 +140,9 @@ const Home = () => {
                       exclusive to the Hyde Park Resaurant CardGroupand limited
                       to 500 cases.
                     </Card.Text>
+                    
                   </Card.Body>
+                  <Button  className ='cardButton' href = '/privateDining'>Learn More</Button>
                 </Card>
 
                 <Card data-aos="flip-right" className="card">
@@ -149,7 +156,9 @@ const Home = () => {
                       Thoughtful Person. Hyde Park Gift Cards are Amoung
                       Everyones Favorite, for Giving and reciving.
                     </Card.Text>
+                    
                   </Card.Body>
+                  <Button  className ='cardButton' href = '/privateDining'>Learn More</Button>
                 </Card>
               </CardGroup>
             </div>

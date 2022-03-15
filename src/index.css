@@ -169,6 +169,7 @@ code {
   border-right: black !important;
   padding: 15px 30px !important;
   background-color: transparent !important;
+  margin-top:30px;
   margin-bottom:30px;
 }
 .dropDown {

@@ -12,6 +12,7 @@ import NoMatch from "./Pages/NoMatch";
 import Butcher from "./Pages/butcher";
 import Privatedining from "./Pages/privateDining";
 import PrivateContactus from "./Pages/privateContactus";
+import Earlynights from "./Pages/earlynights";
 
 
 import DETROITBIRMINGHAM from "./Pages/menus/DetroitBIRMINGHAM/DETROITBIRMINGHAM";
@@ -108,6 +109,7 @@ function App() {
           <Route path="/butcher" element={<Butcher />} />
           <Route path="/privateDining" element={<Privatedining />} />
           <Route path="/privateContactus" element={<PrivateContactus />} />
+          <Route path="/earlynights" element={<Earlynights />} />
         
           <Route path="/DOWNTOWNCOLUMBUS" element={<DOWNTOWNCOLUMBUS />} />
           <Route path="/DOWNTOWNCOLUMBUSBAR" element={<DOWNTOWNCOLUMBUSBAR />} />
