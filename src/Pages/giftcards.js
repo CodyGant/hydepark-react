@@ -1,80 +1,42 @@
 import React from "react";
-import { Container, Dropdown } from "react-bootstrap";
+import { Container, Button } from "react-bootstrap";
+import Giftcard from "../assests/HydePark-Standard-Card-500x320.png";
+import LOGO from "../assests/hydepark.png";
+import TAVERNLOGO from "../assests/HydePark-Standard-Card-500x320.png";
 function Giftcards() {
   return (
-    <div className="selectmenupage">
-      <Container className="Reservationlanding">
-        <div
-          data-aos="fade-down"
-          data-aos-easing="linear"
-          data-aos-duration="500"
-          class="row"
-        >
-          <h1>WE'RE ALL ABOUT THE FOOD</h1>
-          <p>
-            Fine Aged Steaks and Chops, Fresh Seafood and Creative Chef
-            Specialties
-          </p>
+    <div>
+      <Container fluid className="privateDining">
+        <div className="privateFlex" data-aos="fade-down">
+          <div className="privatetext">
+            <h1>GIFT CARDS</h1>
 
-          <p>
-            We believe that great food starts with the quality of the
-            ingredients, finished with the flair of a professional culinarian.
-            Take a closer look at our menus, and you'll find our menu doesn't
-            begin and end with a New York strip steak or a filet mignon. Our
-            chefs are experts in preparing the best available aged steaks in a
-            variety of classic and noveau styles, including Steak ala Oscar,
-            Steak au Poivre, and Tournedos au Bleu. Of course, we like to name
-            them in honor of the local sports legends.
-          </p>
-          <p>
-            There's nothing like a great steak. For those of you who like a nice
-            piece of fish, we've got the best of that too! Our award-winning
-            menus are more extensive, more creative, with a broader appeal than
-            the typical steakhouses – check it out.
-          </p>
+            <img
+              data-aos="fade-right"
+              className="giftCardImage"
+              src={Giftcard}
+              alt="building"
+            />
+            <h2>
+              A Hyde Park Group Gift Card is the Gift of a Memorable Experience
+              For All Celebrations, Big or Small, a Hyde a Park Group Gift Card
+              is the Perfect Gift.
+            </h2>
 
-          <Dropdown>
-            <Dropdown.Toggle className="reserBtn">
-              SELECT LOCATION
-            </Dropdown.Toggle>
+            <p>Traditional and E-Gift Options Avalible</p>
 
-            <Dropdown.Menu className="dropDown">
-              <Dropdown.Item href="/PITTSBURGH">PITTSBURGH</Dropdown.Item>
-              <Dropdown.Item href="https://giftup.app/place-order/3fc1572a-721d-464f-1200-08da076b1864" target="_blank">
-                CLEVELAND - Beachwood
-              </Dropdown.Item>
-              <Dropdown.Item href="/CLEVELANDWESTLAKE" target="_blank">
-                CLEVELAND - Westlake{" "}
-              </Dropdown.Item>
-              <Dropdown.Item href="/UPPERARLINGTONCOLUMBUS" target="_blank">
-                COLUMBUS - Upper Arlington
-              </Dropdown.Item>
-              <Dropdown.Item href="/COLUMBUSDUBLIN" target="_blank">
-                COLUMBUS - Dublin{" "}
-              </Dropdown.Item>
-              <Dropdown.Item href="/DOWNTOWNCOLUMBUS" target="_blank">
-                COLUMBUS - Downtown
-              </Dropdown.Item>
-              <Dropdown.Item href="/DaytonaMenu" target="_blank">
-                DAYTONA BEACH
-              </Dropdown.Item>
-              <Dropdown.Item href="/INDIANAPOLIS" target="_blank">
-                INDIANAPOLIS
-              </Dropdown.Item>
-              <Dropdown.Item href="/SARASOTA" target="_blank">
-                SARASOTA
-              </Dropdown.Item>
-              <Dropdown.Item href="/DETROITBIRMINGHAM" target="_blank">
-                DETROIT - Birmingham
-              </Dropdown.Item>
-              <Dropdown.Item href="/DETROITNORTHVILLE" target="_blank">
-                DETROIT - Northville
-              </Dropdown.Item>
-            </Dropdown.Menu>
-          </Dropdown>
+            <p>Accepted at all Hyde park group Reastaurants</p>
+
+            
+
+            <Button className="privateButton" href="https://giftup.app/place-order/3fc1572a-721d-464f-1200-08da076b1864">
+             BUY NOW
+            </Button>
+          </div>
         </div>
       </Container>
     </div>
   );
 }
+
 export default Giftcards;

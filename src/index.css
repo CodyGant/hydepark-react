@@ -382,8 +382,9 @@ span {
   margin: 0 auto;
   padding: 100px;
   height: auto;
-  width: 30vw;
+  width: 100vw;
 }
+
 
 .menuButton {
   background-color: #b33737 !important;
@@ -656,6 +657,18 @@ span {
 }
 
 /* CARDS OF LANDING PAGE STYLES */
+
+/* GIFTCARDS PAGE STYLES */
+
+.giftCardImage{
+  margin: 0 auto;
+  height: auto;
+  width: 30vw;
+}
+/* CARDS OF LANDING PAGE STYLES */
+
+
+
 
 /* FOOTER STYLES */
 .footerContainer {

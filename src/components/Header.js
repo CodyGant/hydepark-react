@@ -19,7 +19,7 @@ export default function Header() {
           <Nav.Link className = 'navLink' href="/Menu">Menu</Nav.Link>
           <Nav.Link className = 'navLink' href='/Reservations'>Reservations</Nav.Link>
           <Nav.Link className = 'navLink' href="/privateDining">Private Dining</Nav.Link>
-          <Nav.Link className = 'navLink' href="/resume-and-contact">Gift Cards</Nav.Link>
+          <Nav.Link className = 'navLink' href="/giftcards">Gift Cards</Nav.Link>
           <Nav.Link className = 'navLink' href="/resume-and-contact">Happenings</Nav.Link>
           <Nav.Link className = 'navLink' href="/resume-and-contact">Butcher Grille Box</Nav.Link>
         </Nav>
