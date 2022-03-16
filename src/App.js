@@ -2,6 +2,8 @@ import Header from "./components/Header";
 import Footer from "./components/footer";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "@stripe/stripe-js";
+
 import React, { useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home";
@@ -13,10 +15,8 @@ import Butcher from "./Pages/butcher";
 import Privatedining from "./Pages/privateDining";
 import PrivateContactus from "./Pages/privateContactus";
 import Earlynights from "./Pages/earlynights";
-import Checkout from "./components/Checkout";
+import Giftcards from "./Pages/giftcards"
 
-import Success from "./components/Success";
-import Cancel from "./components/Cancel";
 
 import DETROITBIRMINGHAM from "./Pages/menus/DetroitBIRMINGHAM/DETROITBIRMINGHAM";
 import DETROITBIRMINGHAMBAR from "./Pages/menus/DetroitBIRMINGHAM/DETROITBIRMINGHAMBAR";
@@ -116,11 +116,10 @@ function App() {
           <Route path="/privateDining" element={<Privatedining />} />
           <Route path="/privateContactus" element={<PrivateContactus />} />
           <Route path="/earlynights" element={<Earlynights />} />
-          <Route path="/Checkout" element={<Checkout />} />
+          <Route path="/giftcards" element={<Giftcards />} />
+         
 
-          <Route path='/Checkout' element={<Checkout />} />
-          <Route path="success" element={<Success />} />
-          <Route path="cancel" element={<Cancel />} />
+          
         
           <Route path="/DOWNTOWNCOLUMBUS" element={<DOWNTOWNCOLUMBUS />} />
           <Route path="/DOWNTOWNCOLUMBUSBAR" element={<DOWNTOWNCOLUMBUSBAR />} />
