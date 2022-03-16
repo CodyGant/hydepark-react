@@ -158,7 +158,7 @@ const Home = () => {
                     </Card.Text>
                     
                   </Card.Body>
-                  <Button  className ='cardButton' href = '/privateDining'>Learn More</Button>
+                  <Button  className ='cardButton' href = '/Checkout'>Learn More</Button>
                 </Card>
               </CardGroup>
             </div>

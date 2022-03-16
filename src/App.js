@@ -13,7 +13,10 @@ import Butcher from "./Pages/butcher";
 import Privatedining from "./Pages/privateDining";
 import PrivateContactus from "./Pages/privateContactus";
 import Earlynights from "./Pages/earlynights";
+import Checkout from "./components/Checkout";
 
+import Success from "./components/Success";
+import Cancel from "./components/Cancel";
 
 import DETROITBIRMINGHAM from "./Pages/menus/DetroitBIRMINGHAM/DETROITBIRMINGHAM";
 import DETROITBIRMINGHAMBAR from "./Pages/menus/DetroitBIRMINGHAM/DETROITBIRMINGHAMBAR";
@@ -93,10 +96,13 @@ function App() {
   useEffect(() => {
     AOS.init();
     AOS.refresh();
+    
   }, []);
+  
   return (
     <React.Fragment>
      <Header />
+     
       <Router>
       
         <Routes>
@@ -110,6 +116,11 @@ function App() {
           <Route path="/privateDining" element={<Privatedining />} />
           <Route path="/privateContactus" element={<PrivateContactus />} />
           <Route path="/earlynights" element={<Earlynights />} />
+          <Route path="/Checkout" element={<Checkout />} />
+
+          <Route path='/Checkout' element={<Checkout />} />
+          <Route path="success" element={<Success />} />
+          <Route path="cancel" element={<Cancel />} />
         
           <Route path="/DOWNTOWNCOLUMBUS" element={<DOWNTOWNCOLUMBUS />} />
           <Route path="/DOWNTOWNCOLUMBUSBAR" element={<DOWNTOWNCOLUMBUSBAR />} />

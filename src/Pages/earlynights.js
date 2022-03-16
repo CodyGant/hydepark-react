@@ -15,9 +15,7 @@ function earlynights() {
         Available Nightly Until (HOURS DEPEND ON LOCATION) Not Available on
         Holidays
       </p>
-     
 
-      
       <Container className="menulanding">
         <h1 className="menuName">Early Nights Menu</h1>
 
@@ -145,7 +143,6 @@ function earlynights() {
         </CardGroup>
       </Container>
       <div className="menuBottom">
-       
         <p>•BLUE- Very red, very cool center</p> <p>•RARE- Red, cool center</p>{" "}
         <p>•MEDIUM RARE- Red, warm center</p>
         <p>•MEDIUM- Pink center</p> <p>•MEDIUM WELL- Slightly pink center </p>
