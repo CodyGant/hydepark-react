@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Button } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import Giftcard from "../assests/HydePark-Standard-Card-500x320.png";
 
 function Giftcards() {
