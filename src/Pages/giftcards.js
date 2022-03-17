@@ -1,8 +1,7 @@
 import React from "react";
 import { Container, Button } from "react-bootstrap";
 import Giftcard from "../assests/HydePark-Standard-Card-500x320.png";
-import LOGO from "../assests/hydepark.png";
-import TAVERNLOGO from "../assests/HydePark-Standard-Card-500x320.png";
+
 function Giftcards() {
   return (
     <div>
@@ -27,14 +26,16 @@ function Giftcards() {
 
             <p>Accepted at all Hyde park group Reastaurants</p>
 
-            
+            <div class="gift-up-target" data-site-id="3fc1572a-721d-464f-1200-08da076b1864" data-platform="Other" ></div>
 
-            <Button className="privateButton" href="https://giftup.app/place-order/3fc1572a-721d-464f-1200-08da076b1864">
-             BUY NOW
-            </Button>
+            
+            
+            
+            
           </div>
         </div>
       </Container>
+      
     </div>
   );
 }

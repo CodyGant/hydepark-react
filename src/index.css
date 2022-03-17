@@ -382,9 +382,11 @@ span {
   margin: 0 auto;
   padding: 100px;
   height: auto;
-  width: 100vw;
+  width: 30vw;
 }
-
+.buyinggift{
+  color:red !important;
+}
 
 .menuButton {
   background-color: #b33737 !important;
