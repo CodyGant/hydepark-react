@@ -668,10 +668,67 @@ span {
   width: 30vw;
 }
 /* CARDS OF LANDING PAGE STYLES */
-
-
-
-
+.locations-card{
+  margin: 10px;
+  margin-top: 80px;
+  border: 0 !important;
+  background: rgb(223, 221, 221)!important;
+  color: #270909;
+  border-radius: 0 !important;
+  box-shadow: 23px 10px 15px -3px rgba(0, 0, 0, 0.3);
+}
+.Locations{
+  padding-top:150px;
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+  display: table;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("/src/assests/hollowedboxes.svg");
+}
+.locationscontain{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color:white;
+}
+.LocationsBtn{
+  margin:10px;
+  width:150px;
+ padding:15px 30px !important;
+ background-color: #270909 !important;
+ border-radius: 0 !important;
+ box-shadow: none !important;
+ border: none!important;
+ color:white !important;
+}
+.locations-bottom-button{
+  padding:15px 30px !important;
+  background-color:#270909 !important;
+  color:white !important;
+  border-radius: 0 !important;
+  box-shadow: none!important;
+  border: none !important;
+}
+.LocationsBtn:hover{
+  background-color:#521111 !important;
+  color:white !important;
+  border-radius: 0 !important;
+  box-shadow: none!important;
+  box-shadow: none!important;
+  border: none!important;
+}
+.locations-bottom-button:hover{
+  background-color:#521111 !important;
+  color:white !important;
+  border-radius: 0 !important;
+  box-shadow: none!important;
+  box-shadow: none!important;
+  border: none!important;
+}
+#bottom-location{
+  margin-bottom:50px;
+}
 /* FOOTER STYLES */
 .footerContainer {
   background-color: white;
@@ -894,15 +951,18 @@ span {
 
     width: 100%;
   }
-  .Reservationlanding {
-    padding-top: 10em;
-    height: inherit !important;
-  }
   .navbar {
     top: -5px !important;
     background-color: #521111;
     height: 100px;
+
+}
+  
+  .Reservationlanding {
+    padding-top: 10em;
+    height: inherit !important;
   }
+  
   .butcherFlex {
     margin-top: 14vh;
   }
@@ -931,4 +991,6 @@ span {
     margin-left: 0;
   }
 }
+
+
 /* MEDIA QUERIES  */
