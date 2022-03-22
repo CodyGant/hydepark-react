@@ -50,7 +50,7 @@ const Locations = () => {
                   DoorDash
                 </Button>
               </Card.Body>
-              <Button className="locations-bottom-button" href="/privateDining">
+              <Button className="locations-bottom-button" href="/SARASOTA">
                 View our menu!
               </Button>
             </Card>
@@ -95,7 +95,7 @@ const Locations = () => {
                   DoorDash
                 </Button>
               </Card.Body>
-              <Button className="locations-bottom-button" href="/privateDining">
+              <Button className="locations-bottom-button" href="/COLUMBUSDUBLIN">
                 View our menu!
               </Button>
             </Card>
@@ -143,7 +143,7 @@ const Locations = () => {
                   DoorDash
                 </Button>
               </Card.Body>
-              <Button className="locations-bottom-button" href="/earlynights">
+              <Button className="locations-bottom-button" href="/DETROITBIRMINGHAM">
                 View our menu!
               </Button>
             </Card>
@@ -187,7 +187,7 @@ const Locations = () => {
               </Card.Body>
               <Button
                 className="locations-bottom-button"
-                href="/privateDining"
+                href="/CLEVELANDBEACHWOOD"
                 target="_blank"
               >
                 View our menu!
@@ -236,7 +236,7 @@ const Locations = () => {
                   DoorDash
                 </Button>
               </Card.Body>
-              <Button className="locations-bottom-button" href="/giftcards">
+              <Button className="locations-bottom-button" href="/UPPERARLINGTONCOLUMBUS">
                 View our menu!
               </Button>
             </Card>
@@ -284,7 +284,7 @@ const Locations = () => {
               </Card.Body>
               <Button
                 className="locations-bottom-button"
-                href="/privateDining"
+                href="/DOWNTOWNCOLUMBUS"
                 target="_blank"
               >
                 View our menu!
@@ -335,7 +335,7 @@ const Locations = () => {
               </Card.Body>
               <Button
                 className="locations-bottom-button"
-                href="/privateDining"
+                href="/DETROITNORTHVILLE"
                 target="_blank"
               >
                 View our menu!
@@ -385,7 +385,7 @@ const Locations = () => {
               </Card.Body>
               <Button
                 className="locations-bottom-button"
-                href="/earlynights"
+                href="/DaytonaMenu"
                 target="_blank"
               >
                 View our menu!
@@ -436,7 +436,7 @@ const Locations = () => {
               </Card.Body>
               <Button
                 className="locations-bottom-button"
-                href="/privateDining"
+                href="/CLEVELANDWESTLAKE"
                 target="_blank"
               >
                 View our menu!
@@ -486,7 +486,7 @@ const Locations = () => {
               </Card.Body>
               <Button
                 className="locations-bottom-button"
-                href="/giftcards"
+                href="/PITTSBURGH"
                 target="_blank"
               >
                 View our menu!
@@ -532,7 +532,7 @@ const Locations = () => {
                 </Button>
                 <Button
                   className="LocationsBtn"
-                  href="/privateDining"
+                  href="https://www.doordash.com/store/hyde-park-prime-steakhouse-indianapolis-806832/2505233/?preview=1"
                   target="_blank"
                 >
                   DoorDash
@@ -540,7 +540,7 @@ const Locations = () => {
               </Card.Body>
               <Button
                 className="locations-bottom-button"
-                href="https://www.doordash.com/store/hyde-park-prime-steakhouse-indianapolis-806832/2505233/?preview=1"
+                href="/PITTSBURGH"
                 target="_blank"
               >
                 View our menu!
